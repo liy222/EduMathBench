@@ -1,0 +1,87 @@
+{
+  "synthetic": true,
+  "scope": "software verification only; not empirical model accuracy",
+  "data_manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+  "debug": {
+    "run_id": "35041dc5-3324-4399-9b66-04a62ff4f649",
+    "synthetic": true,
+    "result_kind": "synthetic_software_check",
+    "input_count": 100,
+    "completed_count": 100,
+    "newly_processed": 100,
+    "recovered_commits": 0,
+    "status_counts": {
+      "ok": 97,
+      "parse_failure": 1,
+      "refusal": 1,
+      "timeout": 1
+    },
+    "output": "runs\\software_validation_20261110\\final_debug_vision",
+    "budget_usage": {
+      "remote_request_count": 0,
+      "observed_total_tokens": 0,
+      "known_usage_request_count": 0,
+      "unknown_usage_request_count": 0,
+      "interrupted_or_inflight_request_count": 0,
+      "token_usage_complete": true,
+      "token_limit_kind": "observed_usage_threshold_not_a_hard_token_or_money_cap"
+    },
+    "budget_unrun_count": 0
+  },
+  "debug_resume": {
+    "run_id": "35041dc5-3324-4399-9b66-04a62ff4f649",
+    "synthetic": true,
+    "result_kind": "synthetic_software_check",
+    "input_count": 100,
+    "completed_count": 100,
+    "newly_processed": 0,
+    "recovered_commits": 0,
+    "status_counts": {
+      "ok": 97,
+      "parse_failure": 1,
+      "refusal": 1,
+      "timeout": 1
+    },
+    "output": "runs\\software_validation_20261110\\final_debug_vision",
+    "budget_usage": {
+      "remote_request_count": 0,
+      "observed_total_tokens": 0,
+      "known_usage_request_count": 0,
+      "unknown_usage_request_count": 0,
+      "interrupted_or_inflight_request_count": 0,
+      "token_usage_complete": true,
+      "token_limit_kind": "observed_usage_threshold_not_a_hard_token_or_money_cap"
+    },
+    "budget_unrun_count": 0
+  },
+  "dev_text": {
+    "run_id": "1fd06147-26f7-43ab-8f65-7c9f0e6eaf8a",
+    "synthetic": true,
+    "result_kind": "synthetic_software_check",
+    "input_count": 150,
+    "completed_count": 150,
+    "newly_processed": 150,
+    "recovered_commits": 0,
+    "status_counts": {
+      "ok": 117,
+      "unsupported_image": 33
+    },
+    "output": "runs\\software_validation_20261110\\final_dev_text",
+    "budget_usage": {
+      "remote_request_count": 0,
+      "observed_total_tokens": 0,
+      "known_usage_request_count": 0,
+      "unknown_usage_request_count": 0,
+      "interrupted_or_inflight_request_count": 0,
+      "token_usage_complete": true,
+      "token_limit_kind": "observed_usage_threshold_not_a_hard_token_or_money_cap"
+    },
+    "budget_unrun_count": 0
+  },
+  "external_model_requests": 0,
+  "unit_tests": {
+    "eval_engine": 42,
+    "quota_assets_release_verifier": 42
+  },
+  "formal_test_set_model_runs": 0
+}

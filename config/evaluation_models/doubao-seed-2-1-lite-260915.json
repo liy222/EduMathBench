@@ -1,0 +1,40 @@
+{
+  "description": "首轮官方接口预检，每家最多10次请求（含重试），六家合计最多60次；密钥由用户本机填写。",
+  "data_root": "data/benchmark_web_v0.3",
+  "split": "debug",
+  "priority_ids": [
+    "EMB-P-G7-000009",
+    "EMB-P-WEB2-TIKU-1899101",
+    "EMB-P-G8-000014",
+    "EMB-P-WEB2-TIKU-1920731",
+    "EMB-P-WEB2-TIKU-1904344",
+    "EMB-P-WEB2-TIKU-1754090"
+  ],
+  "max_requests": 0,
+  "max_total_tokens": null,
+  "backend": {
+    "type": "openai-compatible",
+    "model": "doubao-seed-2-1-lite-260915",
+    "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+    "api_key_env": "ARK_API_KEY",
+    "supports_images": true,
+    "temperature": 0,
+    "max_output_tokens": 2048,
+    "timeout_seconds": 120,
+    "max_retries": 1,
+    "retry_backoff_seconds": 2,
+    "request_interval_seconds": 1,
+    "request_extra": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "preflight_status": "not_run",
+  "parameter_mode": "explicit_non_thinking",
+  "verified_date": "2026-11-11",
+  "sources": [
+    "https://docs.volcengine.com/docs/ark/deep-thinking?lang=zh",
+    "https://docs.volcengine.com/docs/ark/chat-api?lang=zh"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "backend": {
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "max_output_tokens": 8192,
+    "max_retries": 1,
+    "minimum_image_dimension": 32,
+    "model": "qwen3.8-flash",
+    "request_extra": {
+      "enable_thinking": false
+    },
+    "request_interval_seconds": 1,
+    "retry_backoff_seconds": 2,
+    "supports_images": true,
+    "temperature": 0,
+    "timeout_seconds": 120,
+    "type": "openai-compatible"
+  },
+  "data_root": "data/benchmark_web_v0.3",
+  "description": "首轮60次预检之后的修订草稿；上限为0，未经新的预算授权不发送API请求。",
+  "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+  "max_requests": 0,
+  "max_total_tokens": null,
+  "output_limit_note": "12次复测中输出达到2048被截断；后续草稿提高至8192，尚未API验证，不保证每题均能完成。",
+  "parameter_mode": "explicit_non_thinking",
+  "preflight_status": "revised_offline_not_retested",
+  "previous_pilot_config_sha256": "7a28ffe230fb91b4f516ef4facb82040f61b83d37cda4101cdf0ba172370305b",
+  "priority_ids": [
+    "EMB-P-G7-000009",
+    "EMB-P-WEB2-TIKU-1899101",
+    "EMB-P-G8-000014",
+    "EMB-P-WEB2-TIKU-1920731",
+    "EMB-P-WEB2-TIKU-1904344",
+    "EMB-P-WEB2-TIKU-1754090"
+  ],
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/qwen3-8-flash",
+    "https://help.aliyun.com/zh/model-studio/vision",
+    "https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope"
+  ],
+  "split": "debug",
+  "verified_date": "2026-11-11"
+}

@@ -1,0 +1,42 @@
+{
+  "version": "domestic-six-v1",
+  "stage": "domestic_six_first",
+  "description": "首轮仅测试六家国产模型。先使用开发集内debug100核对账号、图像和参数；不是正式测试集成绩。",
+  "split": "debug",
+  "max_requests_total": 0,
+  "budget_authorization": "用户2026-11-11选择六家合计最多60次的小规模预检，包含失败重试；每家固定分配10次。",
+  "expected_data_manifest_sha256": "eb350b5e13702ad13b11a29f005306a0d34aa0fb8e3de8024c09d54550483c25",
+  "comparison_note": "采用相同题目与提示。GLM/Kimi/MiniMax强制思考，各厂商模式及输出参数如实记录，不宣称同等思考计算量。本轮仅小规模预检，不是正式测试集成绩。",
+  "models": [
+    {
+      "vendor": "DeepSeek",
+      "config": "config/evaluation_models/deepseek-flash.json",
+      "output_name": "deepseek-flash"
+    },
+    {
+      "vendor": "阿里千问",
+      "config": "config/evaluation_models/qwen3.8-flash.json",
+      "output_name": "qwen3.8-flash"
+    },
+    {
+      "vendor": "智谱GLM",
+      "config": "config/evaluation_models/glm-5.3-flash.json",
+      "output_name": "glm-5.3-flash"
+    },
+    {
+      "vendor": "月之暗面Kimi",
+      "config": "config/evaluation_models/kimi-k3.json",
+      "output_name": "kimi-k3"
+    },
+    {
+      "vendor": "MiniMax",
+      "config": "config/evaluation_models/MiniMax-M3.1-Flash.json",
+      "output_name": "minimax-m3.1-flash"
+    },
+    {
+      "vendor": "字节豆包",
+      "config": "config/evaluation_models/doubao-seed-2-1-lite-260915.json",
+      "output_name": "doubao-seed-2.1-lite"
+    }
+  ]
+}

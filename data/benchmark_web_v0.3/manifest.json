@@ -1,0 +1,136 @@
+{
+  "version": "benchmark-web-v0.3-member-reviewed-public1",
+  "status": "ready_for_development_pilot",
+  "created_date": "2026-11-10",
+  "seed": "EduMathBench-member-reviewed-20261110-v0.3",
+  "inputs": {
+    "debug": {
+      "path": "inputs/debug_inputs.jsonl",
+      "sha256": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+      "count": 100
+    },
+    "dev": {
+      "path": "inputs/dev_inputs.jsonl",
+      "sha256": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+      "count": 150
+    },
+    "test": {
+      "path": "inputs/test_inputs.jsonl",
+      "sha256": "2a182ad17a36b7b2d7e39daef459f15202bd8f7d32abf91f310c92333bf7d401",
+      "count": 1650
+    },
+    "all": {
+      "path": "inputs/all_inputs.jsonl",
+      "sha256": "bfb27bd7592fafce795ab177d45e47ff793ec7ba4dae8a922d2a61061326e030",
+      "count": 1800
+    }
+  },
+  "answers": {
+    "debug": {
+      "path": "answers/debug_answers.jsonl",
+      "sha256": "56c0fcb7b0ad60bc2d2180f674018be761db78b13fd10847c0efdbc83615b57b",
+      "count": 100
+    },
+    "dev": {
+      "path": "answers/dev_answers.jsonl",
+      "sha256": "d7ac32f8fb4cfd0b627b17a0c82aed14d8897baab93cc5d7f9fdcdde9b85e0a0",
+      "count": 150
+    },
+    "test": {
+      "path": "answers/test_answers.jsonl",
+      "sha256": "166cec4917e285bab94230e9b8e506d2ccb2fb84ed8d4ec2af1be97c5202c129",
+      "count": 1650
+    },
+    "all": {
+      "path": "answers/all_answers.jsonl",
+      "sha256": "2d91a913a0154d87fa7b361d7c8188695fbc50f9d6c68051b02d1f663518ed8d",
+      "count": 1800
+    }
+  },
+  "source_build": {
+    "old_questions_sha256": "0116ec1fe70b82bb492d94e3d393842fb68e774fb7528c8203eaf2fbd24cfd5a",
+    "feedback_sha256": "8fa9248ec27ca5b887a63f17802e741b0d552d7d5ec120edd765c16403d0101d",
+    "math_resolutions_sha256": "be401756227847575c3c1bbdde4baf4c2cd0f0f072adf13af1b4c25a0df96eb7",
+    "reserve_audit_sha256": "dcdf0e8896711761b3a314b9869bcd845a18e189ae769a6b61c85b13c8f8ac4e",
+    "added_from_existing_crawler_cache": 87,
+    "retired_reviewed_originals": 87,
+    "retained_historical_count": 363,
+    "new_live_web_crawl_requests_this_release": 0,
+    "llm_calls_in_processing": 0,
+    "mathematical_editorial_resolutions": 16,
+    "protected_dev_ids": [
+      "EMB-P-G7-000012",
+      "EMB-P-WEB-ALG-LIN2023-6",
+      "EMB-P-WEB-ALG-LINPANQ2024-5",
+      "EMB-P-WEB-FRACEQ-BEISHI2026-1",
+      "EMB-P-WEB-FRACEQ-BEISHI2026-4",
+      "EMB-P-WEB-FRACEQ-JY2026-4",
+      "EMB-P-WEB-FRACEQ-RJB2023-4",
+      "EMB-P-WEB-FRACEQ-RJB2023-7",
+      "EMB-P-WEB-FRACEQ-SYNC2025C-4",
+      "EMB-P-WEB-FRACEQ3-15336748-3",
+      "EMB-P-WEB-FRACEQ3-15336748-4",
+      "EMB-P-WEB-FRACEQ3-15602854-8",
+      "EMB-P-WEB-FRACEQ3-24222361-3",
+      "EMB-P-WEB-FRACEQ3-25400764-5",
+      "EMB-P-WEB-FRACEQ3-7962660-9",
+      "EMB-P-WEB-FUNCTIONS-2NDB2025B-5",
+      "EMB-P-WEB-FUNCTIONS-2NDC2026-1",
+      "EMB-P-WEB-FUNCTIONS-APP2025-2",
+      "EMB-P-WEB-FUNCTIONS-BASICS2026-3",
+      "EMB-P-WEB-FUNCTIONS-BASICS2026-7",
+      "EMB-P-WEB-FUNCTIONS-INV2026-2",
+      "EMB-P-WEB-FUNCTIONS-TEST2026B-6",
+      "EMB-P-WEB-FUNCTIONS-XJ2026-11",
+      "EMB-P-WEB-G7GEOM-21685449-6",
+      "EMB-P-WEB-G7GEOM-23516849-1",
+      "EMB-P-WEB-G7GEOM-23516849-9",
+      "EMB-P-WEB-G7GEOM-24772607-EX12",
+      "EMB-P-WEB-G7GEOM-26304309-3",
+      "EMB-P-WEB-G9PROB-23874145-2",
+      "EMB-P-WEB-STATS-16636786-1",
+      "EMB-P-WEB-STATS-20526246-1"
+    ],
+    "protected_debug_ids": [
+      "EMB-P-G7-000012",
+      "EMB-P-WEB-ALG-LIN2023-6",
+      "EMB-P-WEB-FRACEQ-BEISHI2026-1",
+      "EMB-P-WEB-FRACEQ-BEISHI2026-4",
+      "EMB-P-WEB-FRACEQ-JY2026-4",
+      "EMB-P-WEB-FRACEQ-RJB2023-7",
+      "EMB-P-WEB-FRACEQ-SYNC2025C-4",
+      "EMB-P-WEB-FRACEQ3-15336748-4",
+      "EMB-P-WEB-FRACEQ3-7962660-9",
+      "EMB-P-WEB-FUNCTIONS-2NDB2025B-5",
+      "EMB-P-WEB-FUNCTIONS-APP2025-2",
+      "EMB-P-WEB-FUNCTIONS-BASICS2026-7",
+      "EMB-P-WEB-FUNCTIONS-INV2026-2",
+      "EMB-P-WEB-FUNCTIONS-TEST2026B-6",
+      "EMB-P-WEB-FUNCTIONS-XJ2026-11",
+      "EMB-P-WEB-G7GEOM-21685449-6",
+      "EMB-P-WEB-G7GEOM-23516849-1",
+      "EMB-P-WEB-G7GEOM-24772607-EX12",
+      "EMB-P-WEB-STATS-16636786-1",
+      "EMB-P-WEB-STATS-20526246-1"
+    ]
+  },
+  "external_model_calls": 0,
+  "member_review_basis": "user-confirmed submitted versions; no new human review assigned",
+  "quota_status": "matched",
+  "questions_sha256": "9cb4f41dc6d1d83710722ba5e9b63cde64b19ce8da33e00acd1f2c87191bc8c1",
+  "csv_sha256": "d1cca51bac35a2940074caaa93c2881870b574f28b763f998909227a316a646b",
+  "public_export": {
+    "questions": {
+      "path": "questions.jsonl",
+      "sha256": "9cb4f41dc6d1d83710722ba5e9b63cde64b19ce8da33e00acd1f2c87191bc8c1"
+    },
+    "csv": {
+      "path": "questions.csv",
+      "sha256": "d1cca51bac35a2940074caaa93c2881870b574f28b763f998909227a316a646b"
+    },
+    "source_manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+    "source_questions_sha256": "a38dabdd83ec3bde17eb26b92d1c5a1a4a81b52cf71cdb4b54df66c1b0eedfe4",
+    "metadata_anonymized": true,
+    "model_inputs_and_answers_unchanged": true
+  }
+}

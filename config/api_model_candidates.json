@@ -1,0 +1,226 @@
+{
+  "verified_date": "2026-11-11",
+  "verification_scope": "2026-11-11 rechecked the two user-selected replacements plus Kimi/MiniMax/Doubao request parameters; remaining candidate entries retain their earlier verification scope.",
+  "active_batch": "config/evaluation_dev150_1000.json",
+  "frozen_protocol": "runs/campaign_1000/reports/frozen_protocol.json",
+  "vendor_count": 9,
+  "primary": [
+    {
+      "vendor": "DeepSeek",
+      "model": "deepseek-flash",
+      "display_name": "DeepSeek-V4.1-Flash",
+      "images": true,
+      "weights": "public",
+      "group": "open_weight_core",
+      "base_url": "https://api.deepseek.com",
+      "api_key_env": "DEEPSEEK_API_KEY",
+      "request_extra": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "sources": [
+        "https://api-docs.deepseek.com/quick_start/pricing/",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"
+      ]
+    },
+    {
+      "vendor": "阿里千问",
+      "model": "qwen3.8-flash",
+      "display_name": "Qwen3.8-Flash",
+      "images": true,
+      "weights": "not_confirmed_public",
+      "group": "domestic_first_round",
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "api_key_env": "DASHSCOPE_API_KEY",
+      "request_extra": {
+        "enable_thinking": false
+      },
+      "sources": [
+        "https://help.aliyun.com/zh/model-studio/qwen3-8-flash",
+        "https://help.aliyun.com/zh/model-studio/vision",
+        "https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope"
+      ],
+      "parameter_mode": "explicit_non_thinking",
+      "endpoint_note": "China Beijing legacy domain remains available; a matching-region workspace-specific URL can be substituted before a run."
+    },
+    {
+      "vendor": "智谱GLM",
+      "model": "glm-5.3-flash",
+      "display_name": "GLM-5.3-Flash",
+      "images": true,
+      "weights": "official_open_source_claim_download_not_verified",
+      "group": "domestic_first_round",
+      "base_url": "https://open.bigmodel.cn/api/paas/v4",
+      "api_key_env": "ZHIPU_API_KEY",
+      "request_extra": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "low"
+      },
+      "sources": [
+        "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash.md",
+        "https://docs.bigmodel.cn/cn/guide/start/pricing.md"
+      ],
+      "parameter_mode": "forced_thinking_low",
+      "parameter_note": "Official model page permits only thinking.type=enabled; Flash API is metered, not a free-model claim."
+    },
+    {
+      "vendor": "月之暗面Kimi",
+      "model": "kimi-k3",
+      "display_name": "Kimi K3",
+      "images": true,
+      "weights": "public",
+      "group": "open_weight_core",
+      "base_url": "https://api.moonshot.cn/v1",
+      "api_key_env": "MOONSHOT_API_KEY",
+      "request_extra": {
+        "reasoning_effort": "low"
+      },
+      "parameter_mode": "forced_thinking_low",
+      "temperature_policy": "omitted_provider_fixed_1",
+      "output_token_parameter": "max_completion_tokens",
+      "sources": [
+        "https://platform.kimi.com/docs/guide/kimi-k3-quickstart",
+        "https://platform.kimi.ai/docs/models"
+      ]
+    },
+    {
+      "vendor": "MiniMax",
+      "model": "MiniMax-M3.1-Flash",
+      "display_name": "MiniMax M3.1 Flash",
+      "images": true,
+      "weights": "not_yet_confirmed_public",
+      "group": "domestic_additional",
+      "base_url": "https://api.minimax.cn/v1",
+      "api_key_env": "MINIMAX_API_KEY",
+      "request_extra": {
+        "thinking": {
+          "type": "adaptive"
+        },
+        "reasoning_effort": "low"
+      },
+      "parameter_mode": "forced_thinking_low",
+      "temperature_policy": "omitted_provider_fixed_1",
+      "output_token_parameter": "max_completion_tokens",
+      "sources": [
+        "https://platform.minimax.cn/docs/api-reference/text-openai-api",
+        "https://www.minimax.io/blog/minimax-m31f"
+      ]
+    },
+    {
+      "vendor": "字节豆包",
+      "model": "doubao-seed-2-1-lite-260915",
+      "display_name": "豆包Seed 2.1 Lite",
+      "images": true,
+      "weights": "not_confirmed_public",
+      "group": "domestic_additional",
+      "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+      "api_key_env": "ARK_API_KEY",
+      "request_extra": {
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "parameter_mode": "explicit_non_thinking",
+      "sources": [
+        "https://docs.volcengine.com/docs/ark/model-list?lang=zh",
+        "https://ark.volcengine.com/region:cn-beijing/docs/chat-api"
+      ]
+    },
+    {
+      "vendor": "OpenAI GPT",
+      "model": "gpt-6-luna",
+      "display_name": "GPT-6 Luna",
+      "images": true,
+      "weights": "closed",
+      "group": "overseas_additional",
+      "base_url": "https://api.openai.com/v1",
+      "api_key_env": "OPENAI_API_KEY",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-6-luna"
+      ],
+      "adapter_note": "Verify current request parameter compatibility before enabling."
+    },
+    {
+      "vendor": "Google Gemini",
+      "model": "gemini-3.8-flash",
+      "display_name": "Gemini 3.8 Flash",
+      "images": true,
+      "weights": "closed",
+      "group": "overseas_additional",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+      "api_key_env": "GEMINI_API_KEY",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/openai"
+      ],
+      "adapter_note": "Official OpenAI-compatible endpoint; account/region and generation-parameter probe required."
+    },
+    {
+      "vendor": "Anthropic Claude",
+      "model": "claude-haiku-5-5",
+      "display_name": "Claude Haiku 5.5",
+      "images": true,
+      "weights": "closed",
+      "group": "overseas_additional",
+      "base_url": "https://api.anthropic.com",
+      "api_key_env": "ANTHROPIC_API_KEY",
+      "sources": [
+        "https://platform.claude.com/docs/en/models/haiku-5-5/overview",
+        "https://platform.claude.com/docs/en/api/overview"
+      ],
+      "adapter_note": "Native /v1/messages adapter is not implemented in the current OpenAI-compatible runner; recommendation only."
+    }
+  ],
+  "same_vendor_additional": [
+    {
+      "vendor": "智谱GLM",
+      "model": "glm-4.6v-flash",
+      "display_name": "GLM-4.6V-Flash",
+      "images": true,
+      "weights": "public",
+      "role": "free smaller baseline",
+      "sources": [
+        "https://docs.bigmodel.cn/cn/guide/models/free/glm-4.6v-flash"
+      ]
+    },
+    {
+      "vendor": "阿里千问",
+      "model": "qwen3.6-27b",
+      "display_name": "Qwen3.6-27B",
+      "images": true,
+      "weights": "public",
+      "role": "same-family dense architecture comparison",
+      "sources": [
+        "https://help.aliyun.com/zh/model-studio/qwen3-6-27b"
+      ]
+    },
+    {
+      "vendor": "DeepSeek",
+      "model": "deepseek-v4-pro",
+      "display_name": "DeepSeek-V4-Pro",
+      "images": false,
+      "weights": "public",
+      "role": "text-only additional comparison",
+      "sources": [
+        "https://api-docs.deepseek.com/quick_start/pricing/",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+      ]
+    }
+  ],
+  "actual_external_calls": 994,
+  "credentials_not_yet_configured": false,
+  "authorized_max_requests_total": 1072,
+  "authorization_scope": "Initial 60 plus targeted 12 plus explicitly authorized up-to-1000 precheck/development campaign. Campaign completed using 922, including retries and unknown interrupted attempts. Formal test is not authorized.",
+  "development_campaign_requests": 922,
+  "development_campaign_request_cap": 1000,
+  "development_report": "runs/campaign_1000/reports/development_report.json",
+  "development_status": "frozen_with_observed_model_failures",
+  "pilot_report": "runs/domestic_six_pilot_report.json",
+  "pilot_status": "completed_with_issues",
+  "targeted_retest_report": "runs/domestic_four_retest_report.json",
+  "targeted_retest_requests": 12,
+  "formal_test_set_calls": 0,
+  "source_scope": "Official documentation, initial pilots and six-provider dev150 checked. All six completed 150 development attempts with 8192 output caps; six model answer-format failures are retained. Configuration is frozen with mode differences documented. Formal test has not run. Counts conservatively include interrupted reservations with unknown provider usage."
+}

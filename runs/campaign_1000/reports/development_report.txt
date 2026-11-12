@@ -1,0 +1,10 @@
+开发协议审计：frozen_with_observed_model_failures
+新增请求：922 / 1000；此前72次单独列示。
+正式 test 请求：0。
+主准确率为 correct/attempted；accuracy_among_parsed 仅作辅助，answer_coverage 单列。dev150 仅用于开发，不是正式 test 成绩；本批全为原题，母题-变式指标不适用。
+kimi-k3: operationally_complete; requests=154; status={'ok': 150}; correct/attempted=147/150; accuracy=0.98; parsed_accuracy=0.98; coverage=1.0; observed={} (0.0)
+deepseek-flash: operationally_complete; requests=150; status={'ok': 149, 'parse_failure': 1}; correct/attempted=145/150; accuracy=0.9666666666666667; parsed_accuracy=0.9731543624161074; coverage=0.9933333333333333; observed={'finish_reason_length': 1, 'parse_failure': 1} (0.006666666666666667)
+qwen3.8-flash: operationally_complete; requests=151; status={'parse_failure': 4, 'ok': 146}; correct/attempted=144/150; accuracy=0.96; parsed_accuracy=0.9863013698630136; coverage=0.9733333333333334; observed={'parse_failure': 4} (0.02666666666666667)
+glm-5.3-flash: operationally_complete; requests=151; status={'ok': 149, 'parse_failure': 1}; correct/attempted=138/150; accuracy=0.92; parsed_accuracy=0.9261744966442953; coverage=0.9933333333333333; observed={'parse_failure': 1} (0.006666666666666667)
+minimax-m3.1-flash: operationally_complete; requests=154; status={'ok': 150}; correct/attempted=136/150; accuracy=0.9066666666666666; parsed_accuracy=0.9066666666666666; coverage=1.0; observed={} (0.0)
+doubao-seed-2.1-lite: operationally_complete; requests=154; status={'ok': 150}; correct/attempted=148/150; accuracy=0.9866666666666667; parsed_accuracy=0.9866666666666667; coverage=1.0; observed={} (0.0)

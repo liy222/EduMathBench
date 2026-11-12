@@ -1,0 +1,26 @@
+{
+  "description": "历史未启用模板；已按用户要求由qwen3.8-flash替换，不在首轮六模型名单内。max_requests=0。",
+  "selection_status": "superseded",
+  "data_root": "data/benchmark_web_v0.3",
+  "split": "debug",
+  "max_requests": 0,
+  "max_total_tokens": null,
+  "backend": {
+    "type": "openai-compatible",
+    "model": "qwen3.6-35b-a3b",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "supports_images": true,
+    "temperature": 0,
+    "max_output_tokens": 2048,
+    "timeout_seconds": 120,
+    "max_retries": 1,
+    "retry_backoff_seconds": 2,
+    "request_interval_seconds": 1,
+    "request_extra": {
+      "enable_thinking": false
+    }
+  },
+  "preflight_status": "not_run",
+  "parameter_mode": "explicit_non_thinking"
+}

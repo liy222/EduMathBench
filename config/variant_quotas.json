@@ -1,0 +1,212 @@
+{
+  "version": "variant-plan-v0.1",
+  "status": "variant_generation_complete_pending_final_freeze",
+  "public_parent_target": 300,
+  "variant_target": 300,
+  "grade_targets": {
+    "7": 100,
+    "8": 100,
+    "9": 100
+  },
+  "difficulty_targets": {
+    "基础": 120,
+    "中等": 120,
+    "困难": 60
+  },
+  "difficulty_note": "以下为母题筛选的初步覆盖目标；变式仍按实际任务暂定标注，不为比例强改标签。",
+  "cells": [
+    {
+      "grade": 7,
+      "module": "数与式",
+      "target": 40,
+      "difficulty": {
+        "基础": 16,
+        "中等": 16,
+        "困难": 8
+      },
+      "pilot_target": 4
+    },
+    {
+      "grade": 7,
+      "module": "方程与不等式",
+      "target": 30,
+      "difficulty": {
+        "基础": 12,
+        "中等": 11,
+        "困难": 7
+      },
+      "pilot_target": 3
+    },
+    {
+      "grade": 7,
+      "module": "几何",
+      "target": 20,
+      "difficulty": {
+        "基础": 8,
+        "中等": 7,
+        "困难": 5
+      },
+      "pilot_target": 2
+    },
+    {
+      "grade": 7,
+      "module": "统计与概率",
+      "target": 10,
+      "difficulty": {
+        "基础": 4,
+        "中等": 6,
+        "困难": 0
+      },
+      "pilot_target": 1
+    },
+    {
+      "grade": 8,
+      "module": "数与式",
+      "target": 20,
+      "difficulty": {
+        "基础": 8,
+        "中等": 7,
+        "困难": 5
+      },
+      "pilot_target": 2
+    },
+    {
+      "grade": 8,
+      "module": "方程与不等式",
+      "target": 30,
+      "difficulty": {
+        "基础": 12,
+        "中等": 11,
+        "困难": 7
+      },
+      "pilot_target": 3
+    },
+    {
+      "grade": 8,
+      "module": "函数",
+      "target": 20,
+      "difficulty": {
+        "基础": 8,
+        "中等": 9,
+        "困难": 3
+      },
+      "pilot_target": 2
+    },
+    {
+      "grade": 8,
+      "module": "几何",
+      "target": 20,
+      "difficulty": {
+        "基础": 8,
+        "中等": 7,
+        "困难": 5
+      },
+      "pilot_target": 2
+    },
+    {
+      "grade": 8,
+      "module": "统计与概率",
+      "target": 10,
+      "difficulty": {
+        "基础": 4,
+        "中等": 6,
+        "困难": 0
+      },
+      "pilot_target": 1
+    },
+    {
+      "grade": 9,
+      "module": "方程与不等式",
+      "target": 10,
+      "difficulty": {
+        "基础": 4,
+        "中等": 4,
+        "困难": 2
+      },
+      "pilot_target": 1
+    },
+    {
+      "grade": 9,
+      "module": "函数",
+      "target": 40,
+      "difficulty": {
+        "基础": 16,
+        "中等": 16,
+        "困难": 8
+      },
+      "pilot_target": 4
+    },
+    {
+      "grade": 9,
+      "module": "几何",
+      "target": 30,
+      "difficulty": {
+        "基础": 12,
+        "中等": 12,
+        "困难": 6
+      },
+      "pilot_target": 3
+    },
+    {
+      "grade": 9,
+      "module": "统计与概率",
+      "target": 20,
+      "difficulty": {
+        "基础": 8,
+        "中等": 8,
+        "困难": 4
+      },
+      "pilot_target": 2
+    }
+  ],
+  "pilot_target": 30,
+  "pilot_difficulty_targets": {
+    "基础": 12,
+    "中等": 12,
+    "困难": 6
+  },
+  "parent_selection_rules": [
+    "当前1500题已通过同一规范化快照的真实浏览器DOM检查，先前5题补验限制已解除；母题仍需筛选变式可构造性及已知数学问题",
+    "同一已知近重复题族优先只选一个母题，尽量分散知识点和题源",
+    "优先纯文字及修改后不依赖变更配图的题；含图题可选，但必须记录图文同步修改方案",
+    "已知源解析错误、条件冲突或未解决问题的题优先避开，不将源答案直接视作变式答案"
+  ],
+  "variant_required_fields": [
+    "id",
+    "parent_id",
+    "family_id",
+    "source_type",
+    "question",
+    "options",
+    "answer",
+    "grade",
+    "module",
+    "knowledge_point",
+    "difficulty",
+    "generation_metadata",
+    "change_description",
+    "verification_note",
+    "status"
+  ],
+  "generation_status": "variant_draft_pending_review",
+  "next_delivery": "汇总1800题初版并按题族划分，正式复核与冻结尚未完成",
+  "generated_variant_count": 300,
+  "remaining_variant_count": 0,
+  "selected_parent_count": 300,
+  "variant_input_policy": {
+    "updated_at": "2026-10-14",
+    "authorization": "用户要求变式尽量不用图形题，以减少制作和核验代价。",
+    "preferred_modality": "text",
+    "minimum_image_variants": 0,
+    "minimum_image_parents": 0,
+    "geometry_module_retained": true,
+    "rules": [
+      "优先选择纯文字母题，纯文字能完整描述的几何题继续保留。",
+      "已选含图母题可构造纯文字变式，但必须完整写出必要点位、长度、角度和关系，不能只删除原图或沿用如图措辞。",
+      "确实依赖图形才能保留主要推理时，先找同年级、模块、难度的可行纯文字替代；不要为了纯文字化改变知识归属或凑难度。",
+      "只有难以找到合理文字替代时才考虑含图变式，并同步核对图文。"
+    ],
+    "current_30_variants": "全部为纯文字，无需重做。",
+    "scope": "适用于变式生成；不删除1500公开题库中的已收集原图，也不重新计数公开题。"
+  }
+}

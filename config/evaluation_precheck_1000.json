@@ -1,0 +1,21 @@
+{
+  "budget_authorization": "用户明确批准新增最多1000次，按顺序完成补验与六家150题开发集，含重试。",
+  "expected_data_manifest_sha256": "eb350b5e13702ad13b11a29f005306a0d34aa0fb8e3de8024c09d54550483c25",
+  "max_requests_total": 0,
+  "models": [
+    {
+      "config": "config/campaign_1000/precheck/qwen3.8-flash.json",
+      "output_name": "qwen3.8-flash",
+      "vendor": "阿里千问"
+    },
+    {
+      "config": "config/campaign_1000/precheck/MiniMax-M3.1-Flash.json",
+      "output_name": "minimax-m3.1-flash",
+      "vendor": "MiniMax"
+    }
+  ],
+  "parallel_workers": 1,
+  "split": "debug",
+  "stage": "domestic_two_precheck",
+  "version": "campaign-1000-precheck-v1"
+}

@@ -1,0 +1,46 @@
+{
+  "reason": "原母题与受保护开发题在规范化后构成近重复题族，重新选取另一道测试侧母题并实际重写该变式，原生成稿保留以追溯。",
+  "derivation": "定义域x≠-4且x≠2；3(x-2)=2(x+4)，解得x=14，唯一正确项B。",
+  "predecessor": {
+    "id": "EMB-V-WEB2R2-G8-183",
+    "review_no": 876,
+    "parent_id": "EMB-P-WEB-FRACEQ3-25615104-4",
+    "question": "方程4/(x-3)-7/x=0的解为（ ）",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "7",
+      "D": "−7"
+    },
+    "answer": "C",
+    "verification_spec": {
+      "kind": "equation_with_predicate",
+      "variable": "x",
+      "lhs": "4/(x-3)-7/x",
+      "condition": "x!=0 and x!=3",
+      "option_exprs": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "-7"
+      }
+    }
+  },
+  "new_parent_snapshot": {
+    "id": "EMB-P-G8-000006",
+    "question": "方程2/(x+2)=1/(x−1)的解是（　　）",
+    "options": {
+      "A": "x=4/3",
+      "B": "x=4",
+      "C": "x=3",
+      "D": "x=−4"
+    },
+    "answer": "B"
+  },
+  "new_variant_id": "EMB-V-WEB2R2-G8-183",
+  "program_check": {
+    "all_real_roots": "{14}",
+    "valid_root": "14",
+    "method": "real_solveset_and_exact_predicate"
+  }
+}

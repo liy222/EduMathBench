@@ -1,0 +1,39 @@
+{
+  "description": "首轮国产六模型：按用户指定使用Qwen3.8-Flash。每家最多10次请求（含重试），六家合计最多60次；密钥由用户本机填写。",
+  "data_root": "data/benchmark_web_v0.3",
+  "split": "debug",
+  "priority_ids": [
+    "EMB-P-G7-000009",
+    "EMB-P-WEB2-TIKU-1899101",
+    "EMB-P-G8-000014",
+    "EMB-P-WEB2-TIKU-1920731",
+    "EMB-P-WEB2-TIKU-1904344",
+    "EMB-P-WEB2-TIKU-1754090"
+  ],
+  "max_requests": 0,
+  "max_total_tokens": null,
+  "backend": {
+    "type": "openai-compatible",
+    "model": "qwen3.8-flash",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "supports_images": true,
+    "temperature": 0,
+    "max_output_tokens": 2048,
+    "timeout_seconds": 120,
+    "max_retries": 1,
+    "retry_backoff_seconds": 2,
+    "request_interval_seconds": 1,
+    "request_extra": {
+      "enable_thinking": false
+    }
+  },
+  "preflight_status": "not_run",
+  "parameter_mode": "explicit_non_thinking",
+  "verified_date": "2026-11-11",
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/qwen3-8-flash",
+    "https://help.aliyun.com/zh/model-studio/vision",
+    "https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope"
+  ]
+}

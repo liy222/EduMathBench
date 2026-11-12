@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "run_directory": "runs\\domestic_six_debug",
+  "generated_from_local_logs_only": true,
+  "interim": false,
+  "state": "issues_observed",
+  "pilot_outcome": "api_or_probe_errors_observed",
+  "batch_state": "complete_with_issues",
+  "summary_state": "complete_with_issues",
+  "models": [
+    {
+      "vendor": "DeepSeek",
+      "output_name": "deepseek-flash",
+      "model": "deepseek-flash",
+      "state": "complete_with_issues",
+      "result_kind": "model_evaluation",
+      "parameter_mode": "explicit_non_thinking",
+      "run_id": "ac1d4076-7a5d-4b0b-bccc-e655eacfb837",
+      "metadata_available": true,
+      "input_count": 100,
+      "remote_request_count": 10,
+      "request_reservations_complete": true,
+      "known_usage_requests": 10,
+      "unknown_usage_requests": 0,
+      "observed_total_tokens": 5476,
+      "attempted_questions": 10,
+      "unrun_questions": 90,
+      "response_count": 10,
+      "parseable_answer_count": 10,
+      "image_questions_attempted": 3,
+      "image_questions_succeeded": 3,
+      "text_questions_succeeded": 7,
+      "finish_reason_length": 0,
+      "final_content_empty": 0,
+      "http_error_codes": {},
+      "attempt_status_counts": {
+        "received": 10
+      },
+      "error_categories": [],
+      "accuracy": 0.9,
+      "accuracy_scope": "debug小样本；accuracy分母为attempted，unrun仅影响coverage；非正式成绩",
+      "config_sha256": "bc54f25d9feac5069c6a5d78bff7974496afbe65f5b680a241a2864677008161",
+      "input_sha256": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+      "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+      "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+      "prompt_version": "emb-choice-v1",
+      "account_probe_status": "text_and_image_probe_passed",
+      "status_counts": {
+        "ok": 10,
+        "unrun_budget_limit": 90
+      }
+    },
+    {
+      "vendor": "阿里千问",
+      "output_name": "qwen3.8-flash",
+      "model": "qwen3.8-flash",
+      "state": "complete_with_issues",
+      "result_kind": "model_evaluation",
+      "parameter_mode": "explicit_non_thinking",
+      "run_id": "b96ada5f-bd06-4483-8552-8a47bd4069c3",
+      "metadata_available": true,
+      "input_count": 100,
+      "remote_request_count": 10,
+      "request_reservations_complete": true,
+      "known_usage_requests": 9,
+      "unknown_usage_requests": 1,
+      "observed_total_tokens": 6407,
+      "attempted_questions": 10,
+      "unrun_questions": 90,
+      "response_count": 9,
+      "parseable_answer_count": 9,
+      "image_questions_attempted": 3,
+      "image_questions_succeeded": 2,
+      "text_questions_succeeded": 7,
+      "finish_reason_length": 0,
+      "final_content_empty": 0,
+      "http_error_codes": {
+        "HTTP_400|invalid_parameter_error": 1
+      },
+      "attempt_status_counts": {
+        "received": 9,
+        "api_error": 1
+      },
+      "error_categories": [
+        "图片尺寸限制"
+      ],
+      "accuracy": 0.8,
+      "accuracy_scope": "debug小样本；accuracy分母为attempted，unrun仅影响coverage；非正式成绩",
+      "config_sha256": "9ef3688dd626fcb60420b75b247e008f31281c3722e1fb1ed0f5431f49be4281",
+      "input_sha256": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+      "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+      "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+      "prompt_version": "emb-choice-v1",
+      "account_probe_status": "text_and_image_probe_passed",
+      "status_counts": {
+        "ok": 9,
+        "api_error": 1,
+        "unrun_budget_limit": 90
+      }
+    },
+    {
+      "vendor": "智谱GLM",
+      "output_name": "glm-5.3-flash",
+      "model": "glm-5.3-flash",
+      "state": "complete_with_issues",
+      "result_kind": "model_evaluation",
+      "parameter_mode": "forced_thinking_low",
+      "run_id": "c258a9b1-d4cc-43ec-97b9-c21421991d34",
+      "metadata_available": true,
+      "input_count": 100,
+      "remote_request_count": 10,
+      "request_reservations_complete": true,
+      "known_usage_requests": 10,
+      "unknown_usage_requests": 0,
+      "observed_total_tokens": 3221,
+      "attempted_questions": 10,
+      "unrun_questions": 90,
+      "response_count": 10,
+      "parseable_answer_count": 10,
+      "image_questions_attempted": 3,
+      "image_questions_succeeded": 3,
+      "text_questions_succeeded": 7,
+      "finish_reason_length": 0,
+      "final_content_empty": 0,
+      "http_error_codes": {},
+      "attempt_status_counts": {
+        "received": 10
+      },
+      "error_categories": [],
+      "accuracy": 0.9,
+      "accuracy_scope": "debug小样本；accuracy分母为attempted，unrun仅影响coverage；非正式成绩",
+      "config_sha256": "639639335aef92427a2599c466f87ac17b022b8806c67ed84fc597c78f745973",
+      "input_sha256": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+      "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+      "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+      "prompt_version": "emb-choice-v1",
+      "account_probe_status": "text_and_image_probe_passed",
+      "status_counts": {
+        "ok": 10,
+        "unrun_budget_limit": 90
+      }
+    },
+    {
+      "vendor": "月之暗面Kimi",
+      "output_name": "kimi-k3",
+      "model": "kimi-k3",
+      "state": "complete_with_issues",
+      "result_kind": "model_evaluation",
+      "parameter_mode": "forced_thinking_low",
+      "run_id": "c465cb72-abbd-4395-8307-b9e507577843",
+      "metadata_available": true,
+      "input_count": 100,
+      "remote_request_count": 10,
+      "request_reservations_complete": true,
+      "known_usage_requests": 3,
+      "unknown_usage_requests": 7,
+      "observed_total_tokens": 1161,
+      "attempted_questions": 6,
+      "unrun_questions": 94,
+      "response_count": 3,
+      "parseable_answer_count": 3,
+      "image_questions_attempted": 3,
+      "image_questions_succeeded": 1,
+      "text_questions_succeeded": 2,
+      "finish_reason_length": 0,
+      "final_content_empty": 0,
+      "http_error_codes": {
+        "HTTP_429": 6
+      },
+      "attempt_status_counts": {
+        "received": 3,
+        "transport_error": 1,
+        "api_error": 6
+      },
+      "error_categories": [
+        "限流"
+      ],
+      "accuracy": 0.5,
+      "accuracy_scope": "debug小样本；accuracy分母为attempted，unrun仅影响coverage；非正式成绩",
+      "config_sha256": "661d91a032fb3e4fd648b485247ac1f0b28202b11122a1407019c5f434e9ac4f",
+      "input_sha256": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+      "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+      "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+      "prompt_version": "emb-choice-v1",
+      "account_probe_status": "text_and_image_probe_passed",
+      "status_counts": {
+        "ok": 3,
+        "api_error": 3,
+        "unrun_budget_limit": 94
+      }
+    },
+    {
+      "vendor": "MiniMax",
+      "output_name": "minimax-m3.1-flash",
+      "model": "MiniMax-M3.1-Flash",
+      "state": "complete_with_issues",
+      "result_kind": "model_evaluation",
+      "parameter_mode": "forced_thinking_low",
+      "run_id": "7080806e-4fb2-46e7-8316-88a25ed7bda6",
+      "metadata_available": true,
+      "input_count": 100,
+      "remote_request_count": 10,
+      "request_reservations_complete": true,
+      "known_usage_requests": 0,
+      "unknown_usage_requests": 10,
+      "observed_total_tokens": 0,
+      "attempted_questions": 10,
+      "unrun_questions": 90,
+      "response_count": 0,
+      "parseable_answer_count": 0,
+      "image_questions_attempted": 3,
+      "image_questions_succeeded": 0,
+      "text_questions_succeeded": 0,
+      "finish_reason_length": 0,
+      "final_content_empty": 0,
+      "http_error_codes": {
+        "HTTP_402": 10
+      },
+      "attempt_status_counts": {
+        "api_error": 10
+      },
+      "error_categories": [
+        "余额不足"
+      ],
+      "accuracy": 0.0,
+      "accuracy_scope": "debug小样本；accuracy分母为attempted，unrun仅影响coverage；非正式成绩",
+      "config_sha256": "93c31a3960ae4209096265d306c134f3341f447c7a74e9d23aca91015fe6033a",
+      "input_sha256": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+      "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+      "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+      "prompt_version": "emb-choice-v1",
+      "account_probe_status": "request_errors_observed",
+      "status_counts": {
+        "api_error": 10,
+        "unrun_budget_limit": 90
+      }
+    },
+    {
+      "vendor": "字节豆包",
+      "output_name": "doubao-seed-2.1-lite",
+      "model": "doubao-seed-2-1-lite-260915",
+      "state": "complete_with_issues",
+      "result_kind": "model_evaluation",
+      "parameter_mode": "explicit_non_thinking",
+      "run_id": "31f81f67-7931-4aef-894d-c474ee648830",
+      "metadata_available": true,
+      "input_count": 100,
+      "remote_request_count": 10,
+      "request_reservations_complete": true,
+      "known_usage_requests": 9,
+      "unknown_usage_requests": 1,
+      "observed_total_tokens": 13122,
+      "attempted_questions": 10,
+      "unrun_questions": 90,
+      "response_count": 9,
+      "parseable_answer_count": 9,
+      "image_questions_attempted": 3,
+      "image_questions_succeeded": 2,
+      "text_questions_succeeded": 7,
+      "finish_reason_length": 0,
+      "final_content_empty": 0,
+      "http_error_codes": {
+        "HTTP_400|InvalidParameter": 1
+      },
+      "attempt_status_counts": {
+        "received": 9,
+        "api_error": 1
+      },
+      "error_categories": [
+        "图片尺寸限制"
+      ],
+      "accuracy": 0.9,
+      "accuracy_scope": "debug小样本；accuracy分母为attempted，unrun仅影响coverage；非正式成绩",
+      "config_sha256": "0016254c4159319390b0af0dd94f26280d95391b2a7c934a2aa10dc6ffbaa8a6",
+      "input_sha256": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+      "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+      "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+      "prompt_version": "emb-choice-v1",
+      "account_probe_status": "text_and_image_probe_passed",
+      "status_counts": {
+        "ok": 9,
+        "api_error": 1,
+        "unrun_budget_limit": 90
+      }
+    }
+  ],
+  "total_remote_requests_from_persisted_reservations": 60,
+  "max_requests_total": 60,
+  "request_cap_check": "within_cap",
+  "request_accounting_complete": true,
+  "all_six_text_and_image_probes_passed": false,
+  "reporting_notes": [
+    "Accuracy is a debug-only small-sample measure, not a formal score; API/interface success is reported separately.",
+    "unrun_budget_limit questions are reported separately from failures.",
+    "No question text, request payload, image bytes, credentials, or HTTP error bodies are included.",
+    "Token usage is known only when persisted response usage was available; unknown is not treated as zero."
+  ]
+}

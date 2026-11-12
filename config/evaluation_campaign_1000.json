@@ -1,0 +1,23 @@
+{
+  "allocated_max_requests": 998,
+  "authorization": "用户选择新增最多1000次，先补验再六家各150题开发集；包含失败重试。",
+  "authorized_max_requests": 1000,
+  "formal_test_authorized": false,
+  "previous_authorized_requests": 72,
+  "stages": [
+    {
+      "manifest": "config/evaluation_precheck_1000.json",
+      "max_requests": 8,
+      "name": "precheck",
+      "output": "runs/campaign_1000/precheck"
+    },
+    {
+      "manifest": "config/evaluation_dev150_1000.json",
+      "max_requests": 990,
+      "name": "development",
+      "output": "runs/campaign_1000/development"
+    }
+  ],
+  "unallocated_reserve": 2,
+  "version": "development-campaign-1000-v1"
+}

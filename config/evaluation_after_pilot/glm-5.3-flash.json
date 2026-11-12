@@ -1,0 +1,45 @@
+{
+  "backend": {
+    "api_key_env": "ZHIPU_API_KEY",
+    "base_url": "https://open.bigmodel.cn/api/paas/v4",
+    "max_output_tokens": 2048,
+    "max_retries": 1,
+    "minimum_image_dimension": 32,
+    "model": "glm-5.3-flash",
+    "request_extra": {
+      "reasoning_effort": "low",
+      "thinking": {
+        "type": "enabled"
+      }
+    },
+    "request_interval_seconds": 1,
+    "retry_backoff_seconds": 2,
+    "supports_images": true,
+    "temperature": 0,
+    "timeout_seconds": 120,
+    "type": "openai-compatible"
+  },
+  "data_root": "data/benchmark_web_v0.3",
+  "description": "首轮60次预检之后的修订草稿；上限为0，未经新的预算授权不发送API请求。",
+  "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+  "max_requests": 0,
+  "max_total_tokens": null,
+  "parameter_mode": "forced_thinking_low",
+  "parameter_note": "不能关闭思考，low仅降低推理强度。当前2048输出上限为预检草稿；检查截断和最终答案缺失后，在开发侧确定正式参数，不使用测试集调参。",
+  "preflight_status": "revised_offline_not_retested",
+  "previous_pilot_config_sha256": "61a4d296370336871a66f4d791a53d386705c7395830f7afcc2a0c88b4caf704",
+  "priority_ids": [
+    "EMB-P-G7-000009",
+    "EMB-P-WEB2-TIKU-1899101",
+    "EMB-P-G8-000014",
+    "EMB-P-WEB2-TIKU-1920731",
+    "EMB-P-WEB2-TIKU-1904344",
+    "EMB-P-WEB2-TIKU-1754090"
+  ],
+  "sources": [
+    "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash.md",
+    "https://docs.bigmodel.cn/cn/guide/start/pricing.md"
+  ],
+  "split": "debug",
+  "verified_date": "2026-11-11"
+}

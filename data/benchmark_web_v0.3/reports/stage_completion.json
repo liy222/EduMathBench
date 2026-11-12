@@ -1,0 +1,22 @@
+{
+  "version": "benchmark-web-v0.3-member-reviewed",
+  "questions_sha256": "a38dabdd83ec3bde17eb26b92d1c5a1a4a81b52cf71cdb4b54df66c1b0eedfe4",
+  "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+  "count": 1800,
+  "public": 1500,
+  "variants": 300,
+  "added_cached": 87,
+  "with_necessary_images": 462,
+  "data_validation_passed": true,
+  "browser_render_passed": true,
+  "browser_visits": 3600,
+  "supported_variant_specs_passed": 236,
+  "unit_tests_passed": 84,
+  "software_validation_only": true,
+  "external_api_requests": 0,
+  "formal_test_set_model_runs": 0,
+  "main_local_viewer": "可视化\\完整题库浏览.html",
+  "main_viewer_sha256": "ac0c821a1bea054758e4444244be9bfb8fefefecea4ee263fd96b8bebdbc39cf",
+  "previous_entry_preserved": "可视化\\完整题库浏览_更新前_20261110.html",
+  "source_and_feedback_not_overwritten": true
+}

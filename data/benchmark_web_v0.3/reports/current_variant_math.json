@@ -1,0 +1,5034 @@
+{
+  "input_sha256": "a38dabdd83ec3bde17eb26b92d1c5a1a4a81b52cf71cdb4b54df66c1b0eedfe4",
+  "count": 300,
+  "program_supported_count": 236,
+  "program_passed": 236,
+  "spec_answer_mismatches": 0,
+  "check_errors": 0,
+  "member_reviewed_spec_not_programmable": 64,
+  "new_human_review_tasks_created": 0,
+  "scope": "Executions of explicit specifications; not a general natural-language theorem prover. Member review is accepted as user-confirmed, no new human checks assigned.",
+  "results": [
+    {
+      "id": "EMB-V-WEB2R2-G7-001",
+      "review_no": 448,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "2e43e9f5cb491961ee685f00f5bb53ad718f0d21c57ec793569836bdcc96f932",
+      "verification_spec_sha256": "c198d59d1fcf486e0e7e4edca52617387c0fd4a2878f61c168cf57bf5f5125a1",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "5794"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-002",
+      "review_no": 425,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "068ac7115bea4a23ad945715fea858fc9bc1430882f42b576a58fc214b350b2a",
+      "verification_spec_sha256": "c7c61fbbe436b907b1dc211d1a537926c1d3a5f0bbdc43f16a508fe31ece149a",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "15"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-003",
+      "review_no": 440,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "fce1d36d1d5523844e417a2e3d166a98126faff5d6dc927461437c25a3e0fefc",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-004",
+      "review_no": 433,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "b47989aeb69de53209dd95f9b0d292ae5168f1a1f22a73ad5ac2e6c8f38d19fa",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-005",
+      "review_no": 436,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "206a34eb19ba77a88afaf9e59a4c04a0f9b779381c0e52cd49569a75bc95e847",
+      "verification_spec_sha256": "cc0a8739584e7438053420ccc73512041ded29bfc3625df8faf5ae02bdd35f79",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "60"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-006",
+      "review_no": 427,
+      "kind": "manual_review_required",
+      "current_answer": "D",
+      "question_options_answer_sha256": "84f8c92d409979dd374cfd166ad0af932c4d6912fd37dc4a9034501bfbcf8e96",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-007",
+      "review_no": 429,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "9f566626e9416e5a85a12a168d594a67bf4d1ab97f393725e1a8e967caddf766",
+      "verification_spec_sha256": "dff638b95744a5ff7a62dbd72849afa7bbbd390552b5e2076148b0415cbfe6df",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "12"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-008",
+      "review_no": 443,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "a37bfe48c597e80847cf279c781d16619fd5d8d24e72482660125c74231c66b5",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-009",
+      "review_no": 460,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "fcb2acbb450b5d649e846a295e4d22ab50b6d6225ba0b42695d7b22a2d9d5b77",
+      "verification_spec_sha256": "841cd2a7ed44f2d22723e26562fc31de2e49f7e4705ec3dbdea8af5346283939",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "68"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-010",
+      "review_no": 477,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "16b1185b3be23e275ebaf86f217a5d1c505fd3a4a824ad91931de7bf3d9f047c",
+      "verification_spec_sha256": "05192d9ac28c4d5ad72abe2c856202f9d29522ceeef95a6bc8c44047c5e573e5",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "6375"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-011",
+      "review_no": 495,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "2f26ff19e228699edfdf90c48dfd9bb3cbd0b9d1f5b69c89fa15ed102d579485",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-012",
+      "review_no": 480,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "9bcf91a145cd72cbc3e3ec575abafd6d0330f354167ecd41d74aececcb8920ff",
+      "verification_spec_sha256": "3399c216d76b629f0a793dd5a093be339989cb48034d44168ea985dee9be8adf",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "38"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-013",
+      "review_no": 462,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "53e14f5124fccee03e64aef752c46180c8c024ee9345355a71afb1589a565e65",
+      "verification_spec_sha256": "1d8cf6115d2cdb9e6a0377a07e1165024bce9bfb4ee3475d7d85a80e4f0f1862",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "115"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-014",
+      "review_no": 467,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "f2213c39f39d647be9f1bf5bc16e31e765dc5f0e70d5134095a3961ac676dead",
+      "verification_spec_sha256": "dc91ff853952dd5a8ec3115cede1d34b2f2ce4bf687eec40a113fa7e216f5ab7",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-015",
+      "review_no": 458,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "9686b531000a617b29bdcb59100118156c35a53ca461c5b884d2391ce786acf2",
+      "verification_spec_sha256": "f69f7f4a72cdde80e12fe1101088f387b6f57e76c7bf3eea2339b874d0d08967",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "19"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-016",
+      "review_no": 465,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "8ceb69b483c16c1ff8a14735f7a6314a5efa077eee8dd08d808bab955ce0240b",
+      "verification_spec_sha256": "fdf54030dfa3b5b4887dbb520768d448a8cb24cc078dfabd4042b1aaf919a397",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "11790"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-017",
+      "review_no": 486,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "52db80e3c286b2998a624a91c973c553a93140deb34ef971bf362cc52bf7623b",
+      "verification_spec_sha256": "4d234cd0d5c17b8eb583ef7279ae79635e475ffc5bbe1ae8d4a992ff4057da19",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "118"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-018",
+      "review_no": 469,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "3305225ddf1485625c8e5e1e68c7211fc77bc6a2a2b21c4a01a589f38fad18e1",
+      "verification_spec_sha256": "8f1d4ceca888521536952160efc78b3abe111c05de1c16debc0afbd8e3aabad2",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "432"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-019",
+      "review_no": 451,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "a15e62f75d3e23c56f660a1455ee882c1df8daa6a9f8db5f1be99ae686d2b487",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-020",
+      "review_no": 472,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "d0eb6ca344cd4425d0a0a9ebebef50569a9ee763ccbe621400791556301f65ab",
+      "verification_spec_sha256": "07aa752ef9a0d56aa9b1de46de2e49048694546852880d96002f4d673cbe58f7",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "150"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-021",
+      "review_no": 49,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "529a8ad739c4d0536a14dcf8be1f51cd7c92a162d5252c08ce2bd6d0af57a5e9",
+      "verification_spec_sha256": "f436418bd69509dea6576b6431d91e671488bdeadd99dfdb65e8babaf477063e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "750000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-022",
+      "review_no": 10,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "462ad7f3a2caca6a9e40a6a98527fc67a79b2e95342e6849517e14241617facb",
+      "verification_spec_sha256": "4ff7ff601010a297d8de0d9e0e72cb91f4d46bebce9ab48d7ee579f65e37c9e1",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-023",
+      "review_no": 60,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "aa42f5c0ae3fe9d3146c84a0cba3cf6da53fba96b210a3048dfa0355ca43f0d7",
+      "verification_spec_sha256": "2b733de121e6398c699754627bebe800500a1bec2d6284de643d5e79a4fc8d9c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "63000000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-024",
+      "review_no": 47,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "f7d682feaa4301dba93e78d69c86ceee2f971a3f1c32c7c667b678bb3f2c8872",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-025",
+      "review_no": 7,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "daeabea82c93afd10d993a0ea00cc16ab1f720f94b6ecad6f7bc17ba9938d0bc",
+      "verification_spec_sha256": "9d32600f81b6b72cf44224d592b437f5e2ad84ec6c1a39afb8bd8f965473ad18",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "11"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-026",
+      "review_no": 42,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "d7cdc79108d43357145d3a4df4b6c8c87454bf8fbff17b46ffee976d534e03cc",
+      "verification_spec_sha256": "57de30bace2f506b22b7dd4c51370884e8d3fce07a7c46e260b9504205d210a7",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "12300000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-027",
+      "review_no": 67,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "9940795319a80bacebc3e3401c4f4bb3047c95a776f5c3cb1d2d2c169180f10e",
+      "verification_spec_sha256": "24b993dbf77a6f931a9c2bcfd0828ed3d7a3646b37e4162c41eb26c53091cc8d",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "-6"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-028",
+      "review_no": 21,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "52b19c5ec145a6f34eb19b31924346b69cf7356bd99619ad7f7c9182e3c2c104",
+      "verification_spec_sha256": "001454ef92c1862c61502ee4258ffb3ab5b8c3d815f071a32c3d7ea77cc86daf",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "23/5000000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-029",
+      "review_no": 35,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "5f1fdbcbd967ab6e3e1ec880cd838f5ab5cf3b2cda62e5a140cf3b4fae10f667",
+      "verification_spec_sha256": "a6f0852058ca3595bf9b018770d5ae6cd5ab52e1a7b7b1898fc883ab2213d923",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "28"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-030",
+      "review_no": 45,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "ef1d4f83d7d98712891615304636c01c7c82cf5bfe082dac87fd746b51de87a4",
+      "verification_spec_sha256": "a3cd6ba363132957443ffac9be9842d71d1557561fd9b2a55f5e31d017ba1a60",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-031",
+      "review_no": 26,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "e796bc3ad80d48d90f799bda0ba0b0dd2e4332f8ad3266428e6e386c3de7b979",
+      "verification_spec_sha256": "0d437dd96f27f60d91af185247381a4ced859191545adde1bb17a0cf62400786",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "83/1000000000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-032",
+      "review_no": 73,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "9d870720f93cf31b7e62265ab837fbfeb0c3e09d91c8e8a35602ba60f1bda96f",
+      "verification_spec_sha256": "37ca55274cfffe04175a2a27d3d5e4a87179076871c6a2a98e1472ff1259c40b",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-50"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-033",
+      "review_no": 5,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "a3342b4c9d297721c127532b77e2ace4331ebe83f150207ff9a1e5b6e2c76337",
+      "verification_spec_sha256": "df431e098a43bf0c9b816dc4fabca1fb5fe83f23b6b176a0f5eac316a7a681a2",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "3107/500000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-034",
+      "review_no": 28,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "ae3d76ec4d3055e82e22d42832b815c22300281d6a74404aa2d1796206fd4473",
+      "verification_spec_sha256": "9a1cef4c8eca9e687d19a298381acac985e0f5c12d3770a377fe6c5534d1fde2",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-035",
+      "review_no": 14,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "c689dc9e6fe21436c91638f9460eaf7fdfe06d140c88b856df9d503f3843491c",
+      "verification_spec_sha256": "228ebbcec838012ddc959d70442b2cd5f1224668c253d22bdbfbc86d732b01b8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "-1"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-036",
+      "review_no": 64,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "e9996e1a1f4728a6b29777a86f218d608ccc2de1611da654799e208cd13daa52",
+      "verification_spec_sha256": "4e5c149b218ee0644ccb43d1f173b67c3be6769c77db6ddb84f4556d17695892",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-037",
+      "review_no": 55,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "c5edcb6302d17c8336badd6e126160ebfd06250c077cf23d061ea07cb61ee01d",
+      "verification_spec_sha256": "51125adb35421ecd1e4d31a485739d97ca2110cfafd2b19bb9d77fd9c8ba1390",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "7/200000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-038",
+      "review_no": 57,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "8f927eb11847c028e16f0b0605ba5459524bccdc259f64ffd05f4409f5c75f9a",
+      "verification_spec_sha256": "ca1e4efd14ea612c46fb395578316c27474c7621f0f9c945cb47c2cd8b2bd80a",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "3/500"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-039",
+      "review_no": 2,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "b8a422b8c17ca8b8a05a2b63f89206f183f8104f9281374917b59fd696da17f5",
+      "verification_spec_sha256": "c976352d5a7a44819cc1600fac2c2c03e242e4a5fea1f9887525b1d8e66a4eaf",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "307"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-040",
+      "review_no": 70,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "577f1e89344220968dd13b3c28b58622874aeae96dc7d7b91b3e9d2164aad087",
+      "verification_spec_sha256": "e5ae1011f3762d6ea34a915ec98198ebcd7e382505d82cb22d40d99d917cf9df",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "169/5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-041",
+      "review_no": 157,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "af789ec97621b1143a7fcc918afda491feb232808898c1c2132d6a7d9043b331",
+      "verification_spec_sha256": "054e34b295750d4ad0b48ad470083f10113952d110bff6f72fd65f358768d8d5",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "0"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-042",
+      "review_no": 141,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "1dbe337936ef96c6532acbbd7c865da49031607747d617240e215b68cff3666a",
+      "verification_spec_sha256": "7b58244ad7673e472775fe9f9fec13498c57bc2a6be6dbd32e2d457a2993eadd",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "-3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-043",
+      "review_no": 154,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "351b95c4d957aaca76baa2a325bd1af87d96740f0793ca82a76f69c3a44350ea",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-044",
+      "review_no": 145,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "efb40063350c6ad626aa16e4ee86c9980e24bf6d3342452f3730a5b4800ca6ef",
+      "verification_spec_sha256": "e917de5c76622c5d45edf2052e7bf5354826d802e75d6a686c818054549f0180",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "-12"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-045",
+      "review_no": 134,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "4868fc8085dd526af4427e2b08126f98714755d8eed5b42f4ac82aa6e4c6ee8f",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-046",
+      "review_no": 190,
+      "kind": "ordering_values",
+      "current_answer": "B",
+      "question_options_answer_sha256": "19a7c12b1418b22bd6dcf4b35911386e7b00510ab48edba2a9f8fef557680a00",
+      "verification_spec_sha256": "3f430c71911e1e81ce3907e62c3c7cfb54ee61e25b3a6059ec6882e90bbb5d8d",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_values": "{'a': Fraction(-5, 1), 'b': Fraction(-11, 1), 'c': Fraction(5, 1), 'd': Fraction(11, 1)}"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-047",
+      "review_no": 143,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "c82c45f9dfbb5b6298bb482c83512a5314a55d0939f313bcce1d13de06a17f12",
+      "verification_spec_sha256": "1318bd752b21f12039046e9282f05069b20428897747344e99aa6b3ab85cc424",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-048",
+      "review_no": 118,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "f1e448b56181ac913acd8ead9b37a71019fa6f52ef704921c402d89e61c773dc",
+      "verification_spec_sha256": "644f0200cadb19e3f662c9385472eea780bfb0eacf707b5b3d2fdc2b862a0bbb",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "45000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-049",
+      "review_no": 182,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "99dacc646d9d1ca9d40ed9c776bd7cc408a835d4728c76157838d603f0e22533",
+      "verification_spec_sha256": "6ad1839c874135f6b25def0001dfa391f35d2a146d8107698e001c3321533b41",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "1000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-050",
+      "review_no": 131,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "82de5e931c477efa5e5ec165345577e315e2046f2735aad05eb5dd0a60927a3a",
+      "verification_spec_sha256": "c9e9120c001612340f7cb6dc698f685b5656a3a85ccf4840c658a9fc5b8a2d9c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-051",
+      "review_no": 103,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "11ef56e1ad64f03af263c8e93a285ce13ddce5235c26ac02e05f882c493dca49",
+      "verification_spec_sha256": "1809b0d0429a53430d5d60f27ff27716f9182f4d88eec4240b76eb597f91cbca",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "23"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-052",
+      "review_no": 123,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "0166c33d8bbc749a55a6d15dd67d71f9db562577c73ac3b8680b2d8e5e9bb35b",
+      "verification_spec_sha256": "bb6fd6b9f17fd3b2b6e7ecb655967e7a4304da7e52cb9250053994f76cf2326d",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "1000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-053",
+      "review_no": 187,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "2ae94bb7689bbe841498dcd81d70f52ee8dade87124195f0ca4be2cdf833e635",
+      "verification_spec_sha256": "98dd1cf79636f87f18e3911c0a2e31aa9f1c8100c52d53e69d0146abb8678445",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "450000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-054",
+      "review_no": 126,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "ce6f9c4abe020bade3b7210ab5d2dbe97ada4f119cead70f53d595f5f5f08553",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-055",
+      "review_no": 163,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "1c30386071be28ceff19d9ef59295e9ee32f14aa083393bc3d0a5e399b8b8324",
+      "verification_spec_sha256": "a097415969c83340ceaf2cbdcd34ea54d94fbfdb23c6df624da9af82fe2a5bb1",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "需确认非负量和为零的推理，不以直接常量计算替代题意证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-056",
+      "review_no": 109,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "f1619e0d7818ba5242390a55dd3ee38015246b21780ce68d3a6b13841004c3a5",
+      "verification_spec_sha256": "3b7d79931b04ce384bd2795a838b15cb4094441f4c28247d6956b7c942a4d4a5",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "52"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-057",
+      "review_no": 121,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "1838eac0e311cca87ee5d93d09840074893ff5537b3f514d81b97dd6131d1668",
+      "verification_spec_sha256": "4d5bb3cf424bbc6377e59efc5f1d05ba06aa578674354ea833400025e4dd74a6",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "31/25"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-058",
+      "review_no": 90,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "98c1c7e2ec963d37bbea9708f0c54aed85da9a0cfbe6e05dec0429633662ca4e",
+      "verification_spec_sha256": "f6ce737a9608711fae4f8fb3ec947c0516a5a540adcf28eab95ef13f2658bc72",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "-2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-059",
+      "review_no": 152,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "417c802c282cfa1c12aafd22b84f7a46e8212fbc4fd7d5dfee527d0fb848b300",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-060",
+      "review_no": 240,
+      "kind": "finite_integer_search",
+      "current_answer": "A",
+      "question_options_answer_sha256": "bf4ced931cfc4bdcee1b191275816d4756f5807dc2051a11b90facd48a755d41",
+      "verification_spec_sha256": "37d5941e21ba1bb91f1f7676b5f902958159145f9f7677305ba3b50151aca330",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "solutions": [
+          113,
+          127,
+          226,
+          325,
+          339,
+          438,
+          537,
+          749
+        ],
+        "transformed_values": [
+          "113",
+          "127",
+          "226",
+          "325",
+          "339",
+          "438",
+          "537",
+          "749"
+        ],
+        "computed_value": "8"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-061",
+      "review_no": 280,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "cab723c08e2e802f06218ee5ca60f80adeaee29274e20f9d4429a70378cac985",
+      "verification_spec_sha256": "5091c71a548644262b2f5caaf97ec08f491b0112523411d9d06167295b399407",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-062",
+      "review_no": 257,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "b6371a2757c79e4833c773649cb0b8e7626d365452e4f6dd48aa36cef278b0f7",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-063",
+      "review_no": 278,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "b2cf60dab56f5f2684c87cc36f0d53a2c9b683d7276aede318775a235a183c57",
+      "verification_spec_sha256": "13af954847c4cfa04055927983bfd9ab7c1465bb15ed19314a790c0852869e83",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-7"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-064",
+      "review_no": 270,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "816dffb95d02d261ce70e5f70e95d8109a75f4b791e29d995ae613c32ef10a18",
+      "verification_spec_sha256": "d2cfb50aa1c40eb84707d4d595cb1460278ea0f2655ba696b0289a0172dc584e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "1500"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-065",
+      "review_no": 249,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "417ecf8f1babe6f5b2c88aa64291ffa6d926ed797be74452cf6db5215411021a",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-066",
+      "review_no": 252,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "eb7b0341b623f56f4acd9e20f263e5257f430903b21ffdf31db70dbf61a1c8a8",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-067",
+      "review_no": 295,
+      "kind": "statement_selection",
+      "current_answer": "A",
+      "question_options_answer_sha256": "5c9663bc1cb8e3ca85370fa20e7eaab727b2324e29ed63aa50cf4fbb0d1dbf24",
+      "verification_spec_sha256": "26d24bc2f09955240d4b6c84111decc09f8eade5d86577f9927fb35b29584332",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "statement_truth": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        }
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-068",
+      "review_no": 290,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "49bdeb595f5f8922e1546a8a87a1d5c684fdae41c7e2bbd529436b24b79691f5",
+      "verification_spec_sha256": "dfaabd268d115dbfd266c028751b222692e5651088d0b2e6f005145ab129643c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "-3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-069",
+      "review_no": 305,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "a506c4caf8639f3ab4464587e16e14164ce6eec49717d0379c3cd11a3c779cce",
+      "verification_spec_sha256": "a2b9e4ea21402f01dcba6197a86213dfc53810b63c171e4f36a6d3661b391cf1",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-070",
+      "review_no": 259,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "818c8cb9495c39ecf70f95f88c6c0437a69392dc43861e7580c9794fc175cc91",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-071",
+      "review_no": 308,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "062ede375ce680eb8eef2ab2ee11586c2bc03754d5c284c65a5e335bcd13bebe",
+      "verification_spec_sha256": "0afc283810440499323ac48788536c35237974691032ed4d413e875496cbc1bb",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "33"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-072",
+      "review_no": 312,
+      "kind": "finite_integer_search",
+      "current_answer": "B",
+      "question_options_answer_sha256": "cd6cb0c28dc3bba5a183cc632b5b4f462f3c4196721bee0dc0e10adb03bc9c21",
+      "verification_spec_sha256": "5249c72d07be9191a12ebc7e8fcb0d09f968c277e8f3d54f86230b37ab827dc0",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "solutions": [
+          1,
+          2
+        ],
+        "transformed_values": [
+          "1",
+          "2"
+        ],
+        "computed_value": "2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-073",
+      "review_no": 275,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "1f5c2a95baeaf2ec5bdcf4428c1901e3630fac978ee95686e218aae50b2011ba",
+      "verification_spec_sha256": "a25e1fa2de087780d35b50e7eb39fa6b03981ec60a3992447f41070f289a574e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "6"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-074",
+      "review_no": 246,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "2b89e4b419cbd9ad433c6c7ecd15aa8760b8fd5acae2f65c0ff78194ce4c93fc",
+      "verification_spec_sha256": "2fc429601be1f0b20b4c39db0a3111aebc04703d047fac9e6d9da44c05cce346",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "11"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-075",
+      "review_no": 273,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "eea7c2d768866e7b17dc47cd9295a7f4f5a5b14c43db39f7d9dc645a7b611953",
+      "verification_spec_sha256": "a11e9bd5e265d1652dcb43add7f27878d257b757c4cf0a75882db6144a39eb6c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "630"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-076",
+      "review_no": 324,
+      "kind": "equation_with_predicate",
+      "current_answer": "D",
+      "question_options_answer_sha256": "9d59793340f319d3960f0fe9607d1159601e296c5aebe49764d9e5a7d99b3d62",
+      "verification_spec_sha256": "2e7db43fa08fd73a3063c62a1381427e71531efe77b10cb0f7551894df188938",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "all_real_roots": "{11}",
+        "valid_root": "11",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-077",
+      "review_no": 388,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "4cd6269e89142f3e47885c194c50b8707fcd77592527fc2c779751bd92d01a43",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-078",
+      "review_no": 335,
+      "kind": "equation_with_predicate",
+      "current_answer": "B",
+      "question_options_answer_sha256": "f97f084cef21c0b1756c5b1e7875a18b0688cd89235ded1b4a308ff9ba984876",
+      "verification_spec_sha256": "424b3553cf799d6435d1cd9f785479b2e21fecc24c22f2c0187c03d539239f42",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "all_real_roots": "{2}",
+        "valid_root": "2",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-079",
+      "review_no": 332,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "a6a83d99e80dfe9d417d084cc1ae8a0481b8f44d81b1e3b08cad05bb29f01abb",
+      "verification_spec_sha256": "bc4a9894c056ba5572baab803007e06eda6efa80efc1c68a7915ebc771a61faf",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-7"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-080",
+      "review_no": 378,
+      "kind": "finite_integer_search",
+      "current_answer": "C",
+      "question_options_answer_sha256": "cd201392fa06b6e4f60d154a388f3150c664bd50e2e64debe0a6c6cc91f7a3ad",
+      "verification_spec_sha256": "3dea1e8b2ea38bbb48ff8d0fcb4748e1b270df08a269e316599fe30635a57014",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "solutions": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "transformed_values": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "computed_value": "4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-081",
+      "review_no": 345,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "6c563bca513a9c6149ae9fa5674da70d271737ef0f2ce08bdc89b2f113eed6c0",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-082",
+      "review_no": 392,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "46813e6bfcc57f7b4b9c8dfccfe0556510cc530386c6cdf4333bcc58deb2b6de",
+      "verification_spec_sha256": "0e2e20f3d01203b1634d7add8cd7ecfa959182aa53d05c2f11334d4d1d2d0ce1",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "49/25"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-083",
+      "review_no": 326,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "2c1da06c6d542f3cef77344e88ef072d3daa0c31d90d6c6b071dc35c122baeb6",
+      "verification_spec_sha256": "a0c4770f3149cf86eac34ba51e11e49428af2ddecf44f9ff84e28453aada8ebb",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-084",
+      "review_no": 376,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "85ef20c54217842cf99ee61865fb620b01023a7e58de218404ddc6a290a62887",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-085",
+      "review_no": 396,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "c0f0c7a4232685b315f0b271b1d4880133d22d7d7933f8ced9799a4cf87372d7",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-086",
+      "review_no": 329,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "a616fb6421041ebd7d7956fb9ff1ff1bd9750ee7781a2d5b639eb57bf3cf52f6",
+      "verification_spec_sha256": "0f44c9daa0c5f7ae41917a1d833f93e1fafde0d709f155e0f2d46e8a4914c319",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "-4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-087",
+      "review_no": 360,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "1504429e5b65cc17f8feb6bc857c44521a10225a7c03dcd7a37f7706ed22b6d6",
+      "verification_spec_sha256": "60130917ff55f11c4333abb6ca4eae62047149043afaa5e1ead48372015b0ded",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "20000"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-088",
+      "review_no": 399,
+      "kind": "finite_integer_search",
+      "current_answer": "C",
+      "question_options_answer_sha256": "003ae4d9e12bd40170e0410c208b237eb0fb4023325e952defa1052af70c4a47",
+      "verification_spec_sha256": "9e3b19706806b81803af23289831d860127b455f99245f4ef71e17a1f16d383e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "solutions": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "transformed_values": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "computed_value": "17"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-089",
+      "review_no": 413,
+      "kind": "finite_integer_search",
+      "current_answer": "B",
+      "question_options_answer_sha256": "6832caa7b96fbeeedd77832aed629280744d3c1fb14e74834b9af1174a036c8b",
+      "verification_spec_sha256": "b82528a47e47e91ae067aca2eba7a3b88c5fb1f409748ccc3eced44de18d0d28",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "solutions": [
+          7
+        ],
+        "transformed_values": [
+          "7"
+        ],
+        "computed_value": "7"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-090",
+      "review_no": 411,
+      "kind": "finite_integer_search",
+      "current_answer": "B",
+      "question_options_answer_sha256": "bdd4e03dc7c328b5aaf136bec7e1e469f3837c2a916de46e064577d55cc2c1e9",
+      "verification_spec_sha256": "ff1c47ad5e2ddc547bc172c575db8cb3a0759a9c49d23af32ea65aea1360fbaa",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "solutions": [
+          -10,
+          -5,
+          0
+        ],
+        "transformed_values": [
+          "-10",
+          "-5",
+          "0"
+        ],
+        "computed_value": "-15"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-091",
+      "review_no": 567,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "767df83eba0463d9d163c44c67de6fc267bb934b9f9b25275e33d5f3d6667915",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-092",
+      "review_no": 582,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "23513112555d0d8087d2a30f8fd002cde8713251ec7201c5ad65c85c9dc2460d",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-093",
+      "review_no": 546,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "6c5993f41f187a22157f799ecfca2515eaa55be61df51ff744165c53eaba8304",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-094",
+      "review_no": 559,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "9c673e49c92d47696339f2b31c16af0c3e85100719bcfd3535a5b9108e59c137",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-095",
+      "review_no": 556,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "5cc4577126dc67db58c253b71bbd0fa41e4ea438357728f9e861f53e6731b07e",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-096",
+      "review_no": 574,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "58be89ab2291f537c19dcac2bd692bf05c27195fb64b738b017d53b5697307c7",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-097",
+      "review_no": 571,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "25ff6372a4f0570bf730bf1b0b55eaa5d7c61c55cdafe4369c10af76dc6c6c0d",
+      "verification_spec_sha256": "de3f8afef00ada2e0f2156f20258dfa29996a138283696294ffc3748dd3812c9",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "72"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-098",
+      "review_no": 599,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "4af1394beccca56f593e3bd499f42532fdf997ff3d2689d0d5d76800ff0eb124",
+      "verification_spec_sha256": "a4cee13424867689353c8d5c4fe90b5bafe436de3497d2873390cc9c7e32c845",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "3600"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-099",
+      "review_no": 595,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "9305b77b7999c0637f8842b1f3d75c68726ec927024d2e572ccada0c95235d8b",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G7-100",
+      "review_no": 597,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "11e7419dfe2d6a595abff205604bc0432dd78c5cb1bdb8ed80c3ea397aa8775b",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-101",
+      "review_no": 1077,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "060755950f8f16d201137077f574969a535db8ed43d7b8d581adaaf3efe6d101",
+      "verification_spec_sha256": "469eda43a05fc97bee0899ff3cfcc34d664f94878d74a129c7e961d31b271780",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "30"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-102",
+      "review_no": 1061,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "0b4fa477dc32166645f271ec0c596affc23ce0d1547ddf72651fe6768855bda0",
+      "verification_spec_sha256": "156936e3ec1e929451fe583a2a761c18d5491125cd11d85abcbd06655630d2e7",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "7"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-103",
+      "review_no": 1074,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "973352b2bc4ca5e35d5b7fe6e7491c300d0d29fe88faa0b33cacec54e7586eb3",
+      "verification_spec_sha256": "9f4a8bc15ac9ac5e9d7b4e9c1738338b45dc98fa025f502eee8b536e417a11e4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "0.803847577293368"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-104",
+      "review_no": 1022,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "32acdf5381be27f51d07cb8154c05a667712c28193af9f036a83ebb2718f73e8",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-105",
+      "review_no": 1027,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "65d9b159d4873f8d1cf0c7764660bdde88f8ee39a33241c8f344fee6ce5ca74b",
+      "verification_spec_sha256": "c4f33424f454268f38b92bb14297589a4a1d03be6b505d6eb57f8fc130cec4ce",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "36.0"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-106",
+      "review_no": 1049,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "f638d012ca5e0a43ad237e4f2f6068c238f092869c70b7886b17a520532bd9cc",
+      "verification_spec_sha256": "4ce3511c2b2678a80601f8b3d5205e0932e30eb2716c8f2ec133a4cb38e87ca8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(7, 1), Fraction(3, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-107",
+      "review_no": 1072,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "da6012202f9336551343cc3df7c3845e4637eb6f55b9d5a879a519b1b00c3e31",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-108",
+      "review_no": 1067,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "f07ae4784177c22256e88091748f3ad1613e792556d9ebd019e208e1a1f1b14a",
+      "verification_spec_sha256": "486aeb85c28be3209fe06210b07d337825d851772aa22a3771d14af6c1b4e1b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "9/16"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-109",
+      "review_no": 1096,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "390ab560eec37a49c1156bae2ef1a050ac783c7b2269a0f46b265c6b26b4fe60",
+      "verification_spec_sha256": "0a86212ea30cc4ce755ee7f44f0b6419f247e424135636c429f6273f49338b89",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(-2, 1), Fraction(-4, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-110",
+      "review_no": 1088,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "191f7ef1f7d94f8c8d21b86baae961d6a2606242f0cefaf28223f7e86d66141a",
+      "verification_spec_sha256": "61f6c677de9175107b1c7b574ea1b2ec27eaf3d836075d742a8647d9c17337e2",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "12.0"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-111",
+      "review_no": 1104,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "6bdd5107046f57d53687dc59d947e99bf4cb53551a2fbfa6113046e11e8114c9",
+      "verification_spec_sha256": "df04afe4a0e1ba4f4f9b68b77f02e0b911337833980071691094f95026d3a6b8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "13.94427190999916"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-112",
+      "review_no": 1100,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "3f31ed2acea6d61af8efdfa5cbf8847f465393e711a244de2ce5239a232a8fed",
+      "verification_spec_sha256": "2fcffe280b49e5ec7bce17434beb6646870d3fa9783fc49177eb661aa7987747",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "18"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-113",
+      "review_no": 1119,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "fe1e7f5ec084b3e1c6ddc43f0879d026353e4b1687de35438caee2d6d2da1c65",
+      "verification_spec_sha256": "7b10231dfb0971155814f92022408009af8ef32037ad24bc3ee5d753e3201d9f",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "8"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-114",
+      "review_no": 1106,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "ea76821855d42a45f5ab2751adc0ad3b41ed7084f87a1ae5b18b159a48d1378a",
+      "verification_spec_sha256": "7d11590e1c6f3046ab3566fcee5ee1fe190cd1bfa58918524ddec4532896bfbb",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "210"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-115",
+      "review_no": 1117,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "2ebd8a467d096489c5dc6d0d05a941956636d5ddd1847eb94dd82359fca33b17",
+      "verification_spec_sha256": "28e518c699528c203cb6e37244e3c477c271fe710e8b8412b9d83756f893ae94",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "55"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-116",
+      "review_no": 1111,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "24335e5f83c0c944534b03afcf9e88adb3121233aeba798e7b481595499d7789",
+      "verification_spec_sha256": "d319fb5e985428d11741e96962759fd9c430323e867eaf4f7cceda4d27c684dc",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "226"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-117",
+      "review_no": 1122,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "be9a6614880c68009420192fbada34d98c4ebc82335222e475db5bbd0c5d0ef9",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-118",
+      "review_no": 1125,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "731a9dee177e4c11dd4afe9eba0fb63ae4445ea86f2430fc785c1969a98f3c4e",
+      "verification_spec_sha256": "b2413a182661ba3616eac15915ef5e7a09a44dde1b9949771acbcaacc2fe39ff",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(50, 1), Fraction(80, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-119",
+      "review_no": 1138,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "3f9375d0a35b0ec44896b248e540be9287bdb813db83e98385b59158ca858382",
+      "verification_spec_sha256": "20669282b2b65c9a6d6b5a8024c676497fc93d5578c6b782a5a638b5d2b11b38",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "13.856406460551018"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-120",
+      "review_no": 1140,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "35d6933e98e2b2462e7d935de99b03f0e8e1c184958c32809c394937e8fa59c8",
+      "verification_spec_sha256": "1906cbdcd405b1c63bb08dc4b841760148a85c2ab3244e630f366cab400480e1",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "5/4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-121",
+      "review_no": 941,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "14cc21d1dbe2d890410e3c3f4a0d524011cc480bc96661d99bb47748df48be59",
+      "verification_spec_sha256": "35ba902bfe85527e55e4a20df02677fdbc9d7af4a72d3e4acb5e209b98412334",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-122",
+      "review_no": 956,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "e5b111365ed6dce46d07624d72d73ebaab72165cc1e118ac41eb7e040bb7158c",
+      "verification_spec_sha256": "e58ae598acdf6114dd463cf5b0c817d137c89d565b33eed6212f1866d26838a2",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "-4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-123",
+      "review_no": 938,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "a9ea3ffa83cb3c05c74265fa23c8e55a6d2befab651049ee4ee94f58cf5da014",
+      "verification_spec_sha256": "2fa8cce9d75f5ba5458264b1e2c32f5efde53d4ed7a09e7a652681b610c83b3b",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-124",
+      "review_no": 949,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "f697192e5b35c829388b092753b8e0ac1612e9d83cc2365e64e1a47bdd4e8ed3",
+      "verification_spec_sha256": "7ea63816d42cef325fbe1e2a9b0f9067b134b6f6623ec21c5b19997060a60a03",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-125",
+      "review_no": 973,
+      "kind": "statement_selection",
+      "current_answer": "B",
+      "question_options_answer_sha256": "6e960c72d3fbee34878b79599cb1abe0ed9510388b6723e2597b8995316cda52",
+      "verification_spec_sha256": "5ae0c761256f6eddc01d32ab166dcb79f6493180a0fde8618959a1ffa08f2429",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "statement_truth": {
+          "A": false,
+          "B": true,
+          "C": false,
+          "D": false
+        }
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-126",
+      "review_no": 934,
+      "kind": "draining_tank_affine_domain",
+      "current_answer": "A",
+      "question_options_answer_sha256": "e02322556d796b68ea41f2ef5ac2b4c9484c47a115abe00155ca18a7aa464b04",
+      "verification_spec_sha256": "aa3aab33c606003f67e766588baa367c14cf82883c62710fa58fe73ac6913e50",
+      "release_review_status": "assistant_repaired_variant_program_verified",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "affine_relation": "42 - 7*t/10",
+        "physical_domain": "[0, 60]",
+        "empty_tank_at": "60",
+        "method": "exact affine identity plus nonnegative time/remaining water constraints"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-127",
+      "review_no": 910,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "cc824421f536de2e6efd592fd042600d84900bce14691624674a6f046223e382",
+      "verification_spec_sha256": "606afa5009ca46c62927dee348eab9cc0aa8eddc98b676f1d6f99afd2f5aec37",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-128",
+      "review_no": 903,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "22817eb3968f210d4a66bfdf1dd3a7d5d91b8c87de9da3374bce8269d21bbdb2",
+      "verification_spec_sha256": "c975f282210ad65e06a198b49f3f7b1e7af916e6e6b64c4ca5e217861dd2fde9",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "9"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-129",
+      "review_no": 920,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "ba7cf91d5c7ea514c7ee1050b899d5150dc826e0fd7f365b8bb207f83b085efd",
+      "verification_spec_sha256": "5cf475647be505b4a56ac4a67c6c5d789c6acd931eb64e5059a0f605c379b149",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "11"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-130",
+      "review_no": 917,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "5c5b8dfad16e667be7eabe50a71cddf0b934acc3bea54e8eb8a1055a3a3a3201",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-131",
+      "review_no": 926,
+      "kind": "statement_selection",
+      "current_answer": "A",
+      "question_options_answer_sha256": "c3ac33e1328cf7361c1a9f7f01364897508f335e23b1496322ad5c03b82aba8f",
+      "verification_spec_sha256": "3ee043435f96655789a5a1cca9bd544155d15738d383d320626c692d75cd7ca3",
+      "release_review_status": "assistant_repaired_variant_program_verified",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "statement_truth": {
+          "A": true,
+          "B": false,
+          "C": false,
+          "D": false
+        }
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-132",
+      "review_no": 1013,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "bf25e50b46279d1fee2877ea4db95a0ca3660fbc43049a0ac972b72568d532b9",
+      "verification_spec_sha256": "ca2f604306828319af2d94ee1a82a60fef6e4cfe385e6f34bf3ff287fba45845",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(-6, 1), Fraction(-13, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-133",
+      "review_no": 997,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "bd3cacb44221b2b2d1af9f1a9c6a19a85a9700d0165f0a42e6edf554f3bc93f7",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-134",
+      "review_no": 1009,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "d695e774c007501d3547d559a2610982fcb5cc96275e377b2657f323a26f6e30",
+      "verification_spec_sha256": "13a9cddd692723a8ed305a5f7ed90e3aa483486e361969762692d347bedcb3d9",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "14"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-135",
+      "review_no": 990,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "7bf4f2f3375f0a5cd357d825ad18c1cbc06ae267145a324bf3a0dea795112015",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-136",
+      "review_no": 1003,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "41d0d352f53d25f8bbe62e31a2200c31f87ce2953375ae7b0805dbec37ff2e16",
+      "verification_spec_sha256": "e7862dd1bddd9f1bc2369138578f1f34d9d86d5400ceb4fcb198ba83b48477a9",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-12"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-137",
+      "review_no": 1017,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "d61af78aefba0a1bee80dcbb1d0fc018ee268e81f2047e9ab8fa8894d4972960",
+      "verification_spec_sha256": "7abe55c262c3cb63043bf7273e6581403c67f8ad2a0f57814fde0c7b6a459f70",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "1"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-138",
+      "review_no": 1020,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "7bcee19aaaa33e0dcacd2b239d6145434701e8f4bda2ddfc875cfcb3599faf36",
+      "verification_spec_sha256": "6a9f39fdbe004f5c570d1c6699b63c546cce897dcb17202ab01bfe9202c31906",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-10"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-139",
+      "review_no": 999,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "21b2e5f3dadbb7211522d4cb20c2f7d04854f4e376a2f3fbce021102bc1a98c4",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-140",
+      "review_no": 1001,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "40d62e1a3df54626ead23265b516c283634bdbd5638cfb78fac73edb290a9e8b",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-141",
+      "review_no": 666,
+      "kind": "symbolic_identity",
+      "current_answer": "A",
+      "question_options_answer_sha256": "d16e06a71706a6884c00cf95402cb4849aa8ec09bcbe55e6ef32b1b84352c056",
+      "verification_spec_sha256": "92841f56c159b9f598ce8d8045e236bfc27c12edb6a9f450a99b6b359d61b446",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "a**9"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-142",
+      "review_no": 605,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "8185a126f3a0852e55354e82cf000932a8cbac8769828e701dab59c4b6632525",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-143",
+      "review_no": 668,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "b9b8aad9e7eb77ca6c6b3f6eec5ae805f6a71103146f86a808656f95d40012fe",
+      "verification_spec_sha256": "4e047091545e308f25fb12ee0b070763c9d8e8fabc456348f24133b231c10e1f",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "6"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-144",
+      "review_no": 640,
+      "kind": "symbolic_identity",
+      "current_answer": "A",
+      "question_options_answer_sha256": "2ac1b6ceff8ff349cf2274ad81724ea4bc9eac6c8c18a34398b3d02d35da1a86",
+      "verification_spec_sha256": "5ea7cac509c6b7c663d7aaa9a844c3b5aedd494ceb52faf85c65fe2a37ebf659",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "a**2 + 3*a*c - b**2 - 3*b*c"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-145",
+      "review_no": 648,
+      "kind": "symbolic_identity",
+      "current_answer": "A",
+      "question_options_answer_sha256": "d24c030dc0190038409adc05cd367cb0210a27e0ae6e9ffba5588dd49498fe6e",
+      "verification_spec_sha256": "9b748b0636751f05007da82fa862ee01b8ecaebf3d7e4708343cfbe36cbede3a",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "x**2 - y**2 - 8*y - 16"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-146",
+      "review_no": 664,
+      "kind": "symbolic_identity",
+      "current_answer": "B",
+      "question_options_answer_sha256": "df54aa16d1d2608714e6ceb2ed7a531e1b0c1cc4eeeb53eeba039494265645ef",
+      "verification_spec_sha256": "a3e324570653907d410ef634c26404e018ed7654086f3fd958adb45e8c7979e5",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "a**4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-147",
+      "review_no": 644,
+      "kind": "real_solution_set",
+      "current_answer": "A",
+      "question_options_answer_sha256": "f6349d12e4f7923b96ea23c24790ad344c6e2918e2e70c25b98434e8c060e6cc",
+      "verification_spec_sha256": "67764f93045a2f8ef3f9a429b97f20e736b4534a621dd48c4c6575d1e1413ff3",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "real_roots": "{-2, 5}",
+        "method": "complete_real_solveset"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-148",
+      "review_no": 602,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "79861facd4138d07b814307eaa10abe8bcb5072a2a950a447f4ebc80459b8b4c",
+      "verification_spec_sha256": "1f34ba77938c9d3c1b689d8fb0449fec96b2e968c134d5d7d6f8bf3b9484858e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "1/4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-149",
+      "review_no": 689,
+      "kind": "symbolic_identity",
+      "current_answer": "A",
+      "question_options_answer_sha256": "fa188dd2b17b91673f573f54f5d5910aa90e737f4ff525a755d1813b16335db9",
+      "verification_spec_sha256": "5f9ff4865f961e62cf58492f7a16ea2051eda77a694a54f274b43ee0017408dc",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "4*x**2 - y**2 - 2*y - 1"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-150",
+      "review_no": 693,
+      "kind": "symbolic_identity",
+      "current_answer": "A",
+      "question_options_answer_sha256": "bd95fa8905c5d8c23ffe97217881b0bb34705bac0f8a869476e7d138d5598b35",
+      "verification_spec_sha256": "6cf2672addb50d97cfde60081d2f1bf3139aaf6bbf9d968ba3adb6ad87fb7723",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "a**2 + 4*a - 25*b**2 - 20*b"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-151",
+      "review_no": 695,
+      "kind": "symbolic_identity",
+      "current_answer": "A",
+      "question_options_answer_sha256": "28498d44a6455b8afa02f17eaf7faa4c91cd32cca50d0ad1037083eb916dc046",
+      "verification_spec_sha256": "0bd4a04fd05c3229e7ea2339a7ea4ad87d2d1a24cd4855f8373e946331e97033",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "-x**2 + 2*x*y - y**2 + 25"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-152",
+      "review_no": 701,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "f1241a2d74efa168fabd49b14051f7f13d97086ea9fc9d8aa5d0229c98a7095c",
+      "verification_spec_sha256": "47391dc8b5016128e9a1e39228a0b8f51b456e0c7ef668d5168f2702686765bd",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "2/3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-153",
+      "review_no": 720,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "99f23870d9811ffca2c869c32fbddfca2fced3246bd33ce802795488cd8310fe",
+      "verification_spec_sha256": "ee3560624196ecb7f3b972033aa569ca46abbb7b81c061bb9d89f7115fe5a4cf",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "4/3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-154",
+      "review_no": 707,
+      "kind": "symbolic_identity",
+      "current_answer": "A",
+      "question_options_answer_sha256": "2de10434d52c4e7e4f77bda58c73d642d692edb3df49c55aa1a82b8be61a5423",
+      "verification_spec_sha256": "f6ddaf1a5882ad29f0cf2807e0a2132248d5dac8c8021fde2e9a784980125b0a",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "x**2 - 6*x - y**2 - 4*y + 5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-155",
+      "review_no": 704,
+      "kind": "equation_with_predicate",
+      "current_answer": "C",
+      "question_options_answer_sha256": "bd40051125322fd8a2021740eccc87a67e98398ed59b5af68eacd026a1165953",
+      "verification_spec_sha256": "367e9bead7f062814e36405aafb26b85cebba759f4239f39ed228181d33804dd",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "all_real_roots": "{7}",
+        "valid_root": "7",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-156",
+      "review_no": 717,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "41724a66017100b394968550536b70235632d3bb487b111e83396b8a6ba45d41",
+      "verification_spec_sha256": "e0a8f0c27cc2852a7b45bec24a10d85c7b2b4d952a55e55bd441334d369faf69",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "7/8"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-157",
+      "review_no": 691,
+      "kind": "symbolic_identity",
+      "current_answer": "A",
+      "question_options_answer_sha256": "a6b51ef340bae6e071dff1b17b999b575d57a3a6b463a3773d1d09feb47cd137",
+      "verification_spec_sha256": "484def0343840bda08e5703c920c03cac2ec20607a235f1e7fbdab2e71afaa64",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "method": "exact_polynomial_expansion",
+        "target_expanded": "a*b - 4*a - 2*b + 8"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-158",
+      "review_no": 699,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "6fd521ef1540386b00a437d55ea7e1e3b52fb6793b422b3a040f4924ce3eeced",
+      "verification_spec_sha256": "68054ca7cf44aca2c823f63bca44e1c57d3e4d288770ea1fe9c5b784d07c7bb3",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "4.0"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-159",
+      "review_no": 714,
+      "kind": "finite_integer_search",
+      "current_answer": "B",
+      "question_options_answer_sha256": "c531e0b6d6e69f1833a93f014cec681f7b6dcbbe38361c21c2e7bf33380b9163",
+      "verification_spec_sha256": "1afb716185f1422930745e947065de7514db985facba0641a59527f9c024a4b8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "solutions": [
+          -2,
+          5
+        ],
+        "transformed_values": [
+          "-2",
+          "5"
+        ],
+        "computed_value": "2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-160",
+      "review_no": 712,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "319d162846cebc376f72e908b2d45af22b5b9a6984493f00da45e1403641be87",
+      "verification_spec_sha256": "789940395d40522ac2a0d2d468fb3209b9a5998f60529a5126a19f0b8b7364fe",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "0"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-161",
+      "review_no": 732,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "cf07fe93bafe2b0f6be8c60c37905350ba3b29710c3d296ba698e55a1e50fab1",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-162",
+      "review_no": 777,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "dbd9331e7b293b5ff2c021eaa31382688bd66f1a9d143683bbaaea4f592883a3",
+      "verification_spec_sha256": "a99921b691ac1501719aa10965b43f7d0752ba6b36cb867004ce9b9355a35f00",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "6"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-163",
+      "review_no": 762,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "56857a939b70cc64a81a9fecb7e634a41f2509d7a71394d0b4c393a5ba4373b2",
+      "verification_spec_sha256": "60192facedb7a869645f8af1721c4d181ecb188b1765441f6b1ed58eddbd56f6",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "12"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-164",
+      "review_no": 741,
+      "kind": "equation_with_predicate",
+      "current_answer": "B",
+      "question_options_answer_sha256": "950e984392048e93e90593fdbd71959f751b8b3c8e744bec892c67368b4512e6",
+      "verification_spec_sha256": "4702a27d0a75b99eb1642fd6392509ccfcee3e7c612ab04f42d8f659dc733c4e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "all_real_roots": "{0}",
+        "valid_root": "0",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-165",
+      "review_no": 748,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "fc87c6d7c54d3a91568e9d6e6e94d219ad2a474db38801552d79a64bd34e669b",
+      "verification_spec_sha256": "4c703cf94af894453aea7f41d76a88b2dfbb8365a21c2cc1bf357c2795c0d4c6",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "8"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-166",
+      "review_no": 746,
+      "kind": "equation_with_predicate",
+      "current_answer": "C",
+      "question_options_answer_sha256": "d59e50b9992c3a129d51ba73b93534982db78d6ba75dcdd596df456e4ca13cf5",
+      "verification_spec_sha256": "34057694a0498e097974eff307c8e22b0983aada0c7384c527fe3eb1c6f455c0",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "all_real_roots": "{2}",
+        "valid_root": "2",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-167",
+      "review_no": 722,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "e756b7035b93cd90db8c63d3f338306303f804412c7d0ef69205fd88ae5be0a6",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-168",
+      "review_no": 774,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "de7dec918c8a95453578674fcf9a44b3a5cef104a0b712d1b70a1963c126b597",
+      "verification_spec_sha256": "843ee2d1e8509abae70559ece7ef90aee5182b547634a12cb3a7660e2756f639",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "10"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-169",
+      "review_no": 753,
+      "kind": "equation_with_predicate",
+      "current_answer": "C",
+      "question_options_answer_sha256": "bab433c7c514d29cc57ec550eba922ed757dab95ab2cad38159e7d884d0af919",
+      "verification_spec_sha256": "3cc08e06df3e92f1f4b1f14215bb5decbe1b3c4afc4f90b9f73c8ac9fe6134b8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "all_real_roots": "{3}",
+        "valid_root": "3",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-170",
+      "review_no": 738,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "d75d452c9a6369ce2266f23eb49d909c2f90e4c006d6d023eb17004cb299db81",
+      "verification_spec_sha256": "4afb7d6037568d5ee8e3e2029a93e9586778db932e2186b0f538f246a9a75204",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-171",
+      "review_no": 759,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "53078c11631c0a8a1cae85122af559b84c7fce703f447aaeb9916593a09b75fd",
+      "verification_spec_sha256": "443f274bba74a7be2679a1ef0901e1f4d107621b3aa0aefbfdbf6a011ae7114d",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "0"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-172",
+      "review_no": 767,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "20c9a7fd0460237de98922f2bf477042530b1e6402c88c4b9704f154df0e7a61",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-173",
+      "review_no": 874,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "e0f32a486f6929d6b46aaa0a1ef8fff26d1b55c1641fc5fbaf0fe6bfa3635dc6",
+      "verification_spec_sha256": "6401dca7b0ac106e0bf5ebcc8f8410c8e2799c3001be8a0060e6b3ca6b695d80",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "15"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-174",
+      "review_no": 809,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "5325929bb5ad55395d35b6c6a28db5aafb48610f7855c29c21ac1083d2870747",
+      "verification_spec_sha256": "a8630d3ea694cfde517a8aa568f08110ba078cbb88557f1f3dfdfd5845534c7d",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-175",
+      "review_no": 883,
+      "kind": "equation_with_predicate",
+      "current_answer": "A",
+      "question_options_answer_sha256": "4663a62fa1d14cbe34e7ffa8e7885f7a4b3ba446fc12e7dff28cf103fac3cd5f",
+      "verification_spec_sha256": "70aa8142fe51c1cc1e346513c6d8c4ef46fed1a861c33c656efb190d77a4551b",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "all_real_roots": "{-1}",
+        "valid_root": "-1",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-176",
+      "review_no": 863,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "a8a410da32b47e22e577ab72db02fabc71f03880bb5612bbbc7a34b20f52df7d",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-177",
+      "review_no": 844,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "555936b5bb07de07afaac1cf7467da0b8055511b944f6e53b02660d20b74279b",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-178",
+      "review_no": 847,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "d430e677f8fddf7bdd750a05d3c31eae8f9171fa1cb26ec243adc58d40063381",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-179",
+      "review_no": 807,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "97b5c32bfd43e76295d01131acd243395541ceb28304954693d05c2733208e5f",
+      "verification_spec_sha256": "30975a5f813966f09535b137bb0fbbb9d8753cce5bcd9e5eaf82998d05f4243c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "60"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-180",
+      "review_no": 813,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "8683a0450c6fc80c6569b585f0fc8864e650a69f2dcc3eaddc9e9eeae2cc096b",
+      "verification_spec_sha256": "b1f3280b3444a53ad3dbae1d8ad8cc190ca0b5b540cab08212bd5bd2a48fbc10",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "28"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-181",
+      "review_no": 867,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "63a1a9983563d45767b6fa4397e0fe853253cfdc37e15725ab7434d0d991aee7",
+      "verification_spec_sha256": "f3610841a8fa336b94cbf3847b65e66347321446b25973db94c99df6a8da82b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "12"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-182",
+      "review_no": 857,
+      "kind": "equation_with_predicate",
+      "current_answer": "C",
+      "question_options_answer_sha256": "e3c65eac776ee8e6938ad8849d19337dec0feacb407d65580ae20e7463bf4e3c",
+      "verification_spec_sha256": "118665b9b95f96d36a38dbea7d83394fb8edb583941ffcd1e7574683fdffed59",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "all_real_roots": "{-23, 24}",
+        "valid_root": "24",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-183",
+      "review_no": 876,
+      "kind": "equation_with_predicate",
+      "current_answer": "B",
+      "question_options_answer_sha256": "ad06d9b80d77768c1bfab61bc06a1d6567ccdcebe6adb7f3e64ed83c355b474b",
+      "verification_spec_sha256": "733043a8ecfa367564efc7f8c4ff15b279733ced90010725d287cd6ed03f3676",
+      "release_review_status": "assistant_repaired_variant_program_verified",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "all_real_roots": "{14}",
+        "valid_root": "14",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-184",
+      "review_no": 892,
+      "kind": "finite_integer_search",
+      "current_answer": "C",
+      "question_options_answer_sha256": "dd3a21258630dd4a24ad5e50d05d264c3bd7b8ca82059c2762dd911d10b66141",
+      "verification_spec_sha256": "bd9fba600ce686a175956212fdd42ee70509d7c7b3515b51a7f5d929fd67a809",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "solutions": [
+          5,
+          7,
+          13
+        ],
+        "transformed_values": [
+          "5",
+          "7",
+          "13"
+        ],
+        "computed_value": "25"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-185",
+      "review_no": 890,
+      "kind": "finite_integer_search",
+      "current_answer": "B",
+      "question_options_answer_sha256": "11669e2b0ea7a7875a42568f793830b008da36f3c292d37cd2300dbd650bd6e2",
+      "verification_spec_sha256": "1d1aab051f16a2928b175bb63985d418c71ff1f1a5b5cebac78a0e655c448a75",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "solutions": [
+          2,
+          5
+        ],
+        "transformed_values": [
+          "2",
+          "5"
+        ],
+        "computed_value": "7"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-186",
+      "review_no": 888,
+      "kind": "finite_integer_search",
+      "current_answer": "C",
+      "question_options_answer_sha256": "02ede53ee543e8c9fa55c3388aa469253e12d478c4be83910fb99e860710ce3d",
+      "verification_spec_sha256": "0feee991d9be699007acc56ebec8a7e8fc0eabc046f8ec2e616072f8c32d8c94",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "solutions": [
+          -3,
+          -2,
+          1,
+          6,
+          16
+        ],
+        "transformed_values": [
+          "-3",
+          "-2",
+          "1",
+          "6",
+          "16"
+        ],
+        "computed_value": "18"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-187",
+      "review_no": 898,
+      "kind": "parameter_integer_rational",
+      "current_answer": "C",
+      "question_options_answer_sha256": "d0e7d56352994a0ae2df91f9fa745faae0ed76280168e39ae03207c89fa7311a",
+      "verification_spec_sha256": "55889a0d13a33c00926b4544a74994c5c6839268cfd641b97e4c002e20d53d89",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "parameters": [
+          -4
+        ],
+        "complete_cases": [
+          {
+            "parameter": -5,
+            "roots": "EmptySet",
+            "valid_integer_roots": []
+          },
+          {
+            "parameter": -4,
+            "roots": "{-3, -1}",
+            "valid_integer_roots": [
+              "-3",
+              "-1"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-188",
+      "review_no": 894,
+      "kind": "finite_integer_search",
+      "current_answer": "C",
+      "question_options_answer_sha256": "fae131b6d2917d7ff13cbade88080b4cf8577187c6a2907781f39fc74baeb1ef",
+      "verification_spec_sha256": "3a54b90e67a285a5fff48afeccb4b462e44cdb34c04768165324103ba372bacd",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "solutions": [
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "transformed_values": [
+          "6",
+          "7",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "computed_value": "82"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-189",
+      "review_no": 896,
+      "kind": "finite_integer_search",
+      "current_answer": "C",
+      "question_options_answer_sha256": "40323b829a5ae77c567f1bde1989235b4344ce95d97ff3b917a4b6a3af3257d1",
+      "verification_spec_sha256": "bb73e3c4fcc8f47987bf117e187674e653d86ae286db02b7b38bf58c2c8a50be",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "solutions": [
+          3,
+          4,
+          10
+        ],
+        "transformed_values": [
+          "3",
+          "4",
+          "10"
+        ],
+        "computed_value": "17"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-190",
+      "review_no": 900,
+      "kind": "finite_integer_search",
+      "current_answer": "B",
+      "question_options_answer_sha256": "0c50ffb5a211b2353512adfffd5db737ef6b37ff3d38824ff86d25debd6ea60b",
+      "verification_spec_sha256": "239f3b5331ccce3651178ed063b55d15a70c28154c98f66834f2342fab845f54",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "solutions": [
+          -23,
+          -20
+        ],
+        "transformed_values": [
+          "-23",
+          "-20"
+        ],
+        "computed_value": "-43"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-191",
+      "review_no": 1162,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "d78b24079aa52031f0beb897dc10e1c09a81868ffbc337ce43538b8e7ace7a36",
+      "verification_spec_sha256": "a19a9003229ef6ddf5602a7629bb4a3c33e257454ecb14bc499257bfa33795a9",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "84"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-192",
+      "review_no": 1159,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "5cb813143ae7d2475c7daab3b67ecf5f1212238f2e6b05cc00af84e7a8f094b6",
+      "verification_spec_sha256": "e72208427ea6bfbba27789fd16d0557f2e88bb1ca8bd6326a745869d84b28b99",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(-6, 1), Fraction(9, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-193",
+      "review_no": 1168,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "840911bb5c509b206849397a6c590903a5798527cb7ad9e7ae1571615b2d13f4",
+      "verification_spec_sha256": "5c6e28206676acd64d33a15e4f3d8b01dbf0958595f6bcde7c622c74099b971c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "80"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-194",
+      "review_no": 1143,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "0ae162a4907453bf81a319987009d47960715e7683982783769edb499d319069",
+      "verification_spec_sha256": "120b829c1d276980d37068a13b96795cbc18d53814207f6bac8da41c7e2b1606",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "89"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-195",
+      "review_no": 1173,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "909f5ddf4eb6de2863b6b4229295942d94ac13b668966f029e3de7ca714eb430",
+      "verification_spec_sha256": "22ca507e07c5706aa4751ecfaaa58015a0165971d4157b6a3b832a0b499134b8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "21/5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-196",
+      "review_no": 1193,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "8ace1438b5079d2b9de86e58260883bd756a628e474a1e893c1ff39082b6d4ba",
+      "verification_spec_sha256": "3c4c54b83f4ba301241308fbf569f5fa3d12a87ae264b4d924b9657fad05a292",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "13"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-197",
+      "review_no": 1185,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "b04ed9299aa8bea3351f35ca8331d80ae7a6317f6528ba3d6abeeae4822ee149",
+      "verification_spec_sha256": "6a6a929287b3d783a7655d46bff8a3d37ed8d12d28c59c311f4595ae55424d13",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "14"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-198",
+      "review_no": 1198,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "824b558d97905b4284e1ab1095e6d6c5b7255a37cf2b1673ef86850f59e84dba",
+      "verification_spec_sha256": "85bc90e27d73be570554a642fbe04ef6210c9303bead06bb8ed0356e78f7524b",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "33/5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-199",
+      "review_no": 1182,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "880bfe72301d95d7299620826441c48de7e58aab7ac1e2c70dfae701041727b1",
+      "verification_spec_sha256": "311f60c012f2d0897e0e83d390a08c898fe694ac9f06de48963b06d3f503227c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G8-200",
+      "review_no": 1200,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "73f4477cdcf66dfab6f1866b0c259a9d3814b60be36412ebd185e78958dbbe18",
+      "verification_spec_sha256": "195b3d21daf2e5e69d081c649c5e08cbcc292377c4f42e8a5364ccceecb014f6",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-201",
+      "review_no": 1519,
+      "kind": "manual_review_required",
+      "current_answer": "D",
+      "question_options_answer_sha256": "a5a3baf757110a48916e90dd0ccf57396790e6d0cd87274c8db1e2f5779acde6",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-202",
+      "review_no": 1529,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "2a3d618d602a80af3bef64791310b1f477a2a495831912e6936009bfe5a6e210",
+      "verification_spec_sha256": "7e56b069ed1aced5ea3b3192721ed598b34137dda6081c04e214de4a6d671bc4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "11"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-203",
+      "review_no": 1504,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "14afcccb41962e4e5bd9cb7bfe23d5fb8eaad12256c73279a1fce6779e3455b2",
+      "verification_spec_sha256": "afc9b255f460b83370c3aa1747c61df3f55c5489618f243e536714c319481170",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "30"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-204",
+      "review_no": 1502,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "9607253b054f6dfb2a829da1ea2e081aed62f6ecc89fd0d17632c5eea7845c2e",
+      "verification_spec_sha256": "5b1a45ea6ed20877a48b9b3544458677e38ce79b51cf77b424b92185a34a215f",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "60"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-205",
+      "review_no": 1506,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "f671a0889938a5192a7d7e0dac84fc7e4a5ae3cae928b1db7609a091c4ef22a4",
+      "verification_spec_sha256": "c38ec6509558ef9c09cc3db43daecfc9e42739f8634357905bf7915e229c6825",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "45"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-206",
+      "review_no": 1524,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "9f00d5e70303b722680a6310c5ba4a8c79d8cd46cdf9e009f482c057339b66ac",
+      "verification_spec_sha256": "1a25c805f68ac372b5d1098bc9d854e968175ebe3199801ef0b70c053777f76d",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-207",
+      "review_no": 1513,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "5531011fd8b4e7dcf3a1bf91b01cb5805bfbad616fc61edab7a5f0120be69c60",
+      "verification_spec_sha256": "72f3d0003d6186d78f1bb3d43b1b3933008d9ad60772c68d144c7e7c0290ebdd",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "67"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-208",
+      "review_no": 1532,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "4128df2a2538fa6725b49c6b2fc06feaf99bc64530b9ead7d7fa2dbeb02c8552",
+      "verification_spec_sha256": "92fac2dad8ebf0c214ab737e00f8ff771d0ffa4c1d89c41700c0b9d3bc2b5940",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(9, 1), Fraction(4, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-209",
+      "review_no": 1508,
+      "kind": "manual_review_required",
+      "current_answer": "D",
+      "question_options_answer_sha256": "d28b6e87889b248bff5d4fd62eeb04d79e7e6236f345a11ccc24abfb7767799a",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-210",
+      "review_no": 1522,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "8c7e008f51bc982c93a31f3404c390263e595dd13f41dc3896fcc2270d300c89",
+      "verification_spec_sha256": "1f21371383a8af0ec30cf9eff921f48806b998475f1df6ec7cb6568d7c295f02",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "1"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-211",
+      "review_no": 1515,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "083cf085a4c27a19278010b9fdf1d746a22bc6454e4714101394e1f42258f50b",
+      "verification_spec_sha256": "a1a5eb3d8081212a38dcfd8dc14abd7fd3c22f0e6209b3c55c524977c500e322",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "36"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-212",
+      "review_no": 1511,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "3b6cefbb9696b2acf0dcdd233f5c84a4b64e3c60e14bbbe820947ed5ba7b21a1",
+      "verification_spec_sha256": "4f402a83d0a5ec029ad77c1e853254f8455dea91c9de8c6ae20875a10a3dd556",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "7/9"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-213",
+      "review_no": 1557,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "7b76e51b78d0ed3d2f9b09e2f944a5296a6ff3344265ade0fab496cf732e348d",
+      "verification_spec_sha256": "c5765229d6690c981395e8b516e640beca54cbd6e53a8c9ca6bfd626dc8e2b4e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "60"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-214",
+      "review_no": 1578,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "16d6aa9e2963a33ef21482d5e3bd859ea5810a3add534ca90e1a26493758341f",
+      "verification_spec_sha256": "8e1c882bcfa2d85ed0ab749ae5a00da4d4ef93e8be3e97083498d0007ccc7331",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(4, 1), Fraction(-10, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-215",
+      "review_no": 1549,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "a7c8758ad406cd1a6a4b6f32052cb591b6ba4360a17f97aadaabf828b05530ff",
+      "verification_spec_sha256": "e9b28a8fb2bba856360b02a7dfdca522a904900503d2dfdb5aab7af03d6c0298",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "12"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-216",
+      "review_no": 1570,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "7b38c97c384db5f0e1cac97548b36d3701032ade78cf2d30fa942eb06e1cbc4c",
+      "verification_spec_sha256": "e30a648dcc1e67b874fb7027322f49e6d9d02f736e4674d342a49d928d08cf72",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(21, 1), Fraction(24, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-217",
+      "review_no": 1632,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "545c01bfc8e18862d83651ee410616b48ea487a1eb08ff03046807078c68447e",
+      "verification_spec_sha256": "4930bdc0b782be1be97f84ba0e423b8e6114b1c50dc43f903f4512fb59f56b6c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "10"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-218",
+      "review_no": 1639,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "47019e4c991086dad1b735836f85c0a010da4f81c99535b3468a0d926f2faf1b",
+      "verification_spec_sha256": "5b61a22ec1d02818ad05f3e129743ce068426c68cba9114c1189ccc0c806efbf",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "8.94427190999916"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-219",
+      "review_no": 1590,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "0da6378ac24462b1b1b4bcf2e7f47028204ee2529a00fbf3b299683439ebd4bd",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-220",
+      "review_no": 1637,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "130c6c2ec9afa37b4177e2dc02e93d6c907aec1a7551638c1bbe02a6563a31dd",
+      "verification_spec_sha256": "1c71881ff1970a67ec663001fd636e02b369e429a98e708d6f4c3b9d70647b17",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(1, 1), Fraction(7, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-221",
+      "review_no": 1584,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "5ecd8d6f24b16a3271df582ca3db428838be5f75a30bb90b8e4b9367a29a1c3d",
+      "verification_spec_sha256": "a66b37cfb796c001a1e00812b4247e5efbc3f6de7473e7e88778a321d383cc1a",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "26.0"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-222",
+      "review_no": 1599,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "28e9cc2ff76919a5b0e663bc9af73ce30bbdd9ca0ddd34f0e90ddd5fae6f37b2",
+      "verification_spec_sha256": "4653d9e01de3011653dd0d99e03d327b91e33fd6fb2fafb90b4808d188878a38",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "8.5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-223",
+      "review_no": 1575,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "621a6d992f05c9154da48c1bfb545beade78d4515af2e6d4422c3345f7604d07",
+      "verification_spec_sha256": "68f8be42282b4d054838ecf5ef3b9b28555f3c0a5c81d075d220423623ab05a9",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "12"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-224",
+      "review_no": 1581,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "4c652ff191b60dcdbbb63ab976ec95d0f1ff820f1509d17ecd3521f7cf05e5ac",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-225",
+      "review_no": 1671,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "400b6495955921f5a3bc4290195e840efa4003d7efafa222a74358913f3e6079",
+      "verification_spec_sha256": "8468fd8ddc53e64d1d149dfb67524e353d96c998cffa112ad6562f531a55273c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "(6.928203230275509, 13.856406460551018)"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-226",
+      "review_no": 1680,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "1272d69175a8fc5616dc27eb3bbe95b366d8f31f3bd361faa004b435aaacefa4",
+      "verification_spec_sha256": "11b02d3690f98a188a7a6d6d04676054ee46be5465c9885516bdff6209a1d9d1",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "9.464101615137753"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-227",
+      "review_no": 1659,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "3fdec70a97bb12938faa53bf4a0bf5ef6f192acc371312f4dedf980a4e1fdf11",
+      "verification_spec_sha256": "cac362d12d9e389a183e815e4c4451c933bedf5b03df2b9eefd1ee7161fc5ad8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(-20, 1), Fraction(30, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-228",
+      "review_no": 1656,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "81b6bc4a805bbdb6348857670fbb0de809e9a202dc2510e3a5d449194ed8f84e",
+      "verification_spec_sha256": "75a9232fc78f1e764f7724d779134f81dffde8947f4c5fe8765e1070118232a1",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "50/3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-229",
+      "review_no": 1676,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "0c2c69c7fe22e7305b653c56104ce9d5234ecd146409c1c2b20975fd0dab62e8",
+      "verification_spec_sha256": "931ba2c21642d6cb944de34dce2ec6e536bf3bd870d1f1af934cf7b24f49cbcb",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "40.0"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-230",
+      "review_no": 1678,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "538d3f16e9ad144d8e8eae4ce3c8790c7a10f2f8e6fd6dbe093657323164fcca",
+      "verification_spec_sha256": "4dd718d0e5b85d34e4802df5df0a30c809fe317d3af03f14f92c301afed9c324",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "9.372583002030481"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-231",
+      "review_no": 1270,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "84f4d455ad2204bd629f38dfda5647ca69c405308ca4b6ccef6d5c4078797fe3",
+      "verification_spec_sha256": "8ca4166ffa7330a159b3325f96acad7e8f8ca39d8dc98432bedf9f1036df4a85",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-232",
+      "review_no": 1288,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "6b1026baddb4769904c24f44088f4ef47c979ced4e7766af475d244e3a1f489a",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-233",
+      "review_no": 1290,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "f21785cb1f5bfca1eaf58fe2b6939a5e3ae6d66a80a7951e60af791ab12040b8",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-234",
+      "review_no": 1276,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "23c20501dd85d3566a38c3a1c3c58c15e5f6d5dedffd76b831705013c3e0caa4",
+      "verification_spec_sha256": "5cfea5e52ed5079eefbf11e70f33ac6eb10bcb004d037bdb3e11779ab6131ff8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-235",
+      "review_no": 1272,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "f4737ec1cb6a1dd047fc49f8b4589da4d964155b648ba7b860176f0c1160f90a",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-236",
+      "review_no": 1268,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "5120183d8b0d4e34aebb9c116619f4eebc24d4cae16c2eb3caf87c4148235917",
+      "verification_spec_sha256": "23aebeb5f1bae4abd4577f00df193e03b070350ec5965d13247b487e836839c6",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(-5, 1), Fraction(2, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-237",
+      "review_no": 1279,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "99787f44a24510b15448992389de4aa4d128f4f6dba14f7257085e68255179bf",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-238",
+      "review_no": 1344,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "fb9954c70aec57647c2a6fcbc0cf5465c40c3aa0fd49b5a58b4e27cecc95d88e",
+      "verification_spec_sha256": "06b97b6ccc45810273215bd95b9e69fc7c4ef10c915494bba593404cf479e7d3",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "(Fraction(8, 1), Fraction(-3, 1))"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-239",
+      "review_no": 1314,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "986357532dfbfa11efe3194a6d823fe2effd919a157907df70be388892fe550e",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-240",
+      "review_no": 1365,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "242ba396ccc2ef2a3fd359538400ef8b054bfff993b6d1899d86873773f04b63",
+      "verification_spec_sha256": "4397b5f7b626d15351739bc3f830e58433b5c37297de63a059d7082dab5a554f",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "9"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-241",
+      "review_no": 1371,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "157f7a766c1a5190ba6818c44528812e6d5dbfebd311274e9df4f63d95d88974",
+      "verification_spec_sha256": "98531fe86ee792690ae2a42382d1a8085fd8ae0eeede9574c9597cc82281e5f6",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-242",
+      "review_no": 1348,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "cffd1a8da2e8cb0ff3eed781b81bb86d24114ab12e7fd41013167900e1b21394",
+      "verification_spec_sha256": "1a02a0edbf0a66542bc9c15951738e0a6952301ff5743e839f3070111620eb16",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-7"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-243",
+      "review_no": 1367,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "bcfca3b4fd6e8f88bfa94d9524bd48c35ad143b974e31ec0c6ce120be7c22411",
+      "verification_spec_sha256": "0cb83f2d01867221385d332dd269b90bb386aa0c331c61d84b05fe99af1d7a67",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "5.385164807134504"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-244",
+      "review_no": 1341,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "0be74900c30dae37c222e7927fa99da3b2878d953378adf7d3c5e352de91aec4",
+      "verification_spec_sha256": "ee4372ca4dc4fb640d829ec5e83d78c2f7ab26bf583486f5441e7401bfe8fea5",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-245",
+      "review_no": 1482,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "4287f0d21b1939c44fc62d0cc1a3314fc6bcb6aa1ad68d1b3e1fe62a67b9df52",
+      "verification_spec_sha256": "4705a8f246946d71dbefdfd6b74700d4128fc57268dd39c7ceb7b6dd027b0382",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "36"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-246",
+      "review_no": 1431,
+      "kind": "equation_with_predicate",
+      "current_answer": "A",
+      "question_options_answer_sha256": "1d9224f0e6abc7bb715dfeabed800578b9748d70c62563ab16b0a41b143c8793",
+      "verification_spec_sha256": "07e44e95781150ca12f20fc5fb18608aad4a43a99798b7ab47e80fe76f88da67",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "all_real_roots": "{-3/2 + 3*sqrt(5)/2, -3*sqrt(5)/2 - 3/2}",
+        "valid_root": "-3/2 + 3*sqrt(5)/2",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-247",
+      "review_no": 1424,
+      "kind": "equation_with_predicate",
+      "current_answer": "D",
+      "question_options_answer_sha256": "93e0db1eead715ec257fef2a7729a6821038c18f9f8d71e976a0952ecd98c12e",
+      "verification_spec_sha256": "85ce4d23894b6e9ca12b837eade25d1b2b9585cb15e75378398e0ad521ac9a72",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "all_real_roots": "{-8, 4}",
+        "valid_root": "4",
+        "method": "real_solveset_and_exact_predicate"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-248",
+      "review_no": 1428,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "94f042308e525a6465cb0389a91fcc269512c9ef349ade362e780e1fedb4ca8a",
+      "verification_spec_sha256": "b18f8864c14e366fb455090ee5f608286b29129d49427d31d3fa444c688ff88e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "10.392304845413264"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-249",
+      "review_no": 1496,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "e5998d473de472f360fec2272969e5df03255b6a8907366364743eb115f93864",
+      "verification_spec_sha256": "1efeb07ff98a481ad7ca2fe4e722e2b65c7b0318d533aa09de90a7ee6ac2048b",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-250",
+      "review_no": 1388,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "575ddaa2824a48c12f39acf19fc4d3350c808717e6ad45eec49e4e42e82d49f0",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-251",
+      "review_no": 1402,
+      "kind": "quadratic_all_real",
+      "current_answer": "B",
+      "question_options_answer_sha256": "72adaf31ff0b7f6d25e03a2e878479fb8282cecbcc738e04dc5d2f011156b3d4",
+      "verification_spec_sha256": "f8e10b241a2abd35ce452223f7fe0dd8ed977c17c8b7752f62e4833e75f919b7",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "parameter_set": "Interval.open(-oo, 8/3 - 2*sqrt(19)/3)",
+        "delta": "-3*m**2 + 16*m + 4",
+        "constant_case": "EmptySet"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-252",
+      "review_no": 1490,
+      "kind": "real_solution_aggregate",
+      "current_answer": "C",
+      "question_options_answer_sha256": "4675bcda4f8e28986faaf19a1b826c8e20f8a3bb6644537a41bbc559a793d10f",
+      "verification_spec_sha256": "31a1ac3f473f22cc257602e57ec5f3b2b149cca71da97d4f5decb18684f5ad60",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "complete_real_roots": [
+          "2",
+          "1 + sqrt(17)",
+          "1 - sqrt(17)"
+        ],
+        "transformed_values": [
+          "2",
+          "1 + sqrt(17)",
+          "1 - sqrt(17)"
+        ],
+        "result": "3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-253",
+      "review_no": 1468,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "669850c9f7cf80b2b72d643ab6b1ede2be3f1e5764b2e433c2edcd6ae8ef6ced",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-254",
+      "review_no": 1500,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "f596a04b14f36770520feca9b43b970ab488ce6e9a50925bd3ed80f307c0e83f",
+      "verification_spec_sha256": "dc8ba4861ff8d783f2f76f44e3d15f5a583b27e2eaa4e3df939e23a83d8a9680",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-36"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-255",
+      "review_no": 1442,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "72548a204def861c04bf02e1245fc34d89be9572b6b2cf7b038a170d2fa4df9d",
+      "verification_spec_sha256": "91f6cba0d41f3cefddbe0c8bbb35f1124c1b2f3d26086e93605608a1b41804eb",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "18"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-256",
+      "review_no": 1384,
+      "kind": "quadratic_all_real",
+      "current_answer": "B",
+      "question_options_answer_sha256": "cce620427985eed81b401638918c808f954d6474b2fd9dfd08bfc49d19734ef8",
+      "verification_spec_sha256": "c62e9b12b30b857f6b048b5a2804c712e28ab9a721b807bb10d6da1905accb4f",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "parameter_set": "Interval(-2, 6)",
+        "delta": "m**2 - 4*m - 12",
+        "constant_case": "EmptySet"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-257",
+      "review_no": 1494,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "91dbb46cd413514a9ce8bbdded775959625a0b12d19f782f652c541b003467eb",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-258",
+      "review_no": 1492,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "2900e1abca6ee6378ae90371270da9fd86bfe28d9630543c2872579f186caa5c",
+      "verification_spec_sha256": "0542f8df4546cf6cc2b98920874c3a75f3ddf7d77339ec60e65f141e590f31b0",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "6"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-259",
+      "review_no": 1440,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "106ee15e29fa1db3348a766450868c2301a866fcdaf9a83d1fd4e15f78e49857",
+      "verification_spec_sha256": "3ebf36726b0ea7c4451311f78ae94a576d6d6f411a218774156acd6c66f9d729",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "27/8"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-260",
+      "review_no": 1426,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "e91644d0ef6d270a30696be221b71ea0f58a1961d95d16ee55189c1375da1ce9",
+      "verification_spec_sha256": "9252dbae6661a51ca90a4344a4c3756fc56d1fd2451526f811d4b05edc88b8d5",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "16"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-261",
+      "review_no": 1382,
+      "kind": "statement_count",
+      "current_answer": "C",
+      "question_options_answer_sha256": "8f57d7ad7b765523d265e342d6683f74b385063ee532838c2b6c8ec56bb36770",
+      "verification_spec_sha256": "ee48a07a6bccab91cbbdaae376791fa04a153a9fb5192317f3fed71ab0d5d7fc",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "statement_truth": [
+          true,
+          true,
+          false,
+          true
+        ],
+        "computed_value": "3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-262",
+      "review_no": 1498,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "1b3afd8a7009f5fbf3650e63c8c913f2376bc11d78f8cd4a1df7f282d1249385",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-263",
+      "review_no": 1433,
+      "kind": "positive_rational_minimum",
+      "current_answer": "C",
+      "question_options_answer_sha256": "2c8b13fec17e6c5ff7212b6d368f63c9e7187f318f01632591a5035e8219ed24",
+      "verification_spec_sha256": "e7f5180be5ce8583e35223187e08819b55a3641a46241d59e16a203d5bcb39d9",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "domain": "x>0",
+        "minimum": "40",
+        "attained_at": "4",
+        "identity": "a*x+b/x-2*sqrt(a*b)=(sqrt(a)*x-sqrt(b))**2/x"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-264",
+      "review_no": 1435,
+      "kind": "line_inverse_pair_constraints",
+      "current_answer": "A",
+      "question_options_answer_sha256": "479148ebd48ee8847b335167aa15beadf8ea39a8e07d783dc57d6fd1ada233cd",
+      "verification_spec_sha256": "a9cdf4694291b0304f699b8c20da7988050f8b41d3978de850a597c0d89123e3",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "complete_option_coordinate_checks": {
+          "A": {
+            "roots": [
+              "-2",
+              "1"
+            ],
+            "quadrants": [
+              "III",
+              "I"
+            ],
+            "satisfies_all_constraints": true
+          },
+          "B": {
+            "roots": [
+              "-sqrt(2) - 1",
+              "-1 + sqrt(2)"
+            ],
+            "quadrants": [
+              "III",
+              "I"
+            ],
+            "satisfies_all_constraints": false
+          },
+          "C": {
+            "roots": [
+              "-sqrt(17)/2 - 1/2",
+              "-1/2 + sqrt(17)/2"
+            ],
+            "quadrants": [
+              "III",
+              "I"
+            ],
+            "satisfies_all_constraints": false
+          },
+          "D": {
+            "roots": [
+              "-sqrt(3) - 1",
+              "-1 + sqrt(3)"
+            ],
+            "quadrants": [
+              "III",
+              "I"
+            ],
+            "satisfies_all_constraints": false
+          }
+        },
+        "scope": "solve both intersections, check both quadrants, horizontal gap and collinear segment ratio"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-265",
+      "review_no": 1399,
+      "kind": "finite_integer_search",
+      "current_answer": "C",
+      "question_options_answer_sha256": "858ef0a9d716b51a70717e91b4d9c4d87bb5b36d5cc783d9764f0858a1e88d02",
+      "verification_spec_sha256": "11f40ec37b50318f816864ca90e0be6233f81104595b21f42e5045bd96485993",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "solutions": [
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "transformed_values": [
+          "4",
+          "1",
+          "0",
+          "1",
+          "4",
+          "9",
+          "16"
+        ],
+        "computed_value": "35"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-266",
+      "review_no": 1438,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "c0dbe98b4fc8b5519ec60cc8f323cff35aa8504ac973b449f48798583110478c",
+      "verification_spec_sha256": "4763a833d72812d25afab9b5f03a15972ae72c1056ec0a38bead91d6fe4b9996",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-267",
+      "review_no": 1386,
+      "kind": "statement_count",
+      "current_answer": "C",
+      "question_options_answer_sha256": "f30ed027959343271126e8c5f7b362f50e1bb88e1b74241a6a21cd1a7121f598",
+      "verification_spec_sha256": "092c82402cf6b0cc07d42b70bccc45d9b1fe7973d52e87b0ee9fcf2576246e19",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "statement_truth": [
+          true,
+          false,
+          true,
+          true
+        ],
+        "computed_value": "3"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-268",
+      "review_no": 1419,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "899ba594981d1624902c51ca390a5d592641dabb3aaaa408a12d8c89a8fa1cf0",
+      "verification_spec_sha256": "6178fd573787f62f5662edd998b74fcd5849853350d42a4e2ed605285a7281b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "5.656854249492381"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-269",
+      "review_no": 1380,
+      "kind": "quadratic_min_parameter",
+      "current_answer": "B",
+      "question_options_answer_sha256": "fc8e9b4056278b6b3390a754acff0f719adc1a57f78459b9ca5455c646e8bb45",
+      "verification_spec_sha256": "8dc112a84c6d98224d6173dbab12cf91a4d0853e614bdbfa2e13a8aa05619252",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "all_case_candidates": "[6.0, -6.0, Fraction(-13, 2), Fraction(6, 1)]",
+        "computed_value": "(Fraction(-13, 2), 6.0)"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-270",
+      "review_no": 1391,
+      "kind": "finite_integer_search",
+      "current_answer": "C",
+      "question_options_answer_sha256": "414957ae61e96cc44abc6e1a87f7b3be479e2456ba570e3450ccb975175f8ea3",
+      "verification_spec_sha256": "3c968b4581f0d5e4b1a4ccf7729f189ac700ee9688ad9438b01e006c3d39fcca",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "solutions": [
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "transformed_values": [
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "computed_value": "9"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-271",
+      "review_no": 1221,
+      "kind": "quadratic_parameter",
+      "current_answer": "B",
+      "question_options_answer_sha256": "28dfc38427c194410d7ac39cdbdc6271567656b5402329cf93089728037f8621",
+      "verification_spec_sha256": "0e60826ef6684d8e45e95d1c7cab49f9cb93adc1b3f23637f0581fb6f0c3043e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "parameter_set": "Union(Interval.open(-oo, 0), Interval.open(0, 4))",
+        "discriminant": "16 - 4*k",
+        "method": "nonzero_leading_coefficient_and_discriminant"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-272",
+      "review_no": 1251,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "0e4ff2514db8e9fda549ed961a64e3fc351cb31c0b8284848f33a9c4983168b1",
+      "verification_spec_sha256": "0d6ce6f275c833e1cf3dc4b57a35d773ec6b18c7a664ac3287a5e9d87b8199b8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "16"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-273",
+      "review_no": 1225,
+      "kind": "quadratic_positive_roots_parameter",
+      "current_answer": "B",
+      "question_options_answer_sha256": "7083c8923c3e4d0b31f0b7ccbfb9d881a3e2ba13165ebd685f3bb56a8b0650a6",
+      "verification_spec_sha256": "9a471f6ff7f15b50b9b95e72b488fa602bf42ac2aad72f39f1a719dd9d904549",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "parameter_set": "Interval.open(16, 25)",
+        "discriminant": "100 - 4*t",
+        "method": "leading_coefficient_discriminant_vieta_constraints"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-274",
+      "review_no": 1233,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "ea835229b0a46ea898aa2fabf6c823ecf396308f3e2bdb9c0e12f600bf18d836",
+      "verification_spec_sha256": "ab52b2ff27de94b1a8be303ecfb3237b230e963274ad1fe68f303caccd55cfac",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "405"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-275",
+      "review_no": 1241,
+      "kind": "real_solution_aggregate",
+      "current_answer": "C",
+      "question_options_answer_sha256": "3ac73f29a6b4966d74c5c7bfd0ca732cd1328d4ba9a075a29536ac43ef7d1f34",
+      "verification_spec_sha256": "ff4ecbdd6e89ca2e52e8e12bed6c9f1384f1675b930c6bce096cbe5f0b1c3a40",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "complete_real_roots": [
+          "-3",
+          "4"
+        ],
+        "transformed_values": [
+          "4",
+          "9/4"
+        ],
+        "result": "4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-276",
+      "review_no": 1257,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "1ef09d9a5784696447087b0a49a2b3bd95f7688ef82b807c3a4fe179502e141e",
+      "verification_spec_sha256": "a51a88580f96d030e91207b179e3ad86057de63bf81366477169b791a6241ffe",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "-5"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-277",
+      "review_no": 1228,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "6ef2e643f42d63443876206a90a2dbb269ade7e2446b13964b59e516b1ab3a6d",
+      "verification_spec_sha256": "da25cfb574491ff3cfb03ed7afb8b47ef1f05e726a6d8e64fd489d2b2921a15c",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "576"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-278",
+      "review_no": 1247,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "fe24ccba42d9f142f00440984c981f3e789413ef91cd3f7287e2a01aad57bd7b",
+      "verification_spec_sha256": "acd648aed8f0bea30fef7a6ad31392d12431ba04a873c126039029ac1c38313e",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "12"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-279",
+      "review_no": 1245,
+      "kind": "real_solution_aggregate",
+      "current_answer": "C",
+      "question_options_answer_sha256": "c6653a019436f1947188c094fa5aef2beba34cf948151daa3b9b4ab9522dce4b",
+      "verification_spec_sha256": "b43768bc3caedfc91427ebd950ca35f1ef7fea8b563e33b20f05495da2ae0cdb",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "complete_real_roots": [
+          "-2 + sqrt(2)",
+          "-2 - sqrt(2)"
+        ],
+        "transformed_values": [
+          "-2 + sqrt(2)",
+          "-2 - sqrt(2)"
+        ],
+        "result": "2"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-280",
+      "review_no": 1239,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "9684bdd4aa9faee5085b8e218666bbdda81a1046bbe1bc9684ca06a95c3e4af6",
+      "verification_spec_sha256": "e9229e9f7546a6188724ed06f3ad30b51b20ec461446d90be4d182149c904095",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "21/4"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-281",
+      "review_no": 1692,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "95b74b9a83cfac5f85bd95eeccfec4f52d967e21c5fcb7953526bca9938d2a8e",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-282",
+      "review_no": 1715,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "fec851204c8e8ef01d0ecede0d2ae600986d0b9c0a775bfbdb456324e282560b",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-283",
+      "review_no": 1682,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "4a790547402bbe19e8e0935eb068832c1d3399cea437435343ae143b6e113855",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-284",
+      "review_no": 1688,
+      "kind": "manual_review_required",
+      "current_answer": "A",
+      "question_options_answer_sha256": "7287f9e072a9bdeb18329c649cb24bcd1e4872fdaceb4e7e542aea5ade88c86e",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-285",
+      "review_no": 1703,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "71ad857c75d1ab2c5fb703d4e1e5af2f44aa16a7498971241fcee3004bb24313",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-286",
+      "review_no": 1719,
+      "kind": "manual_review_required",
+      "current_answer": "D",
+      "question_options_answer_sha256": "181b116f9617afcd5c250315de2f2f83d1540a209cb5a1b624de1a9db8cac30e",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-287",
+      "review_no": 1735,
+      "kind": "derived_value",
+      "current_answer": "B",
+      "question_options_answer_sha256": "e4f70882c75de5d24cc922bb93c3b643b605af080291d9a81b78b0ef7d061575",
+      "verification_spec_sha256": "eb61e4333b49bc7b605ec3aca276c1eaa8b6b96accda1ad798699dac13ed368b",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "computed_value": "6"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-288",
+      "review_no": 1737,
+      "kind": "manual_review_required",
+      "current_answer": "C",
+      "question_options_answer_sha256": "3a45f49389dd32211a7b671bf64e20a83d77576a1aa391101800b40e34bf3e6e",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-289",
+      "review_no": 1730,
+      "kind": "derived_value",
+      "current_answer": "A",
+      "question_options_answer_sha256": "7e79856bf4ad4fb0d2a7e4c33e67307d6d63011dd1027cb2b50bda909f0958e8",
+      "verification_spec_sha256": "891af64ab8f7b165127b72f76801d4de657123ce752f5b9c3d70dd4a0618f175",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "computed_value": "28"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-290",
+      "review_no": 1733,
+      "kind": "manual_review_required",
+      "current_answer": "B",
+      "question_options_answer_sha256": "8e45bd67077b0184cd247422888e0271d8d5b2759f2fa48b4301ad2823e92ba6",
+      "verification_spec_sha256": "0eb15083f3f4739ed5fd1f3fa0adef1dac59a067f42303d89b7ccd4c054043b4",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "member_review_preserved_spec_not_programmable",
+      "reason": "概念或几何语义需后续阅读题面复核；不以结构检查替代数学证明。"
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-291",
+      "review_no": 1724,
+      "kind": "derived_value",
+      "current_answer": "C",
+      "question_options_answer_sha256": "d1e118e5ae5a9bd06154b0cf7bd044aafe7bc42ff298d9002bb0fff9b33a8567",
+      "verification_spec_sha256": "4a557ab620155ee44fb6beea28a772808281ef21f39b4dc6f1a91964fc1d225f",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "computed_value": "48"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-292",
+      "review_no": 1728,
+      "kind": "derived_value",
+      "current_answer": "D",
+      "question_options_answer_sha256": "b6f56936d1177e7158865f6287c55a9e9eed74f3b49b79894e570219ac74a869",
+      "verification_spec_sha256": "89e5c86a0d27642eb70be7425c450c660d93827eb2054020a9d1d1c36538671a",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "D"
+      ],
+      "detail": {
+        "computed_value": "102"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-293",
+      "review_no": 1726,
+      "kind": "finite_probability",
+      "current_answer": "B",
+      "question_options_answer_sha256": "97d0ea1fb78c40cd3434126f355e3e6a065c91da97b07295f7bc949b34a103a8",
+      "verification_spec_sha256": "5677b3cfe76c7f1c154f8f6a5a9403b7cc8305c64e0e772c5d4315d6214a75c0",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "wins": 12,
+        "outcomes": 25,
+        "probability": "12/25",
+        "method": "complete_labeled_outcome_enumeration"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-294",
+      "review_no": 1739,
+      "kind": "help_allocation",
+      "current_answer": "A",
+      "question_options_answer_sha256": "4ffc8fa597a9b395615859c1a18faf5a0dc9392a87035787d0b31b8b1f8b6786",
+      "verification_spec_sha256": "446b709257f73a3502de8cac2ef2d84e1b3d67c39614cc25b5588b6ed9d29203",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "all_feasible_allocations": [
+          {
+            "allocation": [
+              0,
+              0,
+              2
+            ],
+            "pass_probability": "1/36"
+          },
+          {
+            "allocation": [
+              0,
+              1,
+              1
+            ],
+            "pass_probability": "1/36"
+          },
+          {
+            "allocation": [
+              0,
+              2,
+              0
+            ],
+            "pass_probability": "1/30"
+          },
+          {
+            "allocation": [
+              1,
+              0,
+              1
+            ],
+            "pass_probability": "1/32"
+          },
+          {
+            "allocation": [
+              1,
+              1,
+              0
+            ],
+            "pass_probability": "1/30"
+          },
+          {
+            "allocation": [
+              2,
+              0,
+              0
+            ],
+            "pass_probability": "1/20"
+          }
+        ],
+        "maximum_probability": "1/20"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-295",
+      "review_no": 1768,
+      "kind": "independent_pair_parity",
+      "current_answer": "B",
+      "question_options_answer_sha256": "a6244da50ee4f0cc73f93bcac2c8f047000c0a51b01b61179067a7e661475498",
+      "verification_spec_sha256": "f8c59073329c37ecd36c2ee6ff7ff872cd5faae07b62b2a77f6b2b112c903b32",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "independent_labeled_outcomes": 1764,
+        "favorable": 864,
+        "probability": "24/49"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-296",
+      "review_no": 1752,
+      "kind": "finite_probability",
+      "current_answer": "B",
+      "question_options_answer_sha256": "3507074ca1a8d63f09438bb7a739dc5f55322854adf324ed337affde72afb613",
+      "verification_spec_sha256": "ea607c605dfec6df7002413d6f2812d0de2532ed5fff244f8895e67e803b5583",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "wins": 4,
+        "outcomes": 16,
+        "probability": "1/4",
+        "method": "complete_labeled_outcome_enumeration"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-297",
+      "review_no": 1790,
+      "kind": "referee_sequence",
+      "current_answer": "C",
+      "question_options_answer_sha256": "69c8be7396d02514ac3c9f873b6763ee992ba43471909443b0f288be5b4b4d86",
+      "verification_spec_sha256": "ece6640aaf5ee17064462f9011f94b7b23915307b9ecf1b019549fe8d90849e8",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "possible_referee_sequences": [
+          [
+            "丙",
+            "甲",
+            "丙",
+            "乙",
+            "丙",
+            "乙",
+            "丙"
+          ],
+          [
+            "丙",
+            "乙",
+            "丙",
+            "甲",
+            "丙",
+            "乙",
+            "丙"
+          ],
+          [
+            "丙",
+            "乙",
+            "丙",
+            "乙",
+            "丙",
+            "甲",
+            "丙"
+          ]
+        ],
+        "loser_values": [
+          "丙"
+        ],
+        "reason": "The next round referee lost the current round."
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-298",
+      "review_no": 1764,
+      "kind": "fair_reward",
+      "current_answer": "C",
+      "question_options_answer_sha256": "1629ab3424c672e29976f362443098a1dfc964b87761c9702080447ae04ce200",
+      "verification_spec_sha256": "cf44024186f66990d1f2cc4a5a4db8b4a4224fae401b06304fc1be37a5b6e5ad",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "C"
+      ],
+      "detail": {
+        "outcomes": 32,
+        "winning_counts": [
+          2,
+          10,
+          20
+        ],
+        "reward": "10",
+        "equal_mean_reward": "5/8"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-299",
+      "review_no": 1766,
+      "kind": "race_to_two",
+      "current_answer": "A",
+      "question_options_answer_sha256": "ede933394c011ba97b593e2341c94ad03a79c8d62b3d0fd80e1471392ff0b2fd",
+      "verification_spec_sha256": "4da86cea11164f2181fa12205175b2d926572dcb3601f51e67e733057dde17e2",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "A"
+      ],
+      "detail": {
+        "single_round_A_probability": "1/4",
+        "winning_score_sequences": [
+          "AA",
+          "ABA",
+          "BAA"
+        ],
+        "race_probability": "5/32"
+      }
+    },
+    {
+      "id": "EMB-V-WEB2R2-G9-300",
+      "review_no": 1780,
+      "kind": "polygon_angle_pairs",
+      "current_answer": "B",
+      "question_options_answer_sha256": "964805f4a9f1c1a5287819d9902138aa5dbe6f8e0ef6ff6b0dafe80d69fb4d55",
+      "verification_spec_sha256": "d2b639530afcda39c22b2ce912b52f6b2c24e54e37cc9aa81ad6a8cd2839166f",
+      "release_review_status": "member_reviewed_user_confirmed",
+      "status": "pass",
+      "matches": [
+        "B"
+      ],
+      "detail": {
+        "all_pairs": [
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            6,
+            12
+          ]
+        ],
+        "feasible_pairs": [
+          {
+            "sides": [
+              3,
+              4
+            ],
+            "angle_count_solutions": [
+              [
+                3,
+                2
+              ]
+            ]
+          },
+          {
+            "sides": [
+              3,
+              6
+            ],
+            "angle_count_solutions": [
+              [
+                2,
+                2
+              ],
+              [
+                4,
+                1
+              ]
+            ]
+          },
+          {
+            "sides": [
+              3,
+              12
+            ],
+            "angle_count_solutions": [
+              [
+                1,
+                2
+              ]
+            ]
+          }
+        ],
+        "probability": "1/2",
+        "scope": "Local 360-degree angle condition explicitly specified in the question, not a general global tiling theorem."
+      }
+    }
+  ]
+}

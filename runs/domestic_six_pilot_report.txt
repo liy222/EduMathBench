@@ -1,0 +1,9 @@
+API pilot report: issues_observed; outcome=api_or_probe_errors_observed (interim=false)
+Persisted remote requests: 60 / 60
+Accuracy values are debug-only and not formal scores.
+DeepSeek: text_and_image_probe_passed; requests=10; attempted=10; unrun=90; responses=10; parsed=10; image=3/3; errors=none; attempt failures=无
+阿里千问: text_and_image_probe_passed; requests=10; attempted=10; unrun=90; responses=9; parsed=9; image=2/3; errors=HTTP_400|invalid_parameter_error×1；图片尺寸限制; attempt failures=api_error×1
+智谱GLM: text_and_image_probe_passed; requests=10; attempted=10; unrun=90; responses=10; parsed=10; image=3/3; errors=none; attempt failures=无
+月之暗面Kimi: text_and_image_probe_passed; requests=10; attempted=6; unrun=94; responses=3; parsed=3; image=1/3; errors=HTTP_429×6；限流; attempt failures=api_error×6, transport_error×1
+MiniMax: request_errors_observed; requests=10; attempted=10; unrun=90; responses=0; parsed=0; image=0/3; errors=HTTP_402×10；余额不足; attempt failures=api_error×10
+字节豆包: text_and_image_probe_passed; requests=10; attempted=10; unrun=90; responses=9; parsed=9; image=2/3; errors=HTTP_400|InvalidParameter×1；图片尺寸限制; attempt failures=api_error×1

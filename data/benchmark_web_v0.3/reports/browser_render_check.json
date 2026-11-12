@@ -1,0 +1,82 @@
+{
+  "checked_at": "2026-11-10T14:13:06.319Z",
+  "data_sha256": "a38dabdd83ec3bde17eb26b92d1c5a1a4a81b52cf71cdb4b54df66c1b0eedfe4",
+  "engine": "installed Microsoft Edge via Playwright",
+  "file_protocol": true,
+  "records": 1800,
+  "viewports": [
+    1280,
+    390
+  ],
+  "render_visits": 3600,
+  "image_instances": 2586,
+  "formula_instances": 2214,
+  "issues": [],
+  "page_errors": [],
+  "external_requests": [],
+  "filters": [
+    {
+      "selector": "#split",
+      "value": "dev",
+      "expected": 150,
+      "got": 150,
+      "passed": true
+    },
+    {
+      "selector": "#split",
+      "value": "test",
+      "expected": 1650,
+      "got": 1650,
+      "passed": true
+    },
+    {
+      "selector": "#split",
+      "value": "debug",
+      "expected": 100,
+      "got": 100,
+      "passed": true
+    },
+    {
+      "selector": "#kind",
+      "value": "variant",
+      "expected": 300,
+      "got": 300,
+      "passed": true
+    },
+    {
+      "selector": "#origin",
+      "value": "new_web_crawl",
+      "expected": 1137,
+      "got": 1137,
+      "passed": true
+    },
+    {
+      "selector": "#solutionStatus",
+      "value": "has",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "selector": "#solutionStatus",
+      "value": "missing",
+      "expected": 1800,
+      "got": 1800,
+      "passed": true
+    },
+    {
+      "selector": "dev_and_variant",
+      "expected": 0,
+      "got": 0,
+      "passed": true
+    },
+    {
+      "selector": "variant_family",
+      "minimum": 2,
+      "got": 2,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "DOM, KaTeX, image decoding and overflow checks for each record at both widths; screenshots inspected separately. Not mathematical or full human visual approval."
+}

@@ -1,0 +1,35 @@
+{
+  "budget_authorization": "用户在本轮明确批准新增最多12次，四家问题项，含失败重试。",
+  "description": "仅复测首轮问题项，不是正式数学成绩或六模型完整比较。",
+  "expected_data_manifest_sha256": "eb350b5e13702ad13b11a29f005306a0d34aa0fb8e3de8024c09d54550483c25",
+  "max_requests_total": 0,
+  "models": [
+    {
+      "config": "config/evaluation_retest_12/qwen3.8-flash.json",
+      "output_name": "qwen3.8-flash",
+      "probe_goal": "small_image_and_text_control",
+      "vendor": "阿里千问"
+    },
+    {
+      "config": "config/evaluation_retest_12/doubao-seed-2-1-lite-260915.json",
+      "output_name": "doubao-seed-2.1-lite",
+      "probe_goal": "small_image_and_text_control",
+      "vendor": "字节豆包"
+    },
+    {
+      "config": "config/evaluation_retest_12/kimi-k3.json",
+      "output_name": "kimi-k3",
+      "probe_goal": "rate_limit_and_image_retest",
+      "vendor": "月之暗面Kimi"
+    },
+    {
+      "config": "config/evaluation_retest_12/MiniMax-M3.1-Flash.json",
+      "output_name": "minimax-m3.1-flash",
+      "probe_goal": "account_text_only",
+      "vendor": "MiniMax"
+    }
+  ],
+  "split": "debug",
+  "stage": "domestic_four_retest",
+  "version": "domestic-four-retest-20261111-v1"
+}

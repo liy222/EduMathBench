@@ -1,0 +1,11 @@
+问题项复测：issues_observed（interim=false）
+本次持久化请求 12/12；上次60次，本次最多12次，合计最多72次。
+四项目标：未全部满足或仍待完成；回答解析不代表正式数学成绩。
+qwen3.8-flash: goal=small_image_and_text_control; requests=3; attempted=3; parsed=2; errors=无
+  问题题 EMB-P-WEB2-TIKU-1754090: status=parse_failure; 图片尺寸复测=通过（4张8x35→32x35）；答案解析=未通过；截断=是；解析原因=未输出唯一最终答案
+doubao-seed-2-1-lite-260915: goal=small_image_and_text_control; requests=3; attempted=3; parsed=3; errors=无
+  问题题 EMB-P-WEB2-TIKU-1754090: status=ok; 图片尺寸复测=通过（4张8x35→32x35）；答案解析=通过；截断=否；解析原因=无
+kimi-k3: goal=rate_limit_and_image_retest; requests=5; attempted=5; parsed=5; errors=无
+  Kimi: 最小间隔=21.00046706199646秒；HTTP429=0；目标=满足
+MiniMax-M3.1-Flash: goal=account_text_only; requests=1; attempted=1; parsed=1; errors=无
+  MiniMax: 账号文字探测=通过；图片=未测试（本轮仅文字账号探测）

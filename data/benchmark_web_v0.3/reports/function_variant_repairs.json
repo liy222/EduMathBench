@@ -1,0 +1,94 @@
+[
+  {
+    "id": "EMB-V-WEB2R2-G8-126",
+    "resolution": {
+      "reason": "依据成员指出的知识范围偏移，保留母题情境和主要数量关系，改问完整函数关系/定义域或函数图象上的点，使题面实际考查八年级函数。",
+      "predecessor": {
+        "question": "水箱有42升水，每分钟排出0.7升，20分钟后余水为（ ）",
+        "options": {
+          "A": "14升",
+          "B": "21升",
+          "C": "28升",
+          "D": "35升"
+        },
+        "answer": "C",
+        "grade": 7,
+        "module": "数与式",
+        "verification_spec": {
+          "kind": "derived_value",
+          "derived_expr": "42-0.7*20",
+          "option_exprs": {
+            "A": "14",
+            "B": "21",
+            "C": "28",
+            "D": "35"
+          }
+        }
+      },
+      "new_parent_snapshot": {
+        "id": "EMB-P-WEB-FUNCTIONS-BASICS2026-4",
+        "question": "水箱内有30 L水，以0.2 L/min的速度排水。剩余水量 Q（L）与排水时间 t（min）的关系式为（ ）",
+        "options": {
+          "A": "Q=0.2t",
+          "B": "Q=30−0.2t",
+          "C": "t=0.2Q",
+          "D": "t=30−0.2Q"
+        },
+        "answer": "B"
+      }
+    },
+    "program_check": {
+      "affine_relation": "42 - 7*t/10",
+      "physical_domain": "[0, 60]",
+      "empty_tank_at": "60",
+      "method": "exact affine identity plus nonnegative time/remaining water constraints"
+    }
+  },
+  {
+    "id": "EMB-V-WEB2R2-G8-131",
+    "resolution": {
+      "reason": "依据成员指出的知识范围偏移，保留母题情境和主要数量关系，改问完整函数关系/定义域或函数图象上的点，使题面实际考查八年级函数。",
+      "predecessor": {
+        "question": "人以每分钟75米匀速步行，8分钟行进（ ）米。",
+        "options": {
+          "A": "450",
+          "B": "525",
+          "C": "600",
+          "D": "675"
+        },
+        "answer": "C",
+        "grade": 7,
+        "module": "数与式",
+        "verification_spec": {
+          "kind": "derived_value",
+          "derived_expr": "75*8",
+          "option_exprs": {
+            "A": "450",
+            "B": "525",
+            "C": "600",
+            "D": "675"
+          }
+        }
+      },
+      "new_parent_snapshot": {
+        "id": "EMB-P-WEB-ALG-ZJ2026-4",
+        "question": "一辆汽车以80 km/h的平均速度在公路上行驶，则它所走的路程s（km）与所用的时间t（h）之间的关系式为（ ）",
+        "options": {
+          "A": "s=80−t",
+          "B": "s=t/80",
+          "C": "s=80/t",
+          "D": "s=80t"
+        },
+        "answer": "D"
+      }
+    },
+    "program_check": {
+      "statement_truth": {
+        "A": true,
+        "B": false,
+        "C": false,
+        "D": false
+      }
+    }
+  }
+]

@@ -1,0 +1,209 @@
+{
+  "stage": "domestic_four_retest",
+  "batch_state": "complete_with_issues",
+  "interim": false,
+  "state": "issues_observed",
+  "total_requests": 12,
+  "request_cap": 12,
+  "within_cap": true,
+  "four_goals_satisfied": false,
+  "previous_run_requests": 60,
+  "combined_max_requests": 72,
+  "models": [
+    {
+      "output_name": "qwen3.8-flash",
+      "model": "qwen3.8-flash",
+      "probe_goal": "small_image_and_text_control",
+      "requests": 3,
+      "attempted": 3,
+      "parsed": 2,
+      "prediction_log_available": true,
+      "finish_reason_length": 1,
+      "parse_failure_reasons": [
+        "未输出唯一最终答案"
+      ],
+      "errors": [],
+      "problem_item": {
+        "status": "parse_failure",
+        "image_dimensions_retest_passed": true,
+        "problem_answer_parse_passed": false,
+        "parse_failure_reason": "未输出唯一最终答案",
+        "finish_reason_length": true,
+        "http_400_count": 0,
+        "image_processing": [
+          {
+            "source_dimensions": [
+              157,
+              139
+            ],
+            "derived_dimensions": [
+              157,
+              139
+            ],
+            "source_sha256": "cdbbb9d311f5a3540fd1e9e4a3a36283b6fe9a07384c63f41eaf189a1d461fa9",
+            "derived_sha256": "cdbbb9d311f5a3540fd1e9e4a3a36283b6fe9a07384c63f41eaf189a1d461fa9"
+          },
+          {
+            "source_dimensions": [
+              8,
+              35
+            ],
+            "derived_dimensions": [
+              32,
+              35
+            ],
+            "source_sha256": "a4b96a90063dd59fa7bc0cb4031b9c33f9b834db341c1df9c9dc67300a3f8785",
+            "derived_sha256": "a63163e15c9e2d75b0e259a0fbd6923e830aae1d7b233c2878b13e5b2ec40a55"
+          },
+          {
+            "source_dimensions": [
+              8,
+              35
+            ],
+            "derived_dimensions": [
+              32,
+              35
+            ],
+            "source_sha256": "2e5f7a02c050cb9f8c94f74ee3264ac9f0d3a6576e61240419f9f5b90c691964",
+            "derived_sha256": "01a54dcdd71637dc99ad9576a82ad98b0686f59b8ab3eaaadbf886fd7aa7b97c"
+          },
+          {
+            "source_dimensions": [
+              8,
+              35
+            ],
+            "derived_dimensions": [
+              32,
+              35
+            ],
+            "source_sha256": "1696fb93fe17cb7f68baafca3cbc8bb71786b522404f9dbc5d92e43a92a70ce5",
+            "derived_sha256": "849bbbcff70c420d77fab4f5df9df476e428651cb886bb699db679194e835e39"
+          },
+          {
+            "source_dimensions": [
+              8,
+              35
+            ],
+            "derived_dimensions": [
+              32,
+              35
+            ],
+            "source_sha256": "af687464a9a701c083e44023426800e8b137aa10be2a1ac9df8c6b12676321fd",
+            "derived_sha256": "5e18958b6842fece8941e783b7d6649e00e4e9ed69ca9425d006d7e48230446e"
+          }
+        ]
+      }
+    },
+    {
+      "output_name": "doubao-seed-2.1-lite",
+      "model": "doubao-seed-2-1-lite-260915",
+      "probe_goal": "small_image_and_text_control",
+      "requests": 3,
+      "attempted": 3,
+      "parsed": 3,
+      "prediction_log_available": true,
+      "finish_reason_length": 0,
+      "parse_failure_reasons": [],
+      "errors": [],
+      "problem_item": {
+        "status": "ok",
+        "image_dimensions_retest_passed": true,
+        "problem_answer_parse_passed": true,
+        "parse_failure_reason": null,
+        "finish_reason_length": false,
+        "http_400_count": 0,
+        "image_processing": [
+          {
+            "source_dimensions": [
+              157,
+              139
+            ],
+            "derived_dimensions": [
+              157,
+              139
+            ],
+            "source_sha256": "cdbbb9d311f5a3540fd1e9e4a3a36283b6fe9a07384c63f41eaf189a1d461fa9",
+            "derived_sha256": "cdbbb9d311f5a3540fd1e9e4a3a36283b6fe9a07384c63f41eaf189a1d461fa9"
+          },
+          {
+            "source_dimensions": [
+              8,
+              35
+            ],
+            "derived_dimensions": [
+              32,
+              35
+            ],
+            "source_sha256": "a4b96a90063dd59fa7bc0cb4031b9c33f9b834db341c1df9c9dc67300a3f8785",
+            "derived_sha256": "a63163e15c9e2d75b0e259a0fbd6923e830aae1d7b233c2878b13e5b2ec40a55"
+          },
+          {
+            "source_dimensions": [
+              8,
+              35
+            ],
+            "derived_dimensions": [
+              32,
+              35
+            ],
+            "source_sha256": "2e5f7a02c050cb9f8c94f74ee3264ac9f0d3a6576e61240419f9f5b90c691964",
+            "derived_sha256": "01a54dcdd71637dc99ad9576a82ad98b0686f59b8ab3eaaadbf886fd7aa7b97c"
+          },
+          {
+            "source_dimensions": [
+              8,
+              35
+            ],
+            "derived_dimensions": [
+              32,
+              35
+            ],
+            "source_sha256": "1696fb93fe17cb7f68baafca3cbc8bb71786b522404f9dbc5d92e43a92a70ce5",
+            "derived_sha256": "849bbbcff70c420d77fab4f5df9df476e428651cb886bb699db679194e835e39"
+          },
+          {
+            "source_dimensions": [
+              8,
+              35
+            ],
+            "derived_dimensions": [
+              32,
+              35
+            ],
+            "source_sha256": "af687464a9a701c083e44023426800e8b137aa10be2a1ac9df8c6b12676321fd",
+            "derived_sha256": "5e18958b6842fece8941e783b7d6649e00e4e9ed69ca9425d006d7e48230446e"
+          }
+        ]
+      }
+    },
+    {
+      "output_name": "kimi-k3",
+      "model": "kimi-k3",
+      "probe_goal": "rate_limit_and_image_retest",
+      "requests": 5,
+      "attempted": 5,
+      "parsed": 5,
+      "prediction_log_available": true,
+      "finish_reason_length": 0,
+      "parse_failure_reasons": [],
+      "errors": [],
+      "minimum_request_interval_seconds": 21.00046706199646,
+      "http_429_count": 0,
+      "rate_limit_retest_passed": true
+    },
+    {
+      "output_name": "minimax-m3.1-flash",
+      "model": "MiniMax-M3.1-Flash",
+      "probe_goal": "account_text_only",
+      "requests": 1,
+      "attempted": 1,
+      "parsed": 1,
+      "prediction_log_available": true,
+      "finish_reason_length": 0,
+      "parse_failure_reasons": [],
+      "errors": [],
+      "probe_passed": true,
+      "image_test": "未测试（本轮仅文字账号探测）"
+    }
+  ]
+}

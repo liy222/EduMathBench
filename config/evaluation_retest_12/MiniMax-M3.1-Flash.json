@@ -1,0 +1,42 @@
+{
+  "account_note": "首轮HTTP402余额不足；用户处理余额后才能重新预检。",
+  "backend": {
+    "api_key_env": "MINIMAX_API_KEY",
+    "base_url": "https://api.minimax.cn/v1",
+    "max_output_tokens": 2048,
+    "max_retries": 1,
+    "minimum_image_dimension": 32,
+    "model": "MiniMax-M3.1-Flash",
+    "output_token_parameter": "max_completion_tokens",
+    "request_extra": {
+      "reasoning_effort": "low",
+      "thinking": {
+        "type": "adaptive"
+      }
+    },
+    "request_interval_seconds": 1,
+    "retry_backoff_seconds": 2,
+    "supports_images": true,
+    "temperature": null,
+    "timeout_seconds": 120,
+    "type": "openai-compatible"
+  },
+  "data_root": "data/benchmark_web_v0.3",
+  "description": "用户授权新增12次的问题项复测；本模型最多1次，包含重试。",
+  "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+  "max_requests": 0,
+  "max_total_tokens": null,
+  "parameter_mode": "forced_thinking_low",
+  "parameter_note": "M3.1-Flash不能关闭思考，temperature固定1且不接受调节；省略温度并用max_completion_tokens。low仅降低推理强度，不代表无思考。",
+  "preflight_status": "not_run",
+  "previous_pilot_config_sha256": "e93b6586da0a9348d7f1dd386ebbe9ccbb3b91ac239a2109e3ede7e7db8c0c51",
+  "priority_ids": [
+    "EMB-P-G7-000009"
+  ],
+  "probe_goal": "account_text_only",
+  "sources": [
+    "https://platform.minimax.cn/docs/api-reference/text-openai-api"
+  ],
+  "split": "debug",
+  "verified_date": "2026-11-11"
+}

@@ -1,0 +1,41 @@
+{
+  "budget_authorization": "用户明确批准新增最多1000次，按顺序完成补验与六家150题开发集，含重试。",
+  "expected_data_manifest_sha256": "eb350b5e13702ad13b11a29f005306a0d34aa0fb8e3de8024c09d54550483c25",
+  "max_requests_total": 0,
+  "models": [
+    {
+      "config": "config/campaign_1000/development/kimi-k3.json",
+      "output_name": "kimi-k3",
+      "vendor": "月之暗面Kimi"
+    },
+    {
+      "config": "config/campaign_1000/development/deepseek-flash.json",
+      "output_name": "deepseek-flash",
+      "vendor": "DeepSeek"
+    },
+    {
+      "config": "config/campaign_1000/development/qwen3.8-flash.json",
+      "output_name": "qwen3.8-flash",
+      "vendor": "阿里千问"
+    },
+    {
+      "config": "config/campaign_1000/development/glm-5.3-flash.json",
+      "output_name": "glm-5.3-flash",
+      "vendor": "智谱GLM"
+    },
+    {
+      "config": "config/campaign_1000/development/MiniMax-M3.1-Flash.json",
+      "output_name": "minimax-m3.1-flash",
+      "vendor": "MiniMax"
+    },
+    {
+      "config": "config/campaign_1000/development/doubao-seed-2-1-lite-260915.json",
+      "output_name": "doubao-seed-2.1-lite",
+      "vendor": "字节豆包"
+    }
+  ],
+  "parallel_workers": 3,
+  "split": "dev",
+  "stage": "domestic_six_development",
+  "version": "campaign-1000-development-v1"
+}

@@ -1,0 +1,92 @@
+EduMathBench 国产六模型首轮运行说明（2026-11-11）
+
+一、固定名单和接口
+本轮只运行以下六家官方接口。海外模型和旧千问/GLM模板不进入批次。
+DeepSeek：deepseek-flash，DEEPSEEK_API_KEY，https://api.deepseek.com
+千问：qwen3.8-flash，DASHSCOPE_API_KEY，https://dashscope.aliyuncs.com/compatible-mode/v1
+GLM：glm-5.3-flash，ZHIPU_API_KEY，https://open.bigmodel.cn/api/paas/v4
+Kimi：kimi-k3，MOONSHOT_API_KEY，https://api.moonshot.cn/v1
+MiniMax：MiniMax-M3.1-Flash，MINIMAX_API_KEY，https://api.minimax.cn/v1
+豆包：doubao-seed-2-1-lite-260915，ARK_API_KEY，https://ark.cn-beijing.volces.com/api/v3
+
+批次名单：config/evaluation_domestic_six.json。具体参数：名单指向的六份JSON配置。
+千问当前沿用官方仍支持的北京旧域名；若使用其他地域或业务空间地址，应在运行前修改base_url并使用匹配地域的密钥。本轮使用按量API地址，不使用Coding Plan工具专用地址。
+
+二、填写密钥
+打开 .env.local，在六行等号后分别填写对应厂商API Key并保存。
+空值表示尚未配置，不创建假密钥。文件已加入.gitignore；请留在本机，复制项目给同学时不要包含此文件。
+统一入口和批次直接入口在启动时把这些值载入当前程序的环境变量，不需要修改系统环境变量，也不需要重启电脑。已有的非空环境变量优先；如需改用文件值，先清除旧环境变量。
+该文件只按文本解析，不执行命令，不展开变量，不打印密钥值。检查报告仅保存环境变量名称及是否存在。
+
+三、先做本地检查
+在项目文件夹打开PowerShell，执行：
+./运行评测流程.ps1 -Action batch-check
+
+报告：runs/domestic_six_debug/readiness.json。
+检查六模型名单、输入摘要、同一题集、同一提示、配置、密钥是否存在、各模型及总调用上限。此步骤不向模型发送请求，不读取答案表，不证明账号已经可用。
+ready_for_api=false的原因会列在issues中。首轮六家合计60次（含重试）已完成；实际运行结果见runs/domestic_six_pilot_report.txt，不以启动前readiness报告代替运行结果。
+
+四、预算与首次预检
+本轮批次max_requests_total=60，六份模型配置各max_requests=10，严格包含重试。后续扩量应另行获得新的调用上限、保存新批次配置并使用新输出目录，不重用本轮额度重复开跑。
+上限包含失败重试和断线后已预留的请求。debug100每家完整成功至少100次，六家至少600次；每题最多重试1次时，全部题均能获得完整重试机会的上限为每家200次、合计1200次。本轮每家10次，剩余题明确记为未运行。优先顺序为七、八、九年级各一道文字题和一道带图题，随后为原顺序余题；不删题，不把小样本准确率当作全库结论。
+max_total_tokens按已观察的usage停止后续请求，不能保证硬金额上限；请求次数也不是金额。每题最多输出2048 token的草稿参数仍待预检，思考token可能占用输出上限。
+
+首轮执行命令（已完成，不使用新目录重复消耗已授权额度）：
+./运行评测流程.ps1 -Action batch-run
+中断后配置、数据、提示均不变时：
+./运行评测流程.ps1 -Action batch-run -Resume
+
+批次输出runs/domestic_six_debug/。每家独立子目录保存请求、原始响应、状态、用量、逐题结果及评分；批次summary汇总六家。请求不包含答案；只在该模型运行结束后，评分命令读取独立答案表。
+某家接口错误不会被当作模型数学错误或账号可用，批次报告会明确异常。接口报错修参后应使用新批次目录，不能修改旧批次后强行续跑。
+
+五、可比性和预检边界
+六家使用同一v0.3题库、debug100与提示emb-choice-v1。全部支持图文输入的配置，实际账号和图片兼容性仍须真实请求确认。
+DeepSeek、千问、豆包草稿显式关闭思考，temperature=0。
+GLM-5.3-Flash、Kimi K3、MiniMax-M3.1-Flash强制思考，草稿显式使用reasoning_effort=low；low不代表关闭思考。
+Kimi和MiniMax固定temperature=1，程序省略温度字段；Kimi/MiniMax使用max_completion_tokens，其余使用max_tokens。温度和思考机制无法完全统一，不把本轮描述为同温度、同推理计算量比较。
+先检查账号权限、图片输入、错误类型、finish_reason=length和最终答案缺失。只在开发侧确定输出上限和模式，保存新配置后再固定实验；不使用测试集答案调参。
+当前批次为调试预检，不自动运行正式测试集。正式测试集1650题仍需后续明确启动。
+
+官方核对资料（2026-11-11）
+千问型号：https://help.aliyun.com/zh/model-studio/qwen3-8-flash
+千问思考/视觉：https://help.aliyun.com/zh/model-studio/vision
+千问地址：https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope
+GLM：https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash.md
+Kimi：https://platform.kimi.com/docs/guide/kimi-k3-quickstart
+MiniMax：https://platform.minimax.cn/docs/api-reference/text-openai-api
+豆包：https://docs.volcengine.com/docs/ark/deep-thinking?lang=zh
+这些文档用于配置兼容性核对，不代替真实账号测试或模型数学能力实验。
+
+六、本轮结果与后续修订
+首轮已完成60/60次请求；DeepSeek10题、千问9题、GLM10题、Kimi3题、豆包9题返回可解析答案。Kimi因重试仅实际尝试6题，其余各尝试10题。MiniMax返回余额不足，尚无成功答案。请求次数与不同题数分别记录。
+千问/豆包拒绝了同一题中的8x35小图，Kimi返回组织上限3次/分钟，MiniMax返回HTTP402。没有基于这些小样本给模型排名；接口错误单列，不把它当作数学解题结论。
+
+已实现可选minimum_image_dimension=32：只给尺寸不足的必要原图加白边，不缩放、不改原文件、不生成整题截图；记录源/派生摘要、尺寸、补边和Pillow版本。本机Pillow13.0.0已可用。全1800题1283处图片引用完成离线检查，其中742处需要补白，源文件摘要保持一致。Kimi后续请求间隔改为21秒，重试退避也为21秒；同组织其他调用仍可能触发限流。
+77项评测相关软件测试通过。以上程序修订尚未API复测，不增加本轮付费请求。正式测试集未运行。
+
+后处理与复现命令（均不请求API）：
+./运行评测流程.ps1 -Action pilot-report
+./运行评测流程.ps1 -Action image-check
+./运行评测流程.ps1 -Action prepare-followup
+
+机器结果：runs/domestic_six_pilot_report.json；表格：runs/domestic_six_pilot_report.csv；简报：runs/domestic_six_pilot_report.txt。
+首轮代码/无密钥配置快照：runs/domestic_six_implementation/，六个run.json的执行引擎摘要均与快照匹配。密钥文件未复制。
+后续草稿：config/evaluation_domestic_six_followup.json及config/evaluation_after_pilot/，所有请求上限为0。prepare-followup会重新生成这些未启用草稿，后续填写预算后不要再用它覆盖配置。
+首轮用尽60次授权后没有自动追加；后续使用新配置和运行目录，保留首轮结果。
+
+七、第二轮12次问题项复测（2026-11-11）
+用户另行授权最多12次，分配千问3、豆包3、Kimi5、MiniMax1，包含失败重试。实际12次全部收到接口响应。
+千问、豆包均接受1754090题的补白图片，四张选项图8x35变为32x35，源图及几何主图不变。豆包3题均有最终答案；千问2题有最终答案，问题几何题反复推导直到completion_tokens=2048、finish_reason=length，被截断且没有唯一最终答案。此项记为输出截断，不记为图片尺寸错误，也不猜测中间候选答案。
+Kimi5题均返回可解析答案，HTTP429为0，实际请求最小间隔21.000秒。MiniMax的单次文字账号探测通过；本轮未测MiniMax图片，不能据此宣布其图片测试通过。
+报告：runs/domestic_four_retest_report.json及同名txt。汇总程序：scripts/summarize_api_retest.py，只读取本地日志；加--self-check可运行合成规则检查。
+冻结配置：config/evaluation_retest_12.json及config/evaluation_retest_12/。运行目录：runs/domestic_four_retest_12/。执行代码和无密钥配置快照：runs/domestic_four_retest_implementation/。
+两轮累计72次额度已经用完，不再自动调用。后续停用草稿中千问max_output_tokens提高至8192，调用上限保持0，尚未验证提高上限的效果。下一步需新的调用上限来验证千问较长输出及MiniMax图片。
+
+八、步骤1、2已完成：补验、dev150与协议冻结
+用户另外批准新增最多1000次。先完成Qwen/MiniMax补验8次，再运行六家各150题开发集，共900份答题记录；本轮记账922次，包括重试和中断预留，未超上限。此前72次单独列示，累计994次记账。正式测试集未运行。
+六家均使用emb-choice-v1、8192输出上限、必要小图补白至32像素；Kimi请求至少间隔21秒。思考模式和温度按各家实际支持情况保留，不能表述为完全相同推理计算量。模型原始回复、请求、使用量未知项及各次attempt均保存。
+程序遇Windows文件占用后在原账目下续跑。原子替换重试和中断记账修订前后，900份请求内容逐字节一致，原题库与图片未改。已提交结果不重复请求；中断时三次结果未知的调用仍计入预算。
+六家150题均完成最终接口响应与评分；DeepSeek1、Qwen4、GLM1条未返回有效最终答案，按预先的规则计错保留，未手工补答案。135项评测相关软件测试通过；离线审计核对配置、数据/答案SHA、完整ID、真实请求、源码版本、原始响应与评分，协议状态frozen_with_observed_model_failures。
+结果为开发集表现，用于确定和固定参数，不是正式测试集排名。详细正确数及准确率见runs/campaign_1000/完成说明.txt；JSON结果见runs/campaign_1000/reports/development_report.json；冻结输入/提示词/参数与模式说明见runs/campaign_1000/reports/frozen_protocol.json。
+执行/续跑入口：python scripts/run_development_campaign.py run（已有记录加--resume）；仅在当前明确授权范围内使用，不重新生成已启动配置。进度入口：python scripts/development_campaign_status.py。离线审计：python scripts/freeze_development_protocol.py。完成发布：python scripts/finalize_development_campaign.py。审计和发布不请求模型。
+后续正式测试需要独立配置及新的明确调用上限，本轮不自动启动。

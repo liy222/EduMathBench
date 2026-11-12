@@ -1,0 +1,70 @@
+{
+  "prefer_text": true,
+  "tasks": [
+    {
+      "site": "21cnjy",
+      "name": "二一组卷网",
+      "url": "https://zujuan.21cnjy.com/question?xd=2&chid=3&sel_categories=&knowledges=127&difficult_index=3&question_source=5&question_type_ids=1&district_id=1&exam_type=&kid_num=&grade_id=&sort_field=time&filterquestion=0&is_explain=&content=&page=1&terms=&tree_type=knowledge&province=1&joinType=&version_id=&per-page=10",
+      "filters": {
+        "knowledge": "解一元一次方程",
+        "knowledge_path": [
+          "方程与不等式",
+          "一元一次方程",
+          "解一元一次方程"
+        ],
+        "type": "单选题",
+        "difficulty": "普通",
+        "source": "期末",
+        "source_filter_supported": true,
+        "grade": 7,
+        "module": "方程与不等式"
+      },
+      "verified_in_browser": "2026-10-22",
+      "knowledge_parameter_evidence": "2026-10-22 normal page JS joins checked knowledge IDs as comma-separated string",
+      "knowledge_id": "127"
+    },
+    {
+      "site": "chujuan",
+      "name": "出卷网",
+      "url": "https://www.chujuan.cn/question?xd=2&chid=3&sel_categories=&knowledges=127&difficult_index=3&question_source=5&question_type_ids=1&district_id=0&exam_type=&kid_num=&grade_id=&sort_field=time&filterquestion=0&is_explain=&content=&page=1&terms=&tree_type=knowledge&version_id=&per-page=10",
+      "filters": {
+        "knowledge": "解一元一次方程",
+        "knowledge_path": [
+          "方程与不等式",
+          "一元一次方程",
+          "解一元一次方程"
+        ],
+        "type": "单选题",
+        "difficulty": "普通",
+        "source": "期末",
+        "source_filter_supported": true,
+        "grade": 7,
+        "module": "方程与不等式"
+      },
+      "verified_in_browser": "2026-10-22",
+      "knowledge_parameter_evidence": "2026-10-22 normal page JS joins checked knowledge IDs as comma-separated string",
+      "knowledge_id": "127"
+    },
+    {
+      "site": "jyeoo",
+      "name": "菁优网",
+      "url": "https://www.jyeoo.com/math/ques/search?f=1&isMutiple=0&q=22286&lbs=&ct=1&dg=13&so=6&pd=1&mindg=0.1&maxdg=0.9",
+      "filters": {
+        "knowledge": "解一元一次方程",
+        "knowledge_path": [
+          "方程与不等式",
+          "一元一次方程",
+          "解一元一次方程"
+        ],
+        "type": "单选题",
+        "difficulty": "中档",
+        "source": "期末",
+        "source_filter_supported": true,
+        "grade": 7,
+        "module": "方程与不等式"
+      },
+      "verified_in_browser": "2026-10-22",
+      "knowledge_id": "22286"
+    }
+  ]
+}

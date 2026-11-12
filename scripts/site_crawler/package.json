@@ -1,0 +1,11 @@
+{
+  "name": "edumathbench-site-crawler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "node browser_crawler.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-11-12",
+  "offline_software_tests": {
+    "passed": 135,
+    "failed": 0,
+    "modules": [
+      "test_eval_engine",
+      "test_eval_batch",
+      "test_development_campaign",
+      "test_eval_credentials",
+      "test_freeze_development_protocol"
+    ]
+  },
+  "publication_checks": {
+    "tracked_files_before_report": 1452,
+    "tracked_bytes_before_report": 42827951,
+    "staged_files_byte_identical": true,
+    "actual_configured_key_matches": 0,
+    "question_count": 1800,
+    "jsonl_csv_and_image_hash_checks": "passed"
+  },
+  "scope": "Public metadata derivative; model inputs and answers retain their original bytes. No API calls were made for publication validation."
+}

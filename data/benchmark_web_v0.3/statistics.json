@@ -1,0 +1,113 @@
+{
+  "count": 1800,
+  "kinds": {
+    "public": 1500,
+    "variant": 300
+  },
+  "grades": {
+    "7": 600,
+    "8": 600,
+    "9": 600
+  },
+  "original_grade_modules": [
+    {
+      "grade": 7,
+      "module": "几何",
+      "count": 100
+    },
+    {
+      "grade": 7,
+      "module": "数与式",
+      "count": 200
+    },
+    {
+      "grade": 7,
+      "module": "方程与不等式",
+      "count": 150
+    },
+    {
+      "grade": 7,
+      "module": "统计与概率",
+      "count": 50
+    },
+    {
+      "grade": 8,
+      "module": "几何",
+      "count": 100
+    },
+    {
+      "grade": 8,
+      "module": "函数",
+      "count": 100
+    },
+    {
+      "grade": 8,
+      "module": "数与式",
+      "count": 100
+    },
+    {
+      "grade": 8,
+      "module": "方程与不等式",
+      "count": 150
+    },
+    {
+      "grade": 8,
+      "module": "统计与概率",
+      "count": 50
+    },
+    {
+      "grade": 9,
+      "module": "几何",
+      "count": 150
+    },
+    {
+      "grade": 9,
+      "module": "函数",
+      "count": 200
+    },
+    {
+      "grade": 9,
+      "module": "方程与不等式",
+      "count": 50
+    },
+    {
+      "grade": 9,
+      "module": "统计与概率",
+      "count": 100
+    }
+  ],
+  "public_difficulty": {
+    "基础": 600,
+    "中等": 600,
+    "困难": 300
+  },
+  "variant_difficulty": {
+    "基础": 120,
+    "中等": 121,
+    "困难": 59
+  },
+  "split": {
+    "dev": 150,
+    "test": 1650
+  },
+  "dev_grades": {
+    "7": 50,
+    "8": 50,
+    "9": 50
+  },
+  "debug": 100,
+  "with_necessary_images": 462,
+  "asset_occurrences": 1283,
+  "review_basis": {
+    "member_reviewed_user_confirmed": 1710,
+    "program_checked_cached_replacement": 87,
+    "assistant_repaired_variant_program_verified": 3
+  },
+  "acquisition": {
+    "retained_legacy_web": 363,
+    "new_web_crawl": 1137,
+    "assistant_generated_variant": 300
+  },
+  "all_mother_pairs_in_test": true,
+  "whole_question_screenshots_used_as_inputs": 0
+}

@@ -1,0 +1,708 @@
+{
+  "state": "frozen_with_observed_model_failures",
+  "development": [
+    {
+      "output_name": "kimi-k3",
+      "model": "kimi-k3",
+      "state": "complete",
+      "operationally_complete": true,
+      "qualified_for_development": true,
+      "issues": [],
+      "status_counts": {
+        "ok": 150
+      },
+      "requests": 154,
+      "tokens": {
+        "total_tokens_known": 74557,
+        "known_usage_requests": 150,
+        "unknown_usage_requests": 4
+      },
+      "http_error_groups": {},
+      "attempt_status_groups": {
+        "received": 150,
+        "timeout": 3
+      },
+      "operational_blocker_groups": {},
+      "historical_attempt_errors": {
+        "timeout": 3
+      },
+      "recovered_errors": {
+        "timeout": 3
+      },
+      "unresolved_final_operational_failures": {},
+      "observed_model_failures": {},
+      "observed_failure_question_count": 0,
+      "finish_reason_length": 0,
+      "minimum_request_interval_seconds": 21.000104904174805,
+      "correct": 147,
+      "attempted": 150,
+      "accuracy_correct_over_attempted_dev_only": 0.98,
+      "accuracy_among_parsed_dev_only": 0.98,
+      "answer_coverage_dev_only": 1.0,
+      "identity": {
+        "config_sha256": "dbcabed3d8d2a8e445eb798a725313f40acfdacf967ac75d1eaa31f51325552f",
+        "input_sha256": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+        "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+        "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+        "split": "dev"
+      },
+      "score_recheck_path": "runs\\campaign_1000\\reports\\rechecked_scores\\kimi-k3.json",
+      "config": {
+        "backend": {
+          "api_key_env": "MOONSHOT_API_KEY",
+          "base_url": "https://api.moonshot.cn/v1",
+          "max_output_tokens": 8192,
+          "max_retries": 1,
+          "minimum_image_dimension": 32,
+          "model": "kimi-k3",
+          "output_token_parameter": "max_completion_tokens",
+          "request_extra": {
+            "reasoning_effort": "low"
+          },
+          "request_interval_seconds": 21,
+          "retry_backoff_seconds": 21,
+          "supports_images": true,
+          "temperature": null,
+          "timeout_seconds": 120,
+          "type": "openai-compatible"
+        },
+        "data_root": "data\\benchmark_web_v0.3",
+        "description": "本轮新增最多1000次授权下的development阶段，模型上限165次，含重试；不运行test。",
+        "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+        "max_requests": 165,
+        "max_total_tokens": null,
+        "parameter_mode": "forced_thinking_low",
+        "parameter_note": "K3始终思考，temperature固定1且官方建议不传；使用max_completion_tokens。先以low强度做账号/图像预检，输出上限在开发侧检查截断后冻结。",
+        "preflight_status": "campaign_prepared_not_run",
+        "previous_pilot_config_sha256": "599bee039ed9f6f84c9e7c24ace142619116c03ac0fe18980b09a44bb640563c",
+        "priority_ids": [
+          "EMB-P-WEB2-TIKU-1754090",
+          "EMB-P-G7-000009",
+          "EMB-P-WEB2-TIKU-1899101",
+          "EMB-P-G8-000014",
+          "EMB-P-WEB2-TIKU-1920731",
+          "EMB-P-WEB2-TIKU-1904344"
+        ],
+        "protocol_note": "六模型同一dev150/完整次序/提示emb-choice-v1/8192输出上限；思考与温度按各家支持情况如实记录。",
+        "rate_limit_note": "首轮实际账号返回组织上限3 RPM，后续至少间隔21秒；同组织其他调用仍可能触发限流。",
+        "sources": [
+          "https://platform.kimi.com/docs/guide/kimi-k3-quickstart"
+        ],
+        "split": "dev",
+        "verified_date": "2026-11-11"
+      },
+      "source_versions": {
+        "original_engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b",
+        "resume_engine_sha256": [
+          "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+        ],
+        "verified_snapshots": [
+          {
+            "directory": "runs/campaign_1000/implementation/development",
+            "scope": "initial",
+            "engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v2",
+            "scope": "Prepared IO-only candidate, offline comparison only; not used for remote calls",
+            "engine_sha256": "b939e529a1a4dfb8f6c1a400d534a0075db197a88354bf3becc15facff573daf"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v3",
+            "scope": "IO replacement retry, explicit interrupted reservation accounting and resume source history",
+            "engine_sha256": "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+          }
+        ],
+        "snapshot_status": "verified"
+      },
+      "observed_failure_count": 0,
+      "observed_failure_rate": 0.0
+    },
+    {
+      "output_name": "deepseek-flash",
+      "model": "deepseek-flash",
+      "state": "complete",
+      "operationally_complete": true,
+      "qualified_for_development": true,
+      "issues": [],
+      "status_counts": {
+        "ok": 149,
+        "parse_failure": 1
+      },
+      "requests": 150,
+      "tokens": {
+        "total_tokens_known": 74694,
+        "known_usage_requests": 150,
+        "unknown_usage_requests": 0
+      },
+      "http_error_groups": {},
+      "attempt_status_groups": {
+        "received": 150
+      },
+      "operational_blocker_groups": {},
+      "historical_attempt_errors": {},
+      "recovered_errors": {},
+      "unresolved_final_operational_failures": {},
+      "observed_model_failures": {
+        "finish_reason_length": 1,
+        "parse_failure": 1
+      },
+      "observed_failure_question_count": 1,
+      "finish_reason_length": 1,
+      "minimum_request_interval_seconds": null,
+      "correct": 145,
+      "attempted": 150,
+      "accuracy_correct_over_attempted_dev_only": 0.9666666666666667,
+      "accuracy_among_parsed_dev_only": 0.9731543624161074,
+      "answer_coverage_dev_only": 0.9933333333333333,
+      "identity": {
+        "config_sha256": "92825478fcbee828bb85769068ebdb4c16d53d16351aaa5523090aee575ecf6b",
+        "input_sha256": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+        "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+        "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+        "split": "dev"
+      },
+      "score_recheck_path": "runs\\campaign_1000\\reports\\rechecked_scores\\deepseek-flash.json",
+      "config": {
+        "backend": {
+          "api_key_env": "DEEPSEEK_API_KEY",
+          "base_url": "https://api.deepseek.com",
+          "max_output_tokens": 8192,
+          "max_retries": 1,
+          "minimum_image_dimension": 32,
+          "model": "deepseek-flash",
+          "request_extra": {
+            "thinking": {
+              "type": "disabled"
+            }
+          },
+          "request_interval_seconds": 1,
+          "retry_backoff_seconds": 2,
+          "supports_images": true,
+          "temperature": 0,
+          "timeout_seconds": 120,
+          "type": "openai-compatible"
+        },
+        "data_root": "data\\benchmark_web_v0.3",
+        "description": "本轮新增最多1000次授权下的development阶段，模型上限165次，含重试；不运行test。",
+        "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+        "max_requests": 165,
+        "max_total_tokens": null,
+        "parameter_mode": "explicit_non_thinking",
+        "preflight_status": "campaign_prepared_not_run",
+        "previous_pilot_config_sha256": "959ce68da81429094b94d748964d69f6af0116d28997d902c6dac93fc79d18a0",
+        "priority_ids": [
+          "EMB-P-WEB2-TIKU-1754090",
+          "EMB-P-G7-000009",
+          "EMB-P-WEB2-TIKU-1899101",
+          "EMB-P-G8-000014",
+          "EMB-P-WEB2-TIKU-1920731",
+          "EMB-P-WEB2-TIKU-1904344"
+        ],
+        "protocol_note": "六模型同一dev150/完整次序/提示emb-choice-v1/8192输出上限；思考与温度按各家支持情况如实记录。",
+        "split": "dev"
+      },
+      "source_versions": {
+        "original_engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b",
+        "resume_engine_sha256": [
+          "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+        ],
+        "verified_snapshots": [
+          {
+            "directory": "runs/campaign_1000/implementation/development",
+            "scope": "initial",
+            "engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v2",
+            "scope": "Prepared IO-only candidate, offline comparison only; not used for remote calls",
+            "engine_sha256": "b939e529a1a4dfb8f6c1a400d534a0075db197a88354bf3becc15facff573daf"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v3",
+            "scope": "IO replacement retry, explicit interrupted reservation accounting and resume source history",
+            "engine_sha256": "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+          }
+        ],
+        "snapshot_status": "verified"
+      },
+      "observed_failure_count": 1,
+      "observed_failure_rate": 0.006666666666666667
+    },
+    {
+      "output_name": "qwen3.8-flash",
+      "model": "qwen3.8-flash",
+      "state": "complete",
+      "operationally_complete": true,
+      "qualified_for_development": true,
+      "issues": [],
+      "status_counts": {
+        "parse_failure": 4,
+        "ok": 146
+      },
+      "requests": 151,
+      "tokens": {
+        "total_tokens_known": 96948,
+        "known_usage_requests": 150,
+        "unknown_usage_requests": 1
+      },
+      "http_error_groups": {},
+      "attempt_status_groups": {
+        "received": 150
+      },
+      "operational_blocker_groups": {},
+      "historical_attempt_errors": {},
+      "recovered_errors": {},
+      "unresolved_final_operational_failures": {},
+      "observed_model_failures": {
+        "parse_failure": 4
+      },
+      "observed_failure_question_count": 4,
+      "finish_reason_length": 0,
+      "minimum_request_interval_seconds": null,
+      "correct": 144,
+      "attempted": 150,
+      "accuracy_correct_over_attempted_dev_only": 0.96,
+      "accuracy_among_parsed_dev_only": 0.9863013698630136,
+      "answer_coverage_dev_only": 0.9733333333333334,
+      "identity": {
+        "config_sha256": "676bfbbf5211b11776ee5db4e565ac476815c899ca713dc61cbe1d4155aef2c4",
+        "input_sha256": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+        "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+        "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+        "split": "dev"
+      },
+      "score_recheck_path": "runs\\campaign_1000\\reports\\rechecked_scores\\qwen3.8-flash.json",
+      "config": {
+        "backend": {
+          "api_key_env": "DASHSCOPE_API_KEY",
+          "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+          "max_output_tokens": 8192,
+          "max_retries": 1,
+          "minimum_image_dimension": 32,
+          "model": "qwen3.8-flash",
+          "request_extra": {
+            "enable_thinking": false
+          },
+          "request_interval_seconds": 1,
+          "retry_backoff_seconds": 2,
+          "supports_images": true,
+          "temperature": 0,
+          "timeout_seconds": 120,
+          "type": "openai-compatible"
+        },
+        "data_root": "data\\benchmark_web_v0.3",
+        "description": "本轮新增最多1000次授权下的development阶段，模型上限165次，含重试；不运行test。",
+        "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+        "max_requests": 165,
+        "max_total_tokens": null,
+        "parameter_mode": "explicit_non_thinking",
+        "preflight_status": "campaign_prepared_not_run",
+        "previous_pilot_config_sha256": "7a28ffe230fb91b4f516ef4facb82040f61b83d37cda4101cdf0ba172370305b",
+        "priority_ids": [
+          "EMB-P-WEB2-TIKU-1754090",
+          "EMB-P-G7-000009",
+          "EMB-P-WEB2-TIKU-1899101",
+          "EMB-P-G8-000014",
+          "EMB-P-WEB2-TIKU-1920731",
+          "EMB-P-WEB2-TIKU-1904344"
+        ],
+        "protocol_note": "六模型同一dev150/完整次序/提示emb-choice-v1/8192输出上限；思考与温度按各家支持情况如实记录。",
+        "sources": [
+          "https://help.aliyun.com/zh/model-studio/qwen3-8-flash",
+          "https://help.aliyun.com/zh/model-studio/vision",
+          "https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope"
+        ],
+        "split": "dev",
+        "verified_date": "2026-11-11"
+      },
+      "source_versions": {
+        "original_engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b",
+        "resume_engine_sha256": [
+          "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+        ],
+        "verified_snapshots": [
+          {
+            "directory": "runs/campaign_1000/implementation/development",
+            "scope": "initial",
+            "engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v2",
+            "scope": "Prepared IO-only candidate, offline comparison only; not used for remote calls",
+            "engine_sha256": "b939e529a1a4dfb8f6c1a400d534a0075db197a88354bf3becc15facff573daf"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v3",
+            "scope": "IO replacement retry, explicit interrupted reservation accounting and resume source history",
+            "engine_sha256": "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+          }
+        ],
+        "snapshot_status": "verified"
+      },
+      "observed_failure_count": 4,
+      "observed_failure_rate": 0.02666666666666667
+    },
+    {
+      "output_name": "glm-5.3-flash",
+      "model": "glm-5.3-flash",
+      "state": "complete",
+      "operationally_complete": true,
+      "qualified_for_development": true,
+      "issues": [],
+      "status_counts": {
+        "ok": 149,
+        "parse_failure": 1
+      },
+      "requests": 151,
+      "tokens": {
+        "total_tokens_known": 34204,
+        "known_usage_requests": 150,
+        "unknown_usage_requests": 1
+      },
+      "http_error_groups": {},
+      "attempt_status_groups": {
+        "received": 150,
+        "timeout": 1
+      },
+      "operational_blocker_groups": {},
+      "historical_attempt_errors": {
+        "timeout": 1
+      },
+      "recovered_errors": {
+        "timeout": 1
+      },
+      "unresolved_final_operational_failures": {},
+      "observed_model_failures": {
+        "parse_failure": 1
+      },
+      "observed_failure_question_count": 1,
+      "finish_reason_length": 0,
+      "minimum_request_interval_seconds": null,
+      "correct": 138,
+      "attempted": 150,
+      "accuracy_correct_over_attempted_dev_only": 0.92,
+      "accuracy_among_parsed_dev_only": 0.9261744966442953,
+      "answer_coverage_dev_only": 0.9933333333333333,
+      "identity": {
+        "config_sha256": "43f7b822c6c03eead04d4ae6ec2fc9763ef27cf47b5ace6eed93a8b6175a7539",
+        "input_sha256": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+        "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+        "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+        "split": "dev"
+      },
+      "score_recheck_path": "runs\\campaign_1000\\reports\\rechecked_scores\\glm-5.3-flash.json",
+      "config": {
+        "backend": {
+          "api_key_env": "ZHIPU_API_KEY",
+          "base_url": "https://open.bigmodel.cn/api/paas/v4",
+          "max_output_tokens": 8192,
+          "max_retries": 1,
+          "minimum_image_dimension": 32,
+          "model": "glm-5.3-flash",
+          "request_extra": {
+            "reasoning_effort": "low",
+            "thinking": {
+              "type": "enabled"
+            }
+          },
+          "request_interval_seconds": 1,
+          "retry_backoff_seconds": 2,
+          "supports_images": true,
+          "temperature": 0,
+          "timeout_seconds": 120,
+          "type": "openai-compatible"
+        },
+        "data_root": "data\\benchmark_web_v0.3",
+        "description": "本轮新增最多1000次授权下的development阶段，模型上限165次，含重试；不运行test。",
+        "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+        "max_requests": 165,
+        "max_total_tokens": null,
+        "parameter_mode": "forced_thinking_low",
+        "parameter_note": "不能关闭思考，low仅降低推理强度。当前2048输出上限为预检草稿；检查截断和最终答案缺失后，在开发侧确定正式参数，不使用测试集调参。",
+        "preflight_status": "campaign_prepared_not_run",
+        "previous_pilot_config_sha256": "61a4d296370336871a66f4d791a53d386705c7395830f7afcc2a0c88b4caf704",
+        "priority_ids": [
+          "EMB-P-WEB2-TIKU-1754090",
+          "EMB-P-G7-000009",
+          "EMB-P-WEB2-TIKU-1899101",
+          "EMB-P-G8-000014",
+          "EMB-P-WEB2-TIKU-1920731",
+          "EMB-P-WEB2-TIKU-1904344"
+        ],
+        "protocol_note": "六模型同一dev150/完整次序/提示emb-choice-v1/8192输出上限；思考与温度按各家支持情况如实记录。",
+        "sources": [
+          "https://docs.bigmodel.cn/cn/guide/models/vlm/glm-5.3-flash.md",
+          "https://docs.bigmodel.cn/cn/guide/start/pricing.md"
+        ],
+        "split": "dev",
+        "verified_date": "2026-11-11"
+      },
+      "source_versions": {
+        "original_engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b",
+        "resume_engine_sha256": [
+          "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+        ],
+        "verified_snapshots": [
+          {
+            "directory": "runs/campaign_1000/implementation/development",
+            "scope": "initial",
+            "engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v2",
+            "scope": "Prepared IO-only candidate, offline comparison only; not used for remote calls",
+            "engine_sha256": "b939e529a1a4dfb8f6c1a400d534a0075db197a88354bf3becc15facff573daf"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v3",
+            "scope": "IO replacement retry, explicit interrupted reservation accounting and resume source history",
+            "engine_sha256": "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+          }
+        ],
+        "snapshot_status": "verified"
+      },
+      "observed_failure_count": 1,
+      "observed_failure_rate": 0.006666666666666667
+    },
+    {
+      "output_name": "minimax-m3.1-flash",
+      "model": "MiniMax-M3.1-Flash",
+      "state": "complete",
+      "operationally_complete": true,
+      "qualified_for_development": true,
+      "issues": [],
+      "status_counts": {
+        "ok": 150
+      },
+      "requests": 154,
+      "tokens": {
+        "total_tokens_known": 114687,
+        "known_usage_requests": 150,
+        "unknown_usage_requests": 4
+      },
+      "http_error_groups": {},
+      "attempt_status_groups": {
+        "received": 150,
+        "timeout": 3
+      },
+      "operational_blocker_groups": {},
+      "historical_attempt_errors": {
+        "timeout": 3
+      },
+      "recovered_errors": {
+        "timeout": 3
+      },
+      "unresolved_final_operational_failures": {},
+      "observed_model_failures": {},
+      "observed_failure_question_count": 0,
+      "finish_reason_length": 0,
+      "minimum_request_interval_seconds": null,
+      "correct": 136,
+      "attempted": 150,
+      "accuracy_correct_over_attempted_dev_only": 0.9066666666666666,
+      "accuracy_among_parsed_dev_only": 0.9066666666666666,
+      "answer_coverage_dev_only": 1.0,
+      "identity": {
+        "config_sha256": "9b033465020f1e883ee55fe9042587da959e41189e60cd09bb74811eeeb8f22c",
+        "input_sha256": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+        "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+        "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+        "split": "dev"
+      },
+      "score_recheck_path": "runs\\campaign_1000\\reports\\rechecked_scores\\minimax-m3.1-flash.json",
+      "config": {
+        "account_note": "第二轮单次文字账号探测通过，图片尚未测试。",
+        "backend": {
+          "api_key_env": "MINIMAX_API_KEY",
+          "base_url": "https://api.minimax.cn/v1",
+          "max_output_tokens": 8192,
+          "max_retries": 1,
+          "minimum_image_dimension": 32,
+          "model": "MiniMax-M3.1-Flash",
+          "output_token_parameter": "max_completion_tokens",
+          "request_extra": {
+            "reasoning_effort": "low",
+            "thinking": {
+              "type": "adaptive"
+            }
+          },
+          "request_interval_seconds": 1,
+          "retry_backoff_seconds": 2,
+          "supports_images": true,
+          "temperature": null,
+          "timeout_seconds": 120,
+          "type": "openai-compatible"
+        },
+        "data_root": "data\\benchmark_web_v0.3",
+        "description": "本轮新增最多1000次授权下的development阶段，模型上限165次，含重试；不运行test。",
+        "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+        "max_requests": 165,
+        "max_total_tokens": null,
+        "parameter_mode": "forced_thinking_low",
+        "parameter_note": "M3.1-Flash不能关闭思考，temperature固定1且不接受调节；省略温度并用max_completion_tokens。low仅降低推理强度，不代表无思考。",
+        "preflight_status": "campaign_prepared_not_run",
+        "previous_pilot_config_sha256": "e93b6586da0a9348d7f1dd386ebbe9ccbb3b91ac239a2109e3ede7e7db8c0c51",
+        "priority_ids": [
+          "EMB-P-WEB2-TIKU-1754090",
+          "EMB-P-G7-000009",
+          "EMB-P-WEB2-TIKU-1899101",
+          "EMB-P-G8-000014",
+          "EMB-P-WEB2-TIKU-1920731",
+          "EMB-P-WEB2-TIKU-1904344"
+        ],
+        "protocol_note": "六模型同一dev150/完整次序/提示emb-choice-v1/8192输出上限；思考与温度按各家支持情况如实记录。",
+        "sources": [
+          "https://platform.minimax.cn/docs/api-reference/text-openai-api"
+        ],
+        "split": "dev",
+        "verified_date": "2026-11-11"
+      },
+      "source_versions": {
+        "original_engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b",
+        "resume_engine_sha256": [
+          "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+        ],
+        "verified_snapshots": [
+          {
+            "directory": "runs/campaign_1000/implementation/development",
+            "scope": "initial",
+            "engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v2",
+            "scope": "Prepared IO-only candidate, offline comparison only; not used for remote calls",
+            "engine_sha256": "b939e529a1a4dfb8f6c1a400d534a0075db197a88354bf3becc15facff573daf"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v3",
+            "scope": "IO replacement retry, explicit interrupted reservation accounting and resume source history",
+            "engine_sha256": "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+          }
+        ],
+        "snapshot_status": "verified"
+      },
+      "observed_failure_count": 0,
+      "observed_failure_rate": 0.0
+    },
+    {
+      "output_name": "doubao-seed-2.1-lite",
+      "model": "doubao-seed-2-1-lite-260915",
+      "state": "complete",
+      "operationally_complete": true,
+      "qualified_for_development": true,
+      "issues": [],
+      "status_counts": {
+        "ok": 150
+      },
+      "requests": 154,
+      "tokens": {
+        "total_tokens_known": 194129,
+        "known_usage_requests": 150,
+        "unknown_usage_requests": 4
+      },
+      "http_error_groups": {},
+      "attempt_status_groups": {
+        "timeout": 4,
+        "received": 150
+      },
+      "operational_blocker_groups": {},
+      "historical_attempt_errors": {
+        "timeout": 4
+      },
+      "recovered_errors": {
+        "timeout": 4
+      },
+      "unresolved_final_operational_failures": {},
+      "observed_model_failures": {},
+      "observed_failure_question_count": 0,
+      "finish_reason_length": 0,
+      "minimum_request_interval_seconds": null,
+      "correct": 148,
+      "attempted": 150,
+      "accuracy_correct_over_attempted_dev_only": 0.9866666666666667,
+      "accuracy_among_parsed_dev_only": 0.9866666666666667,
+      "answer_coverage_dev_only": 1.0,
+      "identity": {
+        "config_sha256": "6510447e83436487e49d4ebec7b351461419589b771626a12a2f2d4f7f18959f",
+        "input_sha256": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+        "manifest_sha256": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+        "prompt_sha256": "316aed10c4c241ae4c59edb0fc26c2b1edf02db70858949cfe96ab3a172275e0",
+        "split": "dev"
+      },
+      "score_recheck_path": "runs\\campaign_1000\\reports\\rechecked_scores\\doubao-seed-2.1-lite.json",
+      "config": {
+        "backend": {
+          "api_key_env": "ARK_API_KEY",
+          "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+          "max_output_tokens": 8192,
+          "max_retries": 1,
+          "minimum_image_dimension": 32,
+          "model": "doubao-seed-2-1-lite-260915",
+          "request_extra": {
+            "thinking": {
+              "type": "disabled"
+            }
+          },
+          "request_interval_seconds": 1,
+          "retry_backoff_seconds": 2,
+          "supports_images": true,
+          "temperature": 0,
+          "timeout_seconds": 120,
+          "type": "openai-compatible"
+        },
+        "data_root": "data\\benchmark_web_v0.3",
+        "description": "本轮新增最多1000次授权下的development阶段，模型上限165次，含重试；不运行test。",
+        "image_policy": "仅在原始必要单帧图片小于32像素时添加白边；不缩放、不改原文件。",
+        "max_requests": 165,
+        "max_total_tokens": null,
+        "parameter_mode": "explicit_non_thinking",
+        "preflight_status": "campaign_prepared_not_run",
+        "previous_pilot_config_sha256": "0b61f49e88e0353536fb146cdae5ed5a1dde1511b74240fcfe879eadc8eb2195",
+        "priority_ids": [
+          "EMB-P-WEB2-TIKU-1754090",
+          "EMB-P-G7-000009",
+          "EMB-P-WEB2-TIKU-1899101",
+          "EMB-P-G8-000014",
+          "EMB-P-WEB2-TIKU-1920731",
+          "EMB-P-WEB2-TIKU-1904344"
+        ],
+        "protocol_note": "六模型同一dev150/完整次序/提示emb-choice-v1/8192输出上限；思考与温度按各家支持情况如实记录。",
+        "sources": [
+          "https://docs.volcengine.com/docs/ark/deep-thinking?lang=zh",
+          "https://docs.volcengine.com/docs/ark/chat-api?lang=zh"
+        ],
+        "split": "dev",
+        "verified_date": "2026-11-11"
+      },
+      "source_versions": {
+        "original_engine_sha256": "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba",
+        "resume_engine_sha256": [],
+        "verified_snapshots": [
+          {
+            "directory": "runs/campaign_1000/implementation/development",
+            "scope": "initial",
+            "engine_sha256": "1a409bebec048f2a639063c3969b32159662fff8bd39403063ce5441c487c04b"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v2",
+            "scope": "Prepared IO-only candidate, offline comparison only; not used for remote calls",
+            "engine_sha256": "b939e529a1a4dfb8f6c1a400d534a0075db197a88354bf3becc15facff573daf"
+          },
+          {
+            "directory": "runs/campaign_1000/implementation/development_io_retry_v3",
+            "scope": "IO replacement retry, explicit interrupted reservation accounting and resume source history",
+            "engine_sha256": "9faa3db696d89837eb6d36b855db7a7f1e3183f6fabe70cbf2951fa4f531b3ba"
+          }
+        ],
+        "snapshot_status": "verified"
+      },
+      "observed_failure_count": 0,
+      "observed_failure_rate": 0.0
+    }
+  ],
+  "development_requests": 914,
+  "per_model_cap": 165,
+  "accuracy_scope": "主准确率为 correct/attempted；accuracy_among_parsed 仅作辅助，answer_coverage 单列。dev150 仅用于开发，不是正式 test 成绩；本批全为原题，母题-变式指标不适用。",
+  "qualification_rule": "150条均有非合成且完成的实际运行记录、身份/输入/预算完整，且无 API/transport/timeout/invalid_response/缺图/unrun 等程序阻断时可冻结。数学答错、拒答、解析失败、截断或空答作为观察到的模型行为单独报告，不自动阻止冻结。"
+}

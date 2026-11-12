@@ -1,0 +1,42 @@
+{
+  "budget_authorization": "首轮60次及第二轮12次额度已用完；后续预算未授权，全部上限保持0。",
+  "comparison_note": "采用相同题目与提示。GLM/Kimi/MiniMax强制思考，各厂商模式及输出参数如实记录，不宣称同等思考计算量。本轮仅小规模预检，不是正式测试集成绩。",
+  "description": "12次复测后的后续草稿：小图及限速已复测，千问8192输出上限尚未验证；全部调用禁用。",
+  "expected_data_manifest_sha256": "eb350b5e13702ad13b11a29f005306a0d34aa0fb8e3de8024c09d54550483c25",
+  "max_requests_total": 0,
+  "models": [
+    {
+      "config": "config/evaluation_after_pilot/deepseek-flash.json",
+      "output_name": "deepseek-flash",
+      "vendor": "DeepSeek"
+    },
+    {
+      "config": "config/evaluation_after_pilot/qwen3.8-flash.json",
+      "output_name": "qwen3.8-flash",
+      "vendor": "阿里千问"
+    },
+    {
+      "config": "config/evaluation_after_pilot/glm-5.3-flash.json",
+      "output_name": "glm-5.3-flash",
+      "vendor": "智谱GLM"
+    },
+    {
+      "config": "config/evaluation_after_pilot/kimi-k3.json",
+      "output_name": "kimi-k3",
+      "vendor": "月之暗面Kimi"
+    },
+    {
+      "config": "config/evaluation_after_pilot/MiniMax-M3.1-Flash.json",
+      "output_name": "minimax-m3.1-flash",
+      "vendor": "MiniMax"
+    },
+    {
+      "config": "config/evaluation_after_pilot/doubao-seed-2-1-lite-260915.json",
+      "output_name": "doubao-seed-2.1-lite",
+      "vendor": "字节豆包"
+    }
+  ],
+  "split": "debug",
+  "stage": "domestic_six_first",
+  "version": "domestic-six-after-pilot-v1"
+}

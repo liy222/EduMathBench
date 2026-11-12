@@ -1,0 +1,645 @@
+{
+  "checked_at": "2026-11-10T14:13:24.643843+00:00",
+  "data_sha256": "a38dabdd83ec3bde17eb26b92d1c5a1a4a81b52cf71cdb4b54df66c1b0eedfe4",
+  "passed": true,
+  "checks": [
+    {
+      "name": "record_counts_and_exact_quotas",
+      "passed": true
+    },
+    {
+      "name": "public_web_provenance_and_retained_ids",
+      "passed": true
+    },
+    {
+      "name": "protected_family_splits_and_independent_near_duplicates",
+      "passed": true
+    },
+    {
+      "name": "answer_free_inputs_and_separate_hashed_answers",
+      "passed": true
+    },
+    {
+      "name": "original_image_hashes_field_placeholder_and_no_review_screenshots",
+      "passed": true
+    },
+    {
+      "name": "CSV_full_record_and_fields_roundtrip",
+      "passed": true
+    },
+    {
+      "name": "original_sources_feedback_and_release_manifest_unchanged",
+      "passed": true
+    },
+    {
+      "name": "cached_additions_have_original_HTML_and_explicit_answer_evidence",
+      "passed": true
+    },
+    {
+      "name": "three_rewritten_variants_and_protected_duplicate_repair",
+      "passed": true
+    },
+    {
+      "name": "offline_builder_reproduces_twice_and_leaves_sources_unchanged",
+      "passed": true
+    }
+  ],
+  "issues": [],
+  "evidence": {
+    "record_counts_and_exact_quotas": {
+      "total": 1800,
+      "public": 1500,
+      "variants": 300,
+      "public_difficulty": {
+        "基础": 600,
+        "中等": 600,
+        "困难": 300
+      },
+      "variant_difficulty_observed": {
+        "基础": 120,
+        "中等": 121,
+        "困难": 59
+      },
+      "variant_difficulty_is_descriptive_not_an_enforced_margin": true
+    },
+    "public_web_provenance_and_retained_ids": {
+      "retained": 363,
+      "new_web": 1137,
+      "real_local_source_files": 1222
+    },
+    "protected_family_splits_and_independent_near_duplicates": {
+      "dev": 150,
+      "test": 1650,
+      "debug": 100,
+      "protected_dev": 31,
+      "protected_debug": 20,
+      "distinct_mothers": 300,
+      "independent_duplicate_groups": {
+        "exact": 4,
+        "long_numeric_template": 3
+      },
+      "cross_split_groups": 0
+    },
+    "answer_free_inputs_and_separate_hashed_answers": {
+      "all": {
+        "count": 1800,
+        "inputs_sha256": "bfb27bd7592fafce795ab177d45e47ff793ec7ba4dae8a922d2a61061326e030",
+        "answers_sha256": "2d91a913a0154d87fa7b361d7c8188695fbc50f9d6c68051b02d1f663518ed8d"
+      },
+      "dev": {
+        "count": 150,
+        "inputs_sha256": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+        "answers_sha256": "d7ac32f8fb4cfd0b627b17a0c82aed14d8897baab93cc5d7f9fdcdde9b85e0a0"
+      },
+      "test": {
+        "count": 1650,
+        "inputs_sha256": "2a182ad17a36b7b2d7e39daef459f15202bd8f7d32abf91f310c92333bf7d401",
+        "answers_sha256": "166cec4917e285bab94230e9b8e506d2ccb2fb84ed8d4ec2af1be97c5202c129"
+      },
+      "debug": {
+        "count": 100,
+        "inputs_sha256": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+        "answers_sha256": "56c0fcb7b0ad60bc2d2180f674018be761db78b13fd10847c0efdbc83615b57b"
+      }
+    },
+    "original_image_hashes_field_placeholder_and_no_review_screenshots": {
+      "occurrences": 1283,
+      "distinct_original_files": 1149,
+      "original_screenshots_excluded": 619,
+      "all_unique_review_png_hashes_excluded": 628
+    },
+    "CSV_full_record_and_fields_roundtrip": {
+      "records_roundtripped": 1800
+    },
+    "original_sources_feedback_and_release_manifest_unchanged": {
+      "original_archives_verified": 6,
+      "original_extracted_files_verified": 651,
+      "source_build_hashes": {
+        "old_questions_sha256": "0116ec1fe70b82bb492d94e3d393842fb68e774fb7528c8203eaf2fbd24cfd5a",
+        "feedback_sha256": "8fa9248ec27ca5b887a63f17802e741b0d552d7d5ec120edd765c16403d0101d",
+        "math_resolutions_sha256": "be401756227847575c3c1bbdde4baf4c2cd0f0f072adf13af1b4c25a0df96eb7",
+        "reserve_audit_sha256": "dcdf0e8896711761b3a314b9869bcd845a18e189ae769a6b61c85b13c8f8ac4e"
+      }
+    },
+    "cached_additions_have_original_HTML_and_explicit_answer_evidence": {
+      "count": 87,
+      "all_program_checked_not_member_review_claimed": true,
+      "records": [
+        {
+          "id": "EMB-P-WEB2-TIKU-3855068",
+          "raw_sha256": "ddd0dbe4a78b289ad5ad84c7798531e73a1d7934cb834af6fce1da9c613ee676",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3855081",
+          "raw_sha256": "b2edfa03f63b9284016c6992a3cb499d6a7aef40dd7d0ae93ba9316d56ba6427",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3887411",
+          "raw_sha256": "6bfba52a3ba63ccf77ab4f74eb0d874e8bec1f578639f35f1c50964987778aa6",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1920726",
+          "raw_sha256": "1c88097030fa7c700d158493914c78709dad6fe0b2f34930a16048af06e32e6c",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3935815",
+          "raw_sha256": "ae65d3e694a5890cb26d45d8246e7c92842f78364b53763cea5d1a6d5a7e1275",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3288703",
+          "raw_sha256": "f6b34d1105e303414d645dcaadc06a89e6d43e505a801b5fc94b42baae044184",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3882812",
+          "raw_sha256": "9d4ba1fcdc07cbaf68c97a4b485970bec18f38eb7f091db8d13513a7b22d4ae4",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3929734",
+          "raw_sha256": "a3f9814abeb69df6005bb3cab35a9fa01fd71c893d3cd11c8f277848efc47281",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3420821",
+          "raw_sha256": "52229cf3ffdd79037d34ea5cdbeac0da37156fde05643c79de4c831338a7c2b2",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1927352",
+          "raw_sha256": "2fc023e979d05e0ea5ff14e12eea93b239c7161c71823e86b4f352c835fbd958",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1956010",
+          "raw_sha256": "919931ea65e4764a405f7048e050c4001ce2cca0664852361c5d0f1ca9c5911d",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1944700",
+          "raw_sha256": "51103a084a11cce01485cce131dfb874a7490bc211e14732f027c82fae0a131d",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1920877",
+          "raw_sha256": "368fbf914f127ba337193c50b8af121391f8398796bc34f9f27d20cf89df4e2b",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1998832",
+          "raw_sha256": "b206e500e382d2c00a5fc9fc7a96574422db762532ad2ec90889b6bb72bdf144",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3904190",
+          "raw_sha256": "76d13605014284839e2c9c51dbc1f6afdac57f4a6d222e5e9ab29b3eed7792bd",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1928348",
+          "raw_sha256": "dd27ab766dc10c4052a8840d2add86261db6574e98a492f021ac3e475fa2b05c",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3915758",
+          "raw_sha256": "790984b5d0808abc496f69f1399f594741ef23ed978e4e826f876c81b0183988",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3936094",
+          "raw_sha256": "d8ad2c03389f2abff64d69f4765e7be581fdf7d4136fdef8578e25808243e1b0",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-2017897",
+          "raw_sha256": "4185521c6f5f3815c7ca4759bddc0ace323ab573d35970c6213f8916ba228d38",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-2024437",
+          "raw_sha256": "28a56b78bf63d0d8018be7a817977e9dc6ded335460b416527ef0134713c6cee",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1913405",
+          "raw_sha256": "e609bd08b5a751c9445710cd1bdc1803489bd69e0b1ce67b36a7557b232afbae",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3915863",
+          "raw_sha256": "c4d6ccad3acbb86a4224b36d887f72ffb60d8fbc0ccbae1f4d67a96b8e4ed52f",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1955972",
+          "raw_sha256": "e3a3e88b7902e200e6f448dfa9343ee6ac72967aefe2cde38e7ed200e1a15268",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1915629",
+          "raw_sha256": "9b549fcfce56500d35b2ac4850ba99de55db1b2db794c28ee051c86905a594e8",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3929726",
+          "raw_sha256": "0be1f2cbd3ee2d0c5438588901010f40452a827871fd5860ca92a788c1ccf6d5",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3929719",
+          "raw_sha256": "cb02d1da154b9484ddec9b90d411b7a85d4b702cb7ea08e68b729742eb5fe6b0",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3421345",
+          "raw_sha256": "0a0e1f22bb70246ba42777614337291216a20bed5f2c95dbf5fe07bf149a62a9",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1919383",
+          "raw_sha256": "57147ba82062ab7841dcfad69338d18fdcbe9402d92edc7fc627dcb218613921",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1847482",
+          "raw_sha256": "1f8c3f853e0e7fbeac27bd2008ec5092fc530940ab574ce61dd5ab3b4230a7ed",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1998331",
+          "raw_sha256": "7c4dd90e95cd23914949d3d6cb3364e5cab9beef11e4d0c041ea29ab271c3c28",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1920765",
+          "raw_sha256": "9aceafd3cc7ae16389702d1748616a5a54a37d6441bf3c71ef0dcedd10f15e53",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1920689",
+          "raw_sha256": "910d4b37cce1faecb339acf6954c83daeef7449f3166eed9a65eb72cd0fde767",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1944701",
+          "raw_sha256": "eaf0c61f38fd8d379c8afadbadfde51adcf7c6cf09af74e9f6291229633e1e63",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1920728",
+          "raw_sha256": "01b343b6d307cb22650e3eb5d23b55ae4cfbe2e0fe5a61407f5a564bf81ca567",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3935900",
+          "raw_sha256": "80713843a6b081a441e4ca211094570978ea243a2c6814b9b9f4ab5501b2325e",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3915970",
+          "raw_sha256": "e7f76809b6e69ab9e6a209e05366a1f0647171a277886d7a0b09fc08b13dd496",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1944727",
+          "raw_sha256": "593ed541af8fa1ebbd4376370e23c58628d5c8557439c04bb88a443a6bf865bf",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3882747",
+          "raw_sha256": "1560e55490e59dcfa923feca3441ddcdb2a8d48146de0b2bed37aa1c04bb86cb",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3896295",
+          "raw_sha256": "788259c6fcc8477bac4dc16bdc580a1da064ebeb63df819e778f2009273757ec",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3904157",
+          "raw_sha256": "6bfbfc809de47aa05f2704610f5ad9ac08729add51011bf4c17b8fde000d7fdd",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3288700",
+          "raw_sha256": "0ed30231427f1a4333061624ac2fd106440886f34ae0b1120d33e2563a0e655f",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3936083",
+          "raw_sha256": "f1d249a3e09d56eea25a2db2eda0c155d1f803b4d2d187a7041193e6e239c030",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1855940",
+          "raw_sha256": "502568b90ce8204a39f83ce6a7fded3cb15736dfc777c0ff9bddd349f1e12a98",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3855080",
+          "raw_sha256": "0e165ecc6593436af9b61f4cc5a0a2d5331a53dcf41a497ab6044085dd9183fd",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3275799",
+          "raw_sha256": "a140c1d261e75044a7a82544ddd4403e924987f70b0d6617ea564e0651c454c7",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1913410",
+          "raw_sha256": "784575a4b98293f9f17fe1a8bc3abbac57aa7737cf012a7fa42970559ec02a68",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3420583",
+          "raw_sha256": "943089e328044b5882c7ec666b40013da9a0a722280ab05daf2bfcaea64a26e3",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3882781",
+          "raw_sha256": "899f77cc65e8815e21d66ca2fd275d9584df35cfc59f9f2af3517cc9478b7427",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1915647",
+          "raw_sha256": "e48fe2195e1d744fda0fe2e99f915461e719da45abbe9a7cd9d2ceb6b34be568",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1998837",
+          "raw_sha256": "1a1dd5703eab09d3e1aa5eb209de62d7086387225ca085d9cca05b73bb1bd37f",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1998341",
+          "raw_sha256": "112564ede6a00d4f5b42fd7b588e61e0509a125242434f9dfdbdc2d068f2702f",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3904182",
+          "raw_sha256": "409739b8a5b4cb0d470b472546606ba8ace6b7fe70de2df612b57af2dcbeb3ef",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1944588",
+          "raw_sha256": "60fe78c069bacc54a04b184d6bbe158be4deb78da26cd157be96c0b5d828fd68",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1757345",
+          "raw_sha256": "e5e63bd03e52dc45b4078ae8a1975512ead82c60421033afc89e1f81e96be704",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1956040",
+          "raw_sha256": "ebe006de582217cf4386550611d5015a5fa643e95dfb625ad03ab464d51e520e",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3915793",
+          "raw_sha256": "c6043ecdf6b944f1b3f71e372953c106bd35fe44ddbb3035114bcc0500bbedcb",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1919397",
+          "raw_sha256": "fd407733b1d00a780118d7dbdddace504d9b21b917379cc015bea832de7e2974",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1920725",
+          "raw_sha256": "99b72ea4047d88efa0537a21b973921b40d3884148154a13e26d07eb503d2614",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1855872",
+          "raw_sha256": "fea15c7bdb37923ca5eb2be9babd33eb5558f7543c793f04edfef95b1d286916",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3882804",
+          "raw_sha256": "d85d21b49aa697df774da5c8a2b917b40d696acf5a8b8ac25164a0a743946b3d",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1955823",
+          "raw_sha256": "b32eae86b42de158f6b00d5833df1a75d121ce083f4cb4509be42c9112290ed9",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1855928",
+          "raw_sha256": "70aefdb4aa7eb541480d1a9b22c78d963be2b2634a64851b6c9a5ecc21b26791",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3896316",
+          "raw_sha256": "1291e03c1b291315f1d0ece53a489a1745c014d54d289e07d98e87f17ff8fbb4",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1913380",
+          "raw_sha256": "471b9be50472eb5a20fe4cfb8767e2f1f470c8aa55527eea5e8088ec6cdca90a",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3903814",
+          "raw_sha256": "147b2648ad295c0afe2a098ae08bef79d7c0b7bc491a4ec44f41c86a47e3bc54",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1904382",
+          "raw_sha256": "d0c67a5fac7390a7fd5a84a71ed612cb0d2f1d59756473cc1bc1a05b37d34d9d",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3915900",
+          "raw_sha256": "70e86ef7d7d1a3c8c7abab6489a0828745f5b12245652679e98b8ad813c4d6be",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1957355",
+          "raw_sha256": "1bc0b547eee56e6f360dd3c30eabee7c2ed7cd6e2ae1095634d5ff67d27788ad",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3904174",
+          "raw_sha256": "e2876f62b9e4fba8269606ece8d988dc1356db8fb7df4e62b5ab295cf14f10b2",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1915653",
+          "raw_sha256": "483415e4b990dc6419f44fae14ad70f4e3e5743f63a9fd95e7441ce631364337",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3896302",
+          "raw_sha256": "594129454f3b0f8d6a9acaa81a5b2d09468c24fc4ced65afd7dbe074a27a9a0c",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3915816",
+          "raw_sha256": "913106bfc3839781c3f8b16d5409ae3646092fa5e769a727b2817ca83890a9fe",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3904191",
+          "raw_sha256": "25a6b463c886ab78352229a171f48aef0d3d147eb33ab798f427f4503df3cde2",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1913433",
+          "raw_sha256": "8e765135f5587f5d4346cee1362dbcceee300885107aca69a1d1f19b60960dfc",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3896348",
+          "raw_sha256": "6bdbdd2ffeec5f343159f90f7f60c3119cf1772adaafd5d99cbd792a22b9e6dc",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3903833",
+          "raw_sha256": "e0ac49527ec9dddc2eaa10a8cecdedbdaf7e5661281ceaeea56ebe621a9b9a85",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1920713",
+          "raw_sha256": "98df67cadb14dbf640d15fedbd1e163918e1a63ffc273197353a5b2fd54868ac",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3903799",
+          "raw_sha256": "5652d1a6daefac02090fd3b5442d69b68a59ea592e51b4c7ee64657311036a78",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3915911",
+          "raw_sha256": "41f87d8dd79105cc3f11652e7191055a08e1bc2158b3afb2e97889f4daab2cda",
+          "source_answer": "B"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1856084",
+          "raw_sha256": "7afb3b88fb25cc8233e7ecf646e13649bedf7c957a93964c314dbe0b1cc54b93",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1915657",
+          "raw_sha256": "28f1ef0e924d8d1c827c96b72cb9b4772cfdaba119f641529ee213092858388b",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1913413",
+          "raw_sha256": "e4ab35a220dd57ec497bcbb6cb83344f504647a21e2bc5a3247ea73620053c2a",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3915848",
+          "raw_sha256": "4ab84e662b253329ee09c222f554d3abf74c94ccd298101111dcac56528c7944",
+          "source_answer": "C"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1944676",
+          "raw_sha256": "4b9429c18bd172c8b21bbc8649072e4d40f703a34b4277bd5db24d3dad62364e",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1944726",
+          "raw_sha256": "ce08a17ad3aaf7ed9f20b2c17d491ea8f859abb1771179d2b92402fe28af19fd",
+          "source_answer": "A"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-1913434",
+          "raw_sha256": "51313c70318b34eb47f60caa96364ff671458f62449605a55b44c014e1cad7d7",
+          "source_answer": "D"
+        },
+        {
+          "id": "EMB-P-WEB2-TIKU-3882748",
+          "raw_sha256": "956c0026288b5db55aa5c38e21d30906938819f818f21ac428d335d87c94bed0",
+          "source_answer": "D"
+        }
+      ]
+    },
+    "three_rewritten_variants_and_protected_duplicate_repair": {
+      "three_actual_rewrites_verified": [
+        {
+          "id": "EMB-V-WEB2R2-G8-126",
+          "answer": "A",
+          "program_evidence": {
+            "affine_relation": "42 - 7*t/10",
+            "physical_domain": "[0, 60]",
+            "empty_tank_at": "60",
+            "method": "exact affine identity plus nonnegative time/remaining water constraints"
+          }
+        },
+        {
+          "id": "EMB-V-WEB2R2-G8-131",
+          "answer": "A",
+          "program_evidence": {
+            "statement_truth": {
+              "A": true,
+              "B": false,
+              "C": false,
+              "D": false
+            }
+          }
+        },
+        {
+          "id": "EMB-V-WEB2R2-G8-183",
+          "answer": "B",
+          "program_evidence": {
+            "all_real_roots": "{14}",
+            "valid_root": "14",
+            "method": "real_solveset_and_exact_predicate"
+          }
+        }
+      ],
+      "review_816_and_875_same_dev_family": true,
+      "member_reviewed_user_confirmed_count": 1710,
+      "new_human_review_assigned": false
+    },
+    "offline_builder_reproduces_twice_and_leaves_sources_unchanged": {
+      "runs": 2,
+      "network_disabled": true,
+      "comparison": "exact byte hashes, including all builder reports and assets",
+      "generated_files_compared": 1174,
+      "core_hashes": {
+        "answers/all_answers.jsonl": "2d91a913a0154d87fa7b361d7c8188695fbc50f9d6c68051b02d1f663518ed8d",
+        "answers/debug_answers.jsonl": "56c0fcb7b0ad60bc2d2180f674018be761db78b13fd10847c0efdbc83615b57b",
+        "answers/dev_answers.jsonl": "d7ac32f8fb4cfd0b627b17a0c82aed14d8897baab93cc5d7f9fdcdde9b85e0a0",
+        "answers/test_answers.jsonl": "166cec4917e285bab94230e9b8e506d2ccb2fb84ed8d4ec2af1be97c5202c129",
+        "history/added_cached_questions.jsonl": "0ae5d2f027bb191ac01ade766f08cf847a8105a1cfb662cf24150b5a69584e11",
+        "history/retired_questions.jsonl": "b82d75bfe420b364a349d87dbc61b82df560818fab2c2a3d8dfcc0ce7dcec1ac",
+        "history/revision_changes.jsonl": "a77ef336ee19e894995008ede1851ec5ccb26b7428c447bb83916962fab4d7d3",
+        "inputs/all_inputs.jsonl": "bfb27bd7592fafce795ab177d45e47ff793ec7ba4dae8a922d2a61061326e030",
+        "inputs/debug_inputs.jsonl": "a75000339679c62f1451aafbab067c804aa5cffed0c6468102812fe1ceea9e06",
+        "inputs/dev_inputs.jsonl": "0ced5a4b42d6c958da649877f90df813e2d75b898c09ded4d247a77fc20d578a",
+        "inputs/test_inputs.jsonl": "2a182ad17a36b7b2d7e39daef459f15202bd8f7d32abf91f310c92333bf7d401",
+        "manifest.json": "fdfc0e2823c38130356bcc7ac53c3ffb115ffdfff534668f9fcd73422a121627",
+        "questions.csv": "731beb2004e21be8d9895679d53f4402bd9500a14f043a1ea463640d0e343671",
+        "questions.jsonl": "a38dabdd83ec3bde17eb26b92d1c5a1a4a81b52cf71cdb4b54df66c1b0eedfe4",
+        "reports/asset_binding.json": "7c153ec7e6eb2583c3f5d8a64feeab13c02e8cdc343aae47fa4ddb1c1ce1896e",
+        "reports/duplicate_cache_exclusions.json": "6a2411d96257b354fab54268fa6a9e0990c9ad0558a4567af62cae096f2b3744",
+        "reports/family_conflicts.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+        "reports/function_variant_repairs.json": "f209de9b23254f3ccb30eefdc07d25f6143cfb0defd0ef2711261c15ceeaed4b",
+        "reports/selection.json": "454da9cf2ab20f0060e85579c7f8d1586e41a3a688b4759704bbcc88b7217c4f",
+        "reports/variant_family_repair.json": "bca8b329310c703d09c361285d4625df81c5d959525b571097da341895b7703e",
+        "splits/all_ids.txt": "26d6e51bb126d182d9434821df1fcbee1238c8313750a6118b6bd66be520e5b3",
+        "splits/debug_ids.txt": "69eb5933a6c6bab9d3848b5e79af354d90b3efa3f023ccbbe615cc65bab127ca",
+        "splits/dev_ids.txt": "93963c9f1aea22e1c177f383aebf77cc4677fae8a2a576b94ec295f7f1b24a7c",
+        "splits/test_ids.txt": "5447d26f70de28a9a1f38c0ded3bbcc89230ecb8d4c8ce7fe267f30e49122bd5",
+        "statistics.json": "4ba9e59ee2d4904c095c0396c6e8d3cd3f2ee6a8826d80d3b54b37ec0bc7c23e"
+      },
+      "source_files_unchanged": {
+        "v0.2": 5190,
+        "feedback": 1305
+      }
+    }
+  },
+  "review_basis": "User confirmed six submitted member-reviewed parts; existing review accepted.",
+  "validation_scope": "Offline program checks, source/answer integrity and deterministic reproduction; no new human review tasks.",
+  "new_human_review_assigned": false,
+  "network_requests": 0
+}

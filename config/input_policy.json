@@ -1,0 +1,40 @@
+{
+  "version": "v0.2-text-image",
+  "introduced_at": "2026-10-13",
+  "authorization": "用户允许困难题补采缓慢时加入图像题，并明确图形题只是可选项，不能限制为只收图形题；文字题与图像题并行筛选。",
+  "allowed_modalities": [
+    "text",
+    "text_image"
+  ],
+  "question_images": {
+    "required_fields": [
+      "path",
+      "role",
+      "sha256",
+      "source_url",
+      "source_ref"
+    ],
+    "roles": [
+      "stem",
+      "option"
+    ],
+    "option_image_requires_letter": true,
+    "original_diagram_required": true,
+    "include_answer_or_solution_in_input": false
+  },
+  "collection_rules": {
+    "four_options": true,
+    "source_answer_required": true,
+    "complete_solution_optional": true,
+    "all_needed_images_must_be_archived": true,
+    "unknown_or_missing_figure_is_held": true,
+    "source_difficulty_separate_from_provisional_judgment": true
+  },
+  "first_image_batch": "data/public_image_draft/questions.jsonl",
+  "first_image_batch_is_additional_draft": false,
+  "first_image_batch_status": "historical_four_question_example_not_additional_to_main_count",
+  "main_draft": "data/public_draft/questions.jsonl",
+  "public_target": 1500,
+  "image_replacement_preserves_grade_module_quotas": true,
+  "evaluation_input": "仅题干、固定四选项、必要题图；不含答案、解析或难度依据。"
+}

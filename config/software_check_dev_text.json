@@ -1,0 +1,21 @@
+{
+  "data_root": "data/benchmark_web_v0.3",
+  "split": "dev",
+  "max_requests": 0,
+  "max_total_tokens": null,
+  "backend": {
+    "type": "mock",
+    "model": "synthetic-software-check",
+    "supports_images": false,
+    "default_response": "最终答案：A",
+    "temperature": 0,
+    "max_output_tokens": 512,
+    "timeout_seconds": 60,
+    "max_retries": 2,
+    "retry_backoff_seconds": 1,
+    "request_interval_seconds": 0,
+    "request_extra": {},
+    "api_key_env": "OPENAI_API_KEY",
+    "responses": {}
+  }
+}
